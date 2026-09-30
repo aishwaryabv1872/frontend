@@ -46,3 +46,5 @@ supabase/.temp/
 .vscode/
 .idea/
 *.swp
+
+supabase/.branches/
