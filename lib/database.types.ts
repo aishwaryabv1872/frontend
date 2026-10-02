@@ -1,4 +1,4 @@
-﻿export type Json =
+export type Json =
   | string
   | number
   | boolean
@@ -1992,6 +1992,7 @@ export type Database = {
       }
       student_profiles: {
         Row: {
+          academic_program: string | null
           branch: string
           branch_id: string | null
           college: string
@@ -2014,6 +2015,7 @@ export type Database = {
           user_id: string
         }
         Insert: {
+          academic_program?: string | null
           branch: string
           branch_id?: string | null
           college: string
@@ -2036,6 +2038,7 @@ export type Database = {
           user_id: string
         }
         Update: {
+          academic_program?: string | null
           branch?: string
           branch_id?: string | null
           college?: string
