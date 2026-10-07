@@ -65,3 +65,7 @@ data/curriculum/**/subjects/_repair-backups/
 
 # Vertex curriculum repair backups
 data/curriculum/**/subjects/_repair-backups/
+
+# Temporary importer inspection files
+importer-full.txt
+importer-top.txt
