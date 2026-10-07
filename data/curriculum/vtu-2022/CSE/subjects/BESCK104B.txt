@@ -1,0 +1,157 @@
+11.12.2022
+1
+
+
+Introduction to Electrical Engineering
+Course Code: BESCK104B CIE Marks 50
+Course Type (Theory/Practical
+/Integrated )
+Theory SEE Marks 50
+Total Marks 100
+Teaching Hours/Week (L:T:P: S) 3:0:0:0 Exam Hours 03
+Total Hours of Pedagogy 40 hours  Credits 03
+
+Course objectives
+ To explain the laws used in the analysis of DC and AC circuits.
+ To explain the behavior of circuit elements in single-phase circuits.
+ To explain the construction and operation of transformers, DC generators  and motors and induction
+motors.
+ To introduce concepts of circuit protecting devices and earthing.
+ To explain electric power generation, transmission and distribution, elec tricity billing, equipment and
+personal safety measures.
+
+Teaching-Learning Process
+These are sample Strategies, which teacher can use to accelerate the attainment of the various course outcomes
+and make Teaching –Learning more effective
+1. Chalk and talk
+2. Animated/NPTEL videos
+3. Cut sections
+4. PPTs
+
+Module-1  (08 Hrs)
+Introduction:Conventional and non-conventional energy resources; General structure of electrical
+power systems using single line diagram approach.
+Power Generation:  Hydel, Nuclear, Solar & wind power generation (Block Diagram approach).
+DC Circuits:
+Ohm’s Law and its limitations. KCL & KVL, series, parallel, series-parallel circuits.
+Simple Numerical.
+Module-2   (08 Hrs)
+A.C. Fundamentals:
+Equation of AC Voltage and current, waveform, time period, frequency, amplitude,  phase, phase
+difference, average value, RMS value, form factor, peak factor. (only definitions)
+Voltage and current relationship with phasor diagrams in R, L, and C circuits. Concept of Impedance.
+Analysis of R-L, R-C, R-L-C Series circuits.Active power, reactive power and appa rent power.
+Concept of power factor. (Simple Numerical).
+Three Phase Circuits:
+Generation of Three phase AC quantity, advantages and limitations; star and delta connection,
+relationship between line and phase quantities (excluding proof)
+
+Module-3(08 Hrs)
+DC Machines:
+DC Generator:  Principle of operation, constructional details, induced emf expression, types of
+generators.Relation between induced emf and terminal voltage.Simple numerical.
+DC Motor: Principle of operation, back emf and its significance. Torque equation, types of motors,
+characteristics and speed control (armature & field)of DC motors(series & shunt only). Applications
+of DC motors. Simple numerical.
+
+
+
+
+11.12.2022
+2
+
+Module-4(08 Hrs)
+Transformers: Necessity of transformer, principle of operation, Types and construction of single-
+phase transformers, E MF equation, losses, variation of losses with respect to load. Efficiency and
+simple numerical.
+Three-phase induction Motors:  Concept of rotating magnetic field, Principle of operation,
+constructional features of motor, types – squirrel cage and wound rotor. S lip and its significance
+simple numerical.
+Module-5 (08 Hrs)
+Domestic Wiring: Requirements, Types of wiring: casing, capping .Two way and three way control
+of load.
+Electricity Bill:  Power rating of household appliances including air conditioners, PCs, laptops,
+printers, etc. Definition of “unit” used for consumption of electrical energy, two-part electricity tariff,
+calculation of electricity bill for domestic consumers.
+Equipment Safety measures:  Working principle of Fuse and Miniature circuit breaker (MCB),
+merits and demerits.
+Personal safety measures: Electric Shock, Earthing and its types, Safety Precautions to avoid shock.
+
+Course outcome (Course Skill Set)
+
+At the end of the course the student will be able to:
+CO1 Understand the concepts of various energy sources and Electric circuits.
+CO2 Apply the basic Electrical laws to solve circuits.
+CO3 Discuss the construction and operation of various Electrical Machines.
+CO4 Identify suitable Electrical machine for practical implementation.
+CO5 Explain the concepts of electric power transmission and distribution, electricity billing,
+circuit protective devices and personal safety measures.
+
+
+
+
+11.12.2022
+3
+
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester En d Exam (SEE) is 50%. The
+minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The mini mum passing
+mark for the SEE is 35% of the maximum marks (18 marks out of 50). A student shall be deemed to have satisfied
+the academic requirements and earned the credits allotted to each subject/ course if the student secures not less
+than 35% (18 Marks out of 50) in the semester-end examination(SEE), and a minimum of 40% (40 marks out of
+100) in the sum total of the CIE (Continuous Internal Evaluation) and SEE (S emester End Examination) taken
+together.
+Continuous Internal Evaluation (CIE):
+Three Tests each of 20 Marks;
+ 1st, 2nd, and 3rd tests shall be conducted after completion of the syllabus of 30-35%,
+70-75%, and 90-100% of the course/s respectively.
+ Assignments/Seminar/quiz/group discussion /field survey & report presentation/ course
+project/Skill development activities, suitably planned to attain the COs and POs for a total of
+40 Marks.
+If the nature of the courses requires assignments/Seminars/Quizzes/group discussion two
+evaluation components shall be conducted. If course project/field survey/skill development
+activities etc then the evaluation method shall be one.
+
+Total CIE marks (out of 100 marks) shall be scaled down to 50 marks
+
+Semester End Examination (SEE):
+Theory SEE will be conducted by University as per the scheduled timetable, with c ommon question papers for the
+subject (duration 03 hours)
+ The question paper shall be set for 100 marks. The medium of the question paper shall be
+English/Kannada). The duration of SEE is 03 hours.
+ The question paper will have 10 questions. Two questions per module. Each question is set for 20
+marks.The students have to answer 5 full questions, selecting one full question from each module. The
+student has to answer for 100 marks and marks scored out of 100 shall be proportionally reduced to
+50 marks.
+ There will be 2 questions from each module. Each of the two questions under a module (with a maximum
+of 3 sub-questions), should have a mix of topics under that module.
+ Suggested Learning Resources:
+Books (Title of the Book/Name of the author/Name of the publisher/Edition an d Year)
+Text Books:
+1. Basic Electrical Engineering by D C Kulshreshtha, Tata McGraw Hill, First Edition 2019.
+  2.  A text book of Electrical Technology by B.L. Theraja, S Chand and Company, reprint edition 2014.
+
+Reference Books:
+1. Basic Electrical Engineering, D. P. Kothari and I. J. Nagrath, Tata McGraw Hill 4th edition, 2019.
+2. Principles of Electrical Engineering & Electronics by V. K. Mehta, Rohit  Mehta, S. Chand  and Company
+Publications, 2nd edition, 2015.
+3. Fundamentals of Electrical Engineering by Rajendra Prasad, PHI,  3 rd edition, 2014.
+
+11.12.2022
+4
+
+Web links and Video Lectures (e-Resources):
+  www.nptel.ac.in
+
+Activity Based Learning (Suggested Activities in Class)/ Practical Based learning
+
+COs and POs Mapping (Individual teacher has to fill up)
+
+ PO1 PO2 PO3 PO4 PO5 PO6 PO7 PO8 PO9 PO10 PO11 PO12
+CO1 3 2 1 0 1 1 1 1 0 0 0 1
+CO2 3 3 2 1 1 1 0 0 0 0 0 1
+CO3 3 2 1 1 1 1 1 1 0 0 0 1
+CO4 3 2 2 1 0 1 1 1 0 0 0 1
+CO5 3 1 2 0 1 2 1 1 0 0 1 1
+
+Level 3- Highly Mapped, Level 2-Moderately Mapped, Level 1-Low Mapped, Level 0- Not Mapped

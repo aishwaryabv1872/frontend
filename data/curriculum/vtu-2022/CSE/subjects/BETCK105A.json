@@ -1,0 +1,107 @@
+{
+  "subject_code": "BETCK105A",
+  "subject_name": "Smart Materials and systems",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "Visvesvaraya Technological University",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BETCK105A"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Emerging Materials",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Emerging Materials"
+        },
+        {
+          "title": "Honey comb structure (Carbon composites), Nano-materials, engineered polymers, emerging"
+        },
+        {
+          "title": "sustainable by products (Fly ash and GGBS) and construction chemicals"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Prefabricated/ Manufactured building components",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Prefabricated/ Manufactured building components"
+        },
+        {
+          "title": "Definition, types of prefabricated/ manufactured building components and infrastructure, modular"
+        },
+        {
+          "title": "coordination, standardization, materials, systems, production, transportation and installation."
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Smart Materials",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Smart Materials"
+        },
+        {
+          "title": "Definition, Principles of Piezo-electricity, materials (Polymers and Ceramics), sensors (Piezo-electric"
+        },
+        {
+          "title": "sensor, strain gauge, shear sensor, in-plane and out of plane sensor, accelerometer), smart composites"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "BIM and IBMS",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "BIM and IBMS"
+        },
+        {
+          "title": "BIM: Definition, Necessity, advantages, BIM in building design, infrastructure design and construction"
+        },
+        {
+          "title": "IBMS – Definition, Necessity, advantages, Types of IBMS"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "3-D Printing",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "D Printing"
+        },
+        {
+          "title": "Importance, Historic development, advantages, common terminologies, classification, Process chain, 3"
+        },
+        {
+          "title": "– D modelling, Data conversion and transmission, checking and preparation, Building, Post processing,"
+        },
+        {
+          "title": "Applications"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Make use emerging materials for construction",
+    "Decide the proper prefabricated building component",
+    "Use smart materials and methods in building construction",
+    "Implement BIM in building design",
+    "Prepare 3-D modelling and manufacture building component"
+  ]
+}

@@ -1,0 +1,231 @@
+16-2-2023
+
+Course Title:  Principles of Programming using C
+Course Code: BPOPS103/203 CIE Marks 50 5
+0
+Course Type
+(Theory/Practical
+/Integrated )
+Integrated SEE Marks   50 5
+0
+Total Marks100
+1
+0
+0
+Teaching Hours/Week
+(L:T:P: S)
+2:0:2 Exam Hours 3+2 0
+3
+Total Hours of Pedagogy 40 hours  Credits   03 0
+3
+ CourseObjectives:
+
+CLO 1. Elucidate the basic architecture and functionalities of a Computer
+CLO 2. Apply programming constructs of C language to solve the real-world
+problems
+CLO 3.Explore user-defined data structures like arrays, structures and pointers in
+implementing  solutions to problems
+CLO 4. Design and Develop Solutions to problems using structured programming
+constructs  such as functions and procedures
+ Teaching-LearningProcess(GeneralInstructions)
+
+ThesearesampleStrategies,whichteacherscanusetoacceleratetheattainmentofthevariouscourse
+outcomes.
+1. Lecturer method (L) need not to be only traditional lecture method, but
+alternative effectiveteachingmethodscouldbeadoptedtoattaintheoutcomes.
+2. UseofVideo/Animationtoexplainfunctioningofvariousconcepts.
+3. Encouragecollaborative(GroupLearning)Learningintheclass.
+4. AskatleastthreeHOT(HigherorderThinking)questionsintheclass,whichpromotescri
+ticalthinking.
+5. AdoptProblemBasedLearning(PBL),whichfostersstudents’Analyticalskills,develo
+pdesignthinking skills such as the ability to design, evaluate, generalize, and
+analyze informationratherthan simplyrecall it.
+6. IntroduceTopicsinmanifoldrepresentations.
+7. Showthedifferentwaystosolvethesameproblemandencouragethestudentstocome
+upwiththeirowncreative waystosolve them.
+8. Discusshoweveryconceptcanbeappliedtotherealworld-andwhenthat'spossible,ithelps
+to improvethestudents'understanding.
+9. Use https://pythontutor.com/visualize.html#mode=edit in order to visualize t he
+operations of C Programs
+ Module-1 (6 Hours of Pedagogy)
+ Introduction to C: Introduction to computers, input and output devices, designing efficient
+programs. Introduction to C, Structure of C program,  Files used in a C program,
+Compilers, Compiling and executing C programs,   variables, constants, Input/output
+statements in C,
+
+Textbook: Chapter 1.1-1.9, 2.1-2.2, 8.1 - 8.6 ,9.1-9.14
+ Teaching-LearningProcess Chalkandtalkmethod/PowerPointPresentation/ Web Content:
+https://tinyurl.com/4xmrexre
+
+16-2-2023
+ Module-2 (6 Hours of Pedagogy)
+ Operators in C, Type conversion and typecasting.
+
+Decision control and Looping statements:  Introduction to decision control, Conditional
+branching statements, iterative statements, nested loops, break and continue statements,
+goto statement.
+
+Textbook: Chapter 9.15-9.16, 10.1-10.6
+ Teaching-LearningProcess Chalkandtalkmethod/PowerPointPresentation
+Module-3 (8  Hours of Pedagogy)
+Functions: Introduction using functions, Function definition, function declaration, fun ction call, return
+statement, passing parameters to functions, scope of variables, storage classes, recursive functions.
+Arrays: Declaration of arrays, accessing the elements of an array, storing values in arrays, Operations on
+arrays, Passing arrays to functions, two dimensional arrays, operations on two-dimensional arrays, two-
+dimensional arrays to functions, multidimensional arrays,  applications of arrays.
+Textbook: Chapter  11.1-11.10, 12.1-12.10,12.12
+
+Teaching-LearningProcess Chalkandtalkmethod/PowerPointPresentation
+Module-4 (6 Hours of Pedagogy)
+Strings and Pointers:  Introduction, string taxonomy, operations on strings, Miscellaneous string and
+character functions, arrays of strings. Pointers: Introduction to pointers, declaring pointer variables, Types of
+pointers, Passing arguments to functions using pointers
+
+Textbook: Chapter 13.1-13.6, 14-14.7
+
+Teaching-LearningProcess Chalkandtalkmethod/PowerPointPresentation
+Module-5 (6 Hours of Pedagogy)
+
+Structure, Union, and Enumerated Data Type: Introduction, structures and functions, Unions, unions
+inside structures, Enumerated data type.
+Files: Introduction to files, using files in C, reading and writing data files. , Detecting end of file
+
+Textbook: Chapter 15.1 – 15.10, 16.1-16.5
+
+
+
+Teaching-LearningProcess Chalkandtalkmethod/PowerPointPresentation
+CourseOutcomes(CourseSkillSet)
+Attheendofthecoursethestudentwillbeableto:
+CO1. Elucidate the basic architecture and functionalities of a computer and also recognize
+the hardware parts.
+CO 2. Apply programming constructs of C language to solve the real world problem
+CO 3.Explore user-defined data structures like arrays in implementing solutions to
+problems like searching and sorting
+CO 4.Explore user-defined data structures like structures, unions and pointers in
+implementing solutions
+
+
+16-2-2023
+CO5.Design and Develop Solutions to problems using modular programming constructs
+using functions
+Programming  Assignments
+
+1 Simulation of a SimpleCalculator.
+2 Compute the roots of a quadratic equation by accepting the coefficients. Print appropriate messages.
+3 An electricity board charges the following rates for the use of electricity: for the first 200 units 80 paise per unit:
+for the next 100 units 90 paise per unit: beyond 300 units Rs 1 per unit. All users are charged a minimum of Rs.
+100 as meter charge. If the total amount is more than Rs 400, then an additional surcharge of 15% of total amount
+is charged. Write a program to read the name of the user, number of units consumed and print out the charges.
+4. Write a C Program to display the following by reading the number of rows as input,
+                                          1
+                                     1   2   1
+                                 1  2   3   2  1
+                              1 2  3   4   3  2   1
+                            ---------------------------
+                        nth row
+5 Implement Binary Search on Integers.
+6 Implement Matrix multiplication and validate the rules of multiplication.
+7 Compute sin(x)/cos(x) using Taylor series approximation. Compare your result with the built-in library function.
+Print both the results with appropriate inferences.
+8 Sort the given set of N numbers using Bubble sort.
+9 Write functions to implement string operations such as compare, concatenate, and find string length. Use the
+parameter passing techniques.
+10 Implement structures to read, write and compute average- marks of the students, list the students  scoring above
+and below the average marks for a class of N students.
+11 Develop a program using pointers to compute the sum, mean and standard deviation of all elements stored in
+an array of N real numbers.
+12. Write a C program to copy a text file to another, read both the input file name and target file name.
+Note:
+SEE marks for the practical course is 50 Marks.
+
+
+16-2-2023
+SEE shall be conducted jointly by the two examiners of the same institute, examiners are appointed by the
+University
+All laboratory experiments are to be included for practical examination.
+(Rubrics) Breakup of marks and the instructions printed on the cover page of the answer script to be strictly
+adhered to by the examiners. OR based on the course requirement evaluation rubrics shall be decided jointly by
+examiners.
+Students can pick one question (experiment) from the questions lot prepared by the internal /external examiners
+jointly.
+Evaluation of test write-up/ conduction procedure and result/viva will be conducted jointly by examiners.
+General rubrics suggested for SEE are mentioned here, writeup-20%, Conduction procedure and result in -60%,
+Viva-voce 20% of maximum marks. SEE for practical shall be evaluated for 100 marks and scored marks shall be
+scaled down to 50 marks (however, based on course type, rubrics shall be decided by the examiners)
+Students can pick one experiment from the questions lot  with equal choice to all the students in a batch.  Student
+should develop an algorithm, program, execute and demonstrate the results with appropriate output for the given
+problem.
+Change of experiment is allowed only once and 15% Marks allotted to the procedure part to be made zero.
+The duration of SEE is 02 hours
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester End Exam (SEE) is 50%. The
+minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The minimum passing
+mark for the SEE is 35% of the maximum marks (18 marks out of 50). A student shal l be deemed to have
+satisfied the academic requirements and earned the credits allotted to each subject/ cour se if the student secures
+not less than 35% (18 Marks out of 50) in the semester-end examination(SEE), and a mini mum of 40% (40
+marks out of 100) in the sum total of the CIE (Continuous Internal Evaluation) and SEE (Semester End
+Examination) taken together.
+Continuous Internal Evaluation(CIE):
+The CIE marks for the theory component of the IC shall be 30 marks and for the laboratory component 20
+Marks.
+CIE for the theory component of the IC
+ Three Tests each of 20 Marks; after the completion of the syllabus of 35-40%,  65-70%, and 90-
+100%  respectively.
+ Two Assignments/two quizzes/ seminars/one field survey and report presentation/one-
+course project totaling 20 marks.
+Total Marks scored (test + assignments) out of 80 shall be scaled down to 30 marks
+CIE for the practical component of the IC
+ On completion of every experiment/program in the laboratory, the students shall be
+evaluated and marks shall be awarded on the same day. The 15 marks are for conducting
+the experiment and preparation of the laboratory record, the other 05 marks shall be for
+the test conducted at the end of the semester.
+ The CIE marks awarded in the case of the Practical component shall be based on the
+
+
+16-2-2023
+continuous evaluation of the laboratory report. Each experiment report can be evaluated
+for 10 marks. Marks of all experiments’ write-ups are added and scaled down to 15 marks.
+ The laboratory test (duration 03 hours) at the end of the 15th week of the semester /after
+completion of all the experiments (whichever is early) shall be conducted for 50 marks and
+scaled down to 05 marks.
+Scaled-down marks of write-up evaluations and tests added will be CIE marks for the laboratory
+component of IC/IPCC for 20 marks.
+ The minimum marks to be secured in CIE to appear for SEE shall be 12 (40% of maximum
+marks) in the theory component and 08 (40% of maximum marks) in the practical
+component. The laboratory component of the IC/IPCC shall be for CIE only. However, in
+SEE, the questions from the laboratory component shall be included. The maximum of 05
+questions is to be set from the practical component of IC/IPCC, the total marks of all
+questions should not be more than 25 marks.
+The theory component of the IC shall be for both CIE and SEE.
+
+
+Semester End Examination:
+Theory SEE will be conducted by University as per the scheduled timetable, with com mon question papers for
+the subject (duration 03 hours)
+1. The question paper will have ten questions. Each question is set for 20 marks. Marks scored shall be
+proportionally reduced to 50 marks.
+2. There will be 2 questions from each module. Each of the two questions under a module (with a maximum
+of 3 sub-questions), should have a mix of topics under that module.
+3. The students have to answer 5 full questions, selecting one full question from each module
+
+Suggested Learning Resources:
+Textbooks
+1. Computer fundamentals and programming in c, “Reema Thareja”, Oxford University, Second edition,
+2017.
+Reference Books:
+1. E. Balaguruswamy, Programming in ANSI C, 7th Edition, Tata McGraw-Hill.
+2. Brian W. Kernighan and Dennis M. Ritchie, The ‘C’ Programming Language, Prentice Hall of India.
+
+Web links and Video Lectures (e-Resources):
+1. elearning.vtu.ac.in/econtent/courses/video/BS/15PCD23.html
+2. https://nptel.ac.in/courses/106/105/106105171/ MOOC courses can be adopted for more clarity in
+understanding the topics and verities of problem solving methods.
+
+
+16-2-2023
+3. https://tinyurl.com/4xmrexre
+Activity Based Learning (Suggested Activities in Class)/ Practical Based learning
+ Quizzes
+ Assignments
+ Seminars

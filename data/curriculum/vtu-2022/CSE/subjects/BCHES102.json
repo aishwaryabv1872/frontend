@@ -1,0 +1,316 @@
+{
+  "subject_code": "BCHES102",
+  "subject_name": "Applied Chemistry for Computer Science & Engineering stream",
+  "credits": 4,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "BCHES102/202 official syllabus",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Sensors and Energy Systems",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Conductometric sensors"
+        },
+        {
+          "title": "Electrochemical sensors"
+        },
+        {
+          "title": "Thermometric sensors and flame photometry"
+        },
+        {
+          "title": "Optical sensors and colorimetry"
+        },
+        {
+          "title": "Dissolved oxygen sensors"
+        },
+        {
+          "title": "Electrochemical pharmaceutical sensors"
+        },
+        {
+          "title": "Electrochemical gas sensors for SOx and NOx"
+        },
+        {
+          "title": "Disposable sensors for biomolecules and pesticides"
+        },
+        {
+          "title": "Batteries: introduction, construction, working and applications"
+        },
+        {
+          "title": "Lithium-ion batteries"
+        },
+        {
+          "title": "Sodium-ion batteries"
+        },
+        {
+          "title": "Quantum Dot Sensitized Solar Cells (QDSSC): principle, properties and applications"
+        }
+      ],
+      "self_learning": [
+        "Types of electrochemical sensors",
+        "O2 gas sensor",
+        "Glucose biosensors"
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Materials for Memory and Display Systems",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Basic concepts of electronic memory"
+        },
+        {
+          "title": "History of organic/polymer electronic memory devices"
+        },
+        {
+          "title": "Classification of electronic memory devices"
+        },
+        {
+          "title": "Organic memory devices using organic molecules"
+        },
+        {
+          "title": "Polymeric memory materials"
+        },
+        {
+          "title": "Organic-inorganic hybrid memory materials"
+        },
+        {
+          "title": "Photoactive and electroactive materials"
+        },
+        {
+          "title": "Nanomaterials in optoelectronic devices"
+        },
+        {
+          "title": "Organic materials in optoelectronic devices"
+        },
+        {
+          "title": "Liquid crystals: introduction and classification"
+        },
+        {
+          "title": "Liquid crystal properties and applications in LCDs"
+        },
+        {
+          "title": "OLED properties and applications"
+        },
+        {
+          "title": "QLED properties and applications"
+        },
+        {
+          "title": "Light-emitting electrochemical cells"
+        }
+      ],
+      "self_learning": [
+        "Properties and functions of silicon, germanium, copper and aluminium in computers",
+        "Brominated flame retardants in computers"
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Corrosion and Electrode System",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction to corrosion chemistry"
+        },
+        {
+          "title": "Electrochemical theory of corrosion"
+        },
+        {
+          "title": "Differential metal corrosion"
+        },
+        {
+          "title": "Differential aeration corrosion"
+        },
+        {
+          "title": "Galvanization"
+        },
+        {
+          "title": "Anodization"
+        },
+        {
+          "title": "Sacrificial anode method"
+        },
+        {
+          "title": "Corrosion Penetration Rate (CPR)"
+        },
+        {
+          "title": "Ion selective electrodes"
+        },
+        {
+          "title": "Glass electrode: construction, working and applications"
+        },
+        {
+          "title": "Determination of pH using glass electrode"
+        },
+        {
+          "title": "Reference electrodes"
+        },
+        {
+          "title": "Calomel electrode: construction, working and applications"
+        },
+        {
+          "title": "Concentration cells"
+        },
+        {
+          "title": "Conductometry: principle and instrumentation"
+        },
+        {
+          "title": "Conductometric estimation of weak acid"
+        },
+        {
+          "title": "Potentiometry"
+        },
+        {
+          "title": "Potentiometric estimation of iron"
+        }
+      ],
+      "self_learning": [
+        "IR spectroscopy",
+        "UV-Visible spectroscopy"
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Polymers and Green Fuels",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction to polymers"
+        },
+        {
+          "title": "Number-average molecular weight"
+        },
+        {
+          "title": "Weight-average molecular weight"
+        },
+        {
+          "title": "Molecular-weight numerical problems"
+        },
+        {
+          "title": "Kevlar: preparation, properties and commercial applications"
+        },
+        {
+          "title": "Conducting polymers"
+        },
+        {
+          "title": "Polyacetylene synthesis"
+        },
+        {
+          "title": "Conducting mechanism of polyacetylene"
+        },
+        {
+          "title": "Commercial applications of conducting polymers"
+        },
+        {
+          "title": "Solar photovoltaic cell: construction and working"
+        },
+        {
+          "title": "Advantages and disadvantages of solar photovoltaic cells"
+        },
+        {
+          "title": "Green hydrogen generation by electrolysis of water"
+        },
+        {
+          "title": "Advantages of green hydrogen"
+        }
+      ],
+      "self_learning": [
+        "Regenerative fuel cells"
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "E-Waste Management",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction to e-waste"
+        },
+        {
+          "title": "Sources of e-waste"
+        },
+        {
+          "title": "Composition of e-waste"
+        },
+        {
+          "title": "Characteristics of e-waste"
+        },
+        {
+          "title": "Need for e-waste management"
+        },
+        {
+          "title": "Toxic materials used in electronic and electrical products"
+        },
+        {
+          "title": "Health hazards due to e-waste exposure"
+        },
+        {
+          "title": "Separation methods for e-waste recycling"
+        },
+        {
+          "title": "Thermal treatments"
+        },
+        {
+          "title": "Hydrometallurgical extraction"
+        },
+        {
+          "title": "Pyrometallurgical methods"
+        },
+        {
+          "title": "Direct recycling"
+        },
+        {
+          "title": "Extraction of gold from e-waste"
+        },
+        {
+          "title": "Role of producers, consumers, recyclers and statutory bodies"
+        }
+      ],
+      "self_learning": [
+        "Impact of heavy metals on environment and human health"
+      ]
+    }
+  ],
+  "practicals": {
+    "demonstration": [
+      "Chemical structure drawing using ChemDraw or ACD/ChemSketch",
+      "Determination of strength of an acid in Pb-acid battery",
+      "Synthesis of iron-oxide nanoparticles",
+      "Electrolysis of water"
+    ],
+    "exercise": [
+      "Conductometric estimation of acid mixture",
+      "Potentiometric estimation of FAS using K2Cr2O7",
+      "Determination of pKa of vinegar using pH sensor (glass electrode)",
+      "Determination of rate of corrosion of mild steel by weight loss method",
+      "Estimation of total hardness of water by EDTA method"
+    ],
+    "structured_enquiry": [
+      "Estimation of copper in electroplating effluent by optical sensor (colorimetry)",
+      "Determination of viscosity coefficient of lubricant (Ostwald's viscometer)",
+      "Estimation of iron in TMT bar by diphenyl amine/external indicator method",
+      "Estimation of sodium in soil/effluent sample using flame photometry",
+      "Determination of Chemical Oxygen Demand (COD) of industrial wastewater sample"
+    ],
+    "open_ended": [
+      "Evaluation of acid content in beverages using pH sensors and simulation",
+      "Construction of photovoltaic cell",
+      "Design an experiment to identify the presence of proteins in a given sample",
+      "Searching suitable PDB file and target for molecular docking"
+    ]
+  },
+  "course_outcomes": [
+    "Identify terms and processes involved in scientific and engineering applications",
+    "Explain chemistry phenomena and methods of engineering processes",
+    "Solve chemistry problems pertinent to engineering applications",
+    "Apply basic chemistry concepts to explain chemical properties and processes",
+    "Analyze properties and processes associated with chemical substances in multidisciplinary situations"
+  ]
+}

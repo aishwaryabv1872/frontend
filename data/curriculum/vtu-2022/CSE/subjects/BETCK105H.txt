@@ -1,0 +1,158 @@
+16-2-2023
+
+1
+.
+
+ Course Title:  Introduction to Internet of Things (IOT)
+ Course Code: BETCK105H/205H CIE Marks 50
+ Course Type (Theory/Practical
+/Integrated )
+Theory SEE Marks 50
+ Total Marks 100
+ Teaching Hours/Week (L:T:P: S) 3-0-0-0 Exam Hours 03
+ Total Hours of Pedagogy 40 hours  Credits 03
+
+
+Course objectives
+ Understand about the fundamentals of Internet of Things and its building blocks  along with their
+characteristics.
+ Understand the recent application domains of IoT in everyday life.
+ Gain insights about the current trends of Associated IOT technologoes and IOT  Anlaytics.
+
+
+Teaching-Learning Process
+These are sample Strategies, which teachers can use to accelerate the attainment of the various course
+outcomes.
+1. Lecturer method (L) need not to be only a traditional lecture method, b ut alternative
+effective teaching methods could be adopted to attain the outcomes.
+2. Use of Video/Animation to explain functioning of various concepts.
+3. Encourage collaborative (Group Learning) Learning in the class.
+4. Ask at least three HOT (Higher order Thinking) questions in the class, which promotes
+critical thinking.
+5. Adopt Problem Based Learning (PBL), which fosters students ’ Analytical skills, develop
+design thinking skills such as the ability to design, evaluate, generalize, an d analyze
+information rather than simply recall it.
+6. Introduce Topics in manifold representations.
+7. Show the different ways to solve the same problem with different circuits/ logic and
+encourage the students to come up with their own creative ways to solve them.
+8. Discuss how every concept can be applied to the real world - and  when that's possible, it
+helps improve the students' understanding
+9. Use any of these methods: Chalk and board, Active Learning, Case Studies
+
+ Module-1  (8 hours of pedagogy)
+ Basics of Networking:  Introduction, Network Types, Layered network models
+
+Emergence of IoT: Introduction, Evolution of IoT, Enabling IoT and the Complex Interdependence of
+Technologies, IoT Networking Components
+
+Textbook 1: Chapter 1- 1.1 to 1.3 Chapter 4 – 4.1 to 4.4
+
+ Module-2   (8 hours of pedagogy)
+ IoT Sensing and Actuation: Introduction, Sensors, Sensor Characteristics, Sensorial Deviations, Sensing
+Types, Sensing Considerations, Actuators, Actuator Types, Actuator Character istics.
+
+Textbook 1: Chapter 5 – 5.1 to 5.9
+ Module-3 ( 8 hours of pedagogy)
+
+16-2-2023
+
+2
+.
+ IoT Processing Topologies and Types: Data Format, Importance of Processing in IoT, Processing Topologies,
+IoT Device Design and Selection Considerations, Processing Offloading.
+
+Textbook 1: Chapter 6 – 6.1 to 6.5
+ Module-4 ( 8 ours of pedagogy)
+ ASSOCIATED IOT TECHNOLOGIES
+Cloud Computing: Introduction, Virtualization, Cloud Models, Service-Level Agreement in  Cloud Computing,
+Cloud Implementation, Sensor-Cloud: Sensors-as-a-Service.
+
+IOT CASE STUDIES
+Agricultural IoT – Introduction and Case Studies
+
+Textbook 1: Chapter 10– 10.1 to 10.6; Chapter 12- 12.1-12.2
+ Module-5 (8 hours of pedagogy)
+
+IOT CASE STUDIES AND FUTURE TRENDS
+Vehicular IoT – Introduction
+Healthcare IoT – Introduction, Case Studies
+IoT Analytics – Introduction
+
+Textbook 1: Chapter 13– 13.1; Chapter 14- 14.1-14.2; Chapter 17- 17.1
+
+Course outcome (Course Skill Set)
+
+At the end of the course the student will be able to:
+CO1 Describe the evolution of IoT, IoT networking components, and addressing strategies in IoT.
+CO2 Classify various sensing devices and actuator types.
+CO3 Demonstrate the processing in IoT.
+CO4 Explain Associated IOT Technologoes
+CO5 Illustrate architecture of  IOT Applications
+
+
+16-2-2023
+
+3
+.
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester End Exam (SEE) is 50%. The
+minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The min imum passing
+mark for the SEE is 35% of the maximum marks (18 marks out of 50). A student shall be  deemed to have satisfied
+the academic requirements and earned the credits allotted to each subject/ c ourse if the student secures not less
+than 35% (18 Marks out of 50) in the semester-end examination (SEE), and a minimum of 40% (40 marks out of
+100) in the sum total of the CIE (Continuous Internal Evaluation) and SEE (Semeste r End Examination) taken
+together.
+Continuous Internal Evaluation(CIE):
+Three Tests each of 20 Marks;
+ 1st, 2nd, and 3rd tests shall be conducted after completion of the syllabus of 30-35%,
+70-75%, and 90-100% of the course/s respectively.
+ Assignments/Seminar/quiz/group discussion /field survey & report presentation/ course
+project/Skill development activities, suitably planned to attain the COs and POs for a total of
+40 Marks.
+If the nature of the courses requires assignments/Seminars/Quizzes/group discussion two
+evaluation components shall be conducted. If course project/field survey/skill development
+activities etc then the evaluation method shall be one.
+
+Total CIE marks (out of 100 marks) shall be scaled down to 50 marks
+
+Semester End Examination(SEE):
+Theory SEE will be conducted by University as per the scheduled timetab le, with common question papers for the
+subject (duration 03 hours)
+ The question paper shall be set for 100 marks. The medium of the question paper shall be English). The
+duration of SEE is 03 hours.
+ The question paper will have 10 questions. Two questions per module. Each question is set for 20 marks.
+The students have to answer 5 full questions, selecting one full question from each module. The student
+has to answer for 100 marks and marks scored out of 100 shall be proportionally reduced to 50
+marks.
+ There will be 2 questions from each module. Each of the two questions under a module (with a maximum
+of 3 sub-questions), should have a mix of topics under that module.
+ Suggested Learning Resources:
+Books (Title of the Book/Name of the author/Name of the publisher/Edition and  Year)
+1. Sudip Misra, Anandarup Mukherjee, Arijit Roy, “Introduction to IoT”, Cambridge University Press 2021.
+
+Reference:
+2. S. Misra, C. Roy, and A. Mukherjee, 2020. Introduction to Industrial Internet of Th ings and Industry 4.0.
+CRC Press.
+3. Vijay Madisetti and Arshdeep Bahga, “Internet of Things (A Hands-on-Approach)”,1st Edition, VPT, 2014.
+4. Francis daCosta, “Rethinking the Internet of Things: A Scalable Approach to Connecting Everythin g”, 1st
+Edition, Apress Publications, 2013.
+Web links and Video Lectures (e-Resources):
+
+
+16-2-2023
+
+4
+.
+ 1. https://nptel.ac.in/noc/courses/noc19/SEM1/noc19-cs31/
+Activity Based Learning (Suggested Activities in Class)/ Practical Based learning
+ Demonstare a sensor based application
+
+COs and POs Mapping (Individual teacher has to fill up)
+COs POs
+1 2 3 4 5 6 7
+CO1
+CO2
+CO3
+CO4
+CO5
+Level 3- Highly Mapped,      Level 2-Moderately Mapped,       Level 1-Low Mapped,     Level 0- Not Mapped

@@ -1,0 +1,283 @@
+{
+  "subject_code": "BESCK104C",
+  "subject_name": "Introduction to Electronics & Communication",
+  "credits": 3,
+  "course_type": "Theory",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Power Supplies and Amplifiers",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Power Supplies – Block diagram"
+        },
+        {
+          "title": "Half-wave rectifier"
+        },
+        {
+          "title": "Full-wave rectifiers and filters"
+        },
+        {
+          "title": "Voltage regulators"
+        },
+        {
+          "title": "Output resistance and voltage regulation"
+        },
+        {
+          "title": "Voltage multipliers"
+        },
+        {
+          "title": "Types of amplifiers"
+        },
+        {
+          "title": "Gain"
+        },
+        {
+          "title": "Input and output resistance"
+        },
+        {
+          "title": "Frequency response"
+        },
+        {
+          "title": "Bandwidth"
+        },
+        {
+          "title": "Phase shift"
+        },
+        {
+          "title": "Negative feedback"
+        },
+        {
+          "title": "Multi-stage amplifiers"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Oscillators and Operational Amplifiers",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Barkhausen criterion"
+        },
+        {
+          "title": "Sinusoidal and non-sinusoidal oscillators"
+        },
+        {
+          "title": "Ladder network oscillator"
+        },
+        {
+          "title": "Wein bridge oscillator"
+        },
+        {
+          "title": "Multivibrators"
+        },
+        {
+          "title": "Single-stage astable oscillator"
+        },
+        {
+          "title": "Crystal controlled oscillators"
+        },
+        {
+          "title": "Operational amplifier parameters"
+        },
+        {
+          "title": "Operational amplifier characteristics"
+        },
+        {
+          "title": "Operational amplifier configurations"
+        },
+        {
+          "title": "Operational amplifier circuits"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Boolean Algebra and Logic Circuits",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Binary numbers"
+        },
+        {
+          "title": "Number Base Conversion"
+        },
+        {
+          "title": "Octal & Hexa Decimal Numbers"
+        },
+        {
+          "title": "Complements"
+        },
+        {
+          "title": "Basic definitions"
+        },
+        {
+          "title": "Axiomatic Definition of Boolean Algebra"
+        },
+        {
+          "title": "Basic Theorems and Properties of Boolean Algebra"
+        },
+        {
+          "title": "Boolean Functions"
+        },
+        {
+          "title": "Canonical and Standard Forms"
+        },
+        {
+          "title": "Other Logic Operations"
+        },
+        {
+          "title": "Digital Logic Gates"
+        },
+        {
+          "title": "Combinational logic"
+        },
+        {
+          "title": "Introduction"
+        },
+        {
+          "title": "Design procedure"
+        },
+        {
+          "title": "Adders - Half adder"
+        },
+        {
+          "title": "Full adder"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Embedded Systems and Sensors",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Embedded Systems – Definition"
+        },
+        {
+          "title": "Embedded systems vs general computing systems"
+        },
+        {
+          "title": "Classification of Embedded Systems"
+        },
+        {
+          "title": "Major application areas of Embedded Systems"
+        },
+        {
+          "title": "Elements of an Embedded System"
+        },
+        {
+          "title": "Core of the Embedded System"
+        },
+        {
+          "title": "Microprocessor vs Microcontroller"
+        },
+        {
+          "title": "RISC vs CISC"
+        },
+        {
+          "title": "Instrumentation and control systems"
+        },
+        {
+          "title": "Transducers"
+        },
+        {
+          "title": "Sensors"
+        },
+        {
+          "title": "Actuators"
+        },
+        {
+          "title": "LED"
+        },
+        {
+          "title": "7-Segment LED Display"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Analog and Digital Communication Schemes",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Modern communication system scheme"
+        },
+        {
+          "title": "Information source and input transducer"
+        },
+        {
+          "title": "Transmitter"
+        },
+        {
+          "title": "Channel or Medium – Hardwired and Soft wired"
+        },
+        {
+          "title": "Noise"
+        },
+        {
+          "title": "Receiver"
+        },
+        {
+          "title": "Multiplexing"
+        },
+        {
+          "title": "Types of communication systems"
+        },
+        {
+          "title": "Types of modulation"
+        },
+        {
+          "title": "AM"
+        },
+        {
+          "title": "FM"
+        },
+        {
+          "title": "Concept of Radio wave propagation"
+        },
+        {
+          "title": "Ground wave propagation"
+        },
+        {
+          "title": "Space wave propagation"
+        },
+        {
+          "title": "Sky wave propagation"
+        },
+        {
+          "title": "Advantages of digital communication over analog communication"
+        },
+        {
+          "title": "ASK"
+        },
+        {
+          "title": "FSK"
+        },
+        {
+          "title": "PSK"
+        },
+        {
+          "title": "Radio signal transmission"
+        },
+        {
+          "title": "Multiple access techniques"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Elucidate  the basics of   sustainable development, sustainable engineering and its role in engineering",
+    "Application of Sustainable Engineering Concepts and Principles in Engineering",
+    "Apply  the Principle, and  methodology of  Life Cycle Assessment Tool  to engineering systems",
+    "Understand integration methods  of  sustainability to Engineering Design"
+  ]
+}

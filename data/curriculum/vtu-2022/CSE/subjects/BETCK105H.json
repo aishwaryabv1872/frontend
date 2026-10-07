@@ -1,0 +1,108 @@
+{
+  "subject_code": "BETCK105H",
+  "subject_name": "Introduction to Internet of Things (IOT)",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BETCK105H",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Basics of Networking",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Basics of Networking: Introduction, Network Types, Layered network models"
+        },
+        {
+          "title": "Emergence of IoT: Introduction, Evolution of IoT, Enabling IoT and the Complex Interdependence of"
+        },
+        {
+          "title": "Technologies, IoT Networking Components"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "IoT Sensing and Actuation",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "IoT Sensing and Actuation: Introduction, Sensors, Sensor Characteristics, Sensorial Deviations, Sensing"
+        },
+        {
+          "title": "Types, Sensing Considerations, Actuators, Actuator Types, Actuator Character istics."
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "IoT Processing Topologies and Types",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "IoT Processing Topologies and Types: Data Format, Importance of Processing in IoT, Processing Topologies,"
+        },
+        {
+          "title": "IoT Device Design and Selection Considerations, Processing Offloading."
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "ASSOCIATED IOT TECHNOLOGIES",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "ASSOCIATED IOT TECHNOLOGIES"
+        },
+        {
+          "title": "Cloud Computing: Introduction, Virtualization, Cloud Models, Service-Level Agreement in Cloud Computing,"
+        },
+        {
+          "title": "Cloud Implementation, Sensor-Cloud: Sensors-as-a-Service."
+        },
+        {
+          "title": "IOT CASE STUDIES"
+        },
+        {
+          "title": "Agricultural IoT – Introduction and Case Studies"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "IOT CASE STUDIES AND FUTURE TRENDS",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "IOT CASE STUDIES AND FUTURE TRENDS"
+        },
+        {
+          "title": "Vehicular IoT – Introduction"
+        },
+        {
+          "title": "Healthcare IoT – Introduction, Case Studies"
+        },
+        {
+          "title": "IoT Analytics – Introduction"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Describe the evolution of IoT, IoT networking components, and addressing strategies in IoT.",
+    "Classify various sensing devices and actuator types.",
+    "Demonstrate the processing in IoT.",
+    "Explain Associated IOT Technologoes",
+    "Illustrate architecture of IOT Applications"
+  ]
+}

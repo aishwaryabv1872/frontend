@@ -1,0 +1,104 @@
+{
+  "subject_code": "BENGK106",
+  "subject_name": "Communicative English",
+  "credits": 1,
+  "course_type": "Integrated",
+  "pedagogy_hours": 15,
+  "source": {
+    "source_name": "Visvesvaraya Technological University",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BENGK106"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction to Communicative English",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Introduction to Communicative English : Communicative English, Fundamentals of Communicative English, Process of"
+        },
+        {
+          "title": "Communication, Barriers to Effective Communicative English, Different styles and levels in Communicative English."
+        },
+        {
+          "title": "Interpersonal and Intrapersonal Communication Skills."
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Introduction to Phonetics",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Introduction to Phonetics : Phonetic Transcription, English Pronunciation, Pronunciation Guidelines to consonants and"
+        },
+        {
+          "title": "vowels, Sounds Mispronounced, Silent and Non silent Letters, Syllables and Structure. Word Accent, Stress Shift and"
+        },
+        {
+          "title": "Intonation, Spelling Rules and Words often Misspelt. Common Errors in Pronunciation."
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Basic English Communicative Grammar and Vocabulary PART - I",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Basic English Communicative Grammar and Vocabulary PART - I :Grammar: Basic English Grammar and"
+        },
+        {
+          "title": "Parts of Speech, Articles and Preposition. Question Tags, One Word Substitutes, Strong and Weak forms of words,"
+        },
+        {
+          "title": "Introduction to Vocabulary, All Types of Vocabulary – Exercises on it."
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Basic English Communicative Grammar and Vocabulary PART - II",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Basic English Communicative Grammar and Vocabulary PART - II: Words formation - Prefixes and Suffixes,"
+        },
+        {
+          "title": "Contractions and Abbreviations. Word Pairs (Minimal Pairs) – Exercises, Tense and Types of tenses, The Sequence of"
+        },
+        {
+          "title": "Tenses (Rules in use of Tenses) and Exercises on it."
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Communication Skills for Employment",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Communication Skills for Employment :Information Transfer:Oral Presentation and its Practice. Difference between"
+        },
+        {
+          "title": "Extempore/Public Speaking, Communication Guidelines. Mother Tongue Influence (MTI), Various Techniques for"
+        },
+        {
+          "title": "Neutralization of Mother Tongue Influence. Reading and Listening Comprehensions – Exercises."
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Understand and apply the Fundamentals of Communication Skills in their communication skills.",
+    "Identify the nuances of phonetics, intonation and enhance pronunciation skills.",
+    "To impart basic English grammar and essentials of language skills as per present requirement.",
+    "Understand and use all types of English vocabulary and language proficiency.",
+    "Adopt the Techniques of Information Transfer through presentation."
+  ]
+}

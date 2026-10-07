@@ -1,0 +1,137 @@
+{
+  "subject_code": "BESCK104A",
+  "subject_name": "Introduction to Civil Engineering",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 50,
+  "source": {
+    "source_name": "Visvesvaraya Technological University",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BESCK104A"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Civil Engineering Disciplines and Building Science",
+      "hours": 10,
+      "topics": [
+        {
+          "title": "Civil Engineering Disciplines and Building Science"
+        },
+        {
+          "title": "Introduction to Civil Engineering: Surveying, StructuralEngineering, Geotechnical Engineering,"
+        },
+        {
+          "title": "Hydraulics & Water Resources, TransportationEngineering, Environmental Engineering,"
+        },
+        {
+          "title": "Construction planning &Project management."
+        },
+        {
+          "title": "Basic Materials of Construction : Bricks, Cement & mortars, Plain, Reinforced &Pre-stressed"
+        },
+        {
+          "title": "Concrete, Structural steel, Construction Chemicals."
+        },
+        {
+          "title": "Structural elements of a building: foundation, plinth, lintel, chejja, Masonry wall, column, beam,"
+        },
+        {
+          "title": "slab and staircase"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Societal and Global Impact of Infrastructure",
+      "hours": 10,
+      "topics": [
+        {
+          "title": "Societal and Global Impact of Infrastructure"
+        },
+        {
+          "title": "Infrastructure:Introduction to sustainable development goals, Smart city concept, clean city concept,"
+        },
+        {
+          "title": "Safe city concept"
+        },
+        {
+          "title": "Environment: Water Supply and Sanitary systems, urban air pollution management, Solid waste"
+        },
+        {
+          "title": "management, identification of Landfill sites, urban flood control"
+        },
+        {
+          "title": "Built-environment: Energy efficient buildings, recycling, Temperature andSound control in"
+        },
+        {
+          "title": "buildings, Security systems; Smart buildings."
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Analysis of force systems",
+      "hours": 10,
+      "topics": [
+        {
+          "title": "Analysis of force systems: Concept of idealization, system of forces, principles of superposition"
+        },
+        {
+          "title": "and transmissibility, Resolution and composition of forces, Law of Parallelogram of forces,"
+        },
+        {
+          "title": "Resultant of concurrent and non-concurrent coplanar force systems,moment of forces, couple,"
+        },
+        {
+          "title": "Varignon’s theorem, free body diagram, equations of equilibrium, equilibrium of concurrent and"
+        },
+        {
+          "title": "non-concurrent coplanar force systems"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Centroid",
+      "hours": 10,
+      "topics": [
+        {
+          "title": "Centroid:Importance of centroid and centre of gravity, methods of determining the centroid,"
+        },
+        {
+          "title": "locating the centroid of plane laminae from first principles, centroid of built-up sections. Numerical"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Moment of inertia",
+      "hours": 10,
+      "topics": [
+        {
+          "title": "Moment of inertia:Importance of Moment of Inertia, method of determining the second moment of"
+        },
+        {
+          "title": "area (moment of inertia) of plane sections from first principles, parallel axis theorem and"
+        },
+        {
+          "title": "perpendicular axis theorem, section modulus, radius of gyration, moment of inertia of built-up"
+        },
+        {
+          "title": "sections, Numerical Examples."
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Understand the various disciplines of civil engineering",
+    "Understand the infrastructure requirement for sustainable development",
+    "Compute the resultant and equilibrium of force systems.",
+    "Locate the centroid of plane and built-up sections",
+    "Compute the moment of inertia of plane and built-up sections."
+  ]
+}

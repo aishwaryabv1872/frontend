@@ -1,0 +1,396 @@
+﻿{
+  "university": "Visvesvaraya Technological University",
+  "university_short_name": "VTU",
+  "scheme": "VTU 2022 Scheme",
+  "regulation": "2022",
+  "branch": "Computer Science and Engineering",
+  "branch_code": "CSE",
+
+  "source": {
+    "scheme_document": "cse-sem-1-2-scheme.pdf",
+    "source_name": "VTU",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23"
+  },
+
+  "semesters": [
+    {
+      "semester": 1,
+      "credits": 20,
+
+      "common_courses": [
+        {
+          "code": "BMATS101",
+          "name": "Mathematics-I for CSE Stream",
+          "credits": 4
+        }
+      ],
+
+      "science_group": {
+        "name": "Applied Science Group",
+        "selection": "one",
+        "options": [
+          {
+            "code": "BPHYS102",
+            "name": "Applied Physics for CSE Stream",
+            "credits": 4,
+            "group": "Physics"
+          },
+          {
+            "code": "BCHES102",
+            "name": "Applied Chemistry for CSE Stream",
+            "credits": 4,
+            "group": "Chemistry"
+          }
+        ]
+      },
+
+      "conditional_courses": {
+        "physics_group": [
+          {
+            "code": "BPOPS103",
+            "name": "Principles of Programming Using C",
+            "credits": 3
+          }
+        ],
+        "chemistry_group": [
+          {
+            "code": "BCEDK103",
+            "name": "Computer-Aided Engineering Drawing",
+            "credits": 3
+          }
+        ]
+      },
+
+      "choice_groups": [
+        {
+          "group_id": "esc_1",
+          "name": "Engineering Science Course-I",
+          "selection": "one",
+          "options": [
+            {
+              "code": "BESCK104A",
+              "name": "Introduction to Civil Engineering",
+              "credits": 3
+            },
+            {
+              "code": "BESCK104B",
+              "name": "Introduction to Electrical Engineering",
+              "credits": 3
+            },
+            {
+              "code": "BESCK104C",
+              "name": "Introduction to Electronics Communication",
+              "credits": 3
+            },
+            {
+              "code": "BESCK104D",
+              "name": "Introduction to Mechanical Engineering",
+              "credits": 3
+            },
+            {
+              "code": "BESCK104E",
+              "name": "Introduction to C Programming",
+              "credits": 3
+            }
+          ],
+          "rule": "CSE/ISE/allied branches shall not select BESCK104E."
+        },
+
+        {
+          "group_id": "etc_plc_1",
+          "name": "Emerging Technology Course-I / Programming Language Course-I",
+          "selection": "one",
+          "groups": [
+            {
+              "group": "ETC-I",
+              "selection": "one",
+              "options": [
+                {
+                  "code": "BETCK105A",
+                  "name": "Smart Materials and Systems",
+                  "credits": 3
+                },
+                {
+                  "code": "BETCK105B",
+                  "name": "Green Buildings",
+                  "credits": 3
+                },
+                {
+                  "code": "BETCK105C",
+                  "name": "Introduction to Nano Technology",
+                  "credits": 3
+                },
+                {
+                  "code": "BETCK105D",
+                  "name": "Introduction to Sustainable Engineering",
+                  "credits": 3
+                },
+                {
+                  "code": "BETCK105E",
+                  "name": "Renewable Energy Sources",
+                  "credits": 3
+                },
+                {
+                  "code": "BETCK105F",
+                  "name": "Waste Management",
+                  "credits": 3
+                },
+                {
+                  "code": "BETCK105G",
+                  "name": "Emerging Applications of Biosensors",
+                  "credits": 3
+                },
+                {
+                  "code": "BETCK105H",
+                  "name": "Introduction to Internet of Things (IOT)",
+                  "credits": 3
+                },
+                {
+                  "code": "BETCK105I",
+                  "name": "Introduction to Cyber Security",
+                  "credits": 3
+                },
+                {
+                  "code": "BETCK105J",
+                  "name": "Introduction to Embedded System",
+                  "credits": 3
+                }
+              ]
+            },
+            {
+              "group": "PLC-I",
+              "selection": "one",
+              "options": [
+                {
+                  "code": "BPLCK105A",
+                  "name": "Introduction to Web Programming",
+                  "credits": 3
+                },
+                {
+                  "code": "BPLCK105B",
+                  "name": "Introduction to Python Programming",
+                  "credits": 3
+                },
+                {
+                  "code": "BPLCK105C",
+                  "name": "Basics of JAVA Programming",
+                  "credits": 3
+                },
+                {
+                  "code": "BPLCK105D",
+                  "name": "Introduction to C++ Programming",
+                  "credits": 3
+                }
+              ]
+            }
+          ],
+          "cross_semester_rule": "If ETC-I is selected in Semester 1, PLC-II must be selected in Semester 2. If PLC-I is selected in Semester 1, ETC-II must be selected in Semester 2."
+        }
+      ],
+
+      "language_and_foundation": [
+        {
+          "choice": [
+            {
+              "code": "BENGK106",
+              "name": "Communicative English"
+            },
+            {
+              "code": "BPWSK106",
+              "name": "Professional Writing Skills in English"
+            }
+          ],
+          "credits": 1
+        },
+        {
+          "choice": [
+            {
+              "code": "BKSKK107",
+              "name": "Samskrutika Kannada"
+            },
+            {
+              "code": "BKBKK107",
+              "name": "Balake Kannada"
+            },
+            {
+              "code": "BICOK107",
+              "name": "Indian Constitution"
+            }
+          ],
+          "credits": 1
+        },
+        {
+          "choice": [
+            {
+              "code": "BIDTK158",
+              "name": "Innovation and Design Thinking"
+            },
+            {
+              "code": "BSFHK158",
+              "name": "Scientific Foundations of Health"
+            }
+          ],
+          "credits": 1
+        }
+      ]
+    },
+
+    {
+      "semester": 2,
+      "credits": 20,
+
+      "common_courses": [
+        {
+          "code": "BMATS201",
+          "name": "Mathematics-II for CSE Stream",
+          "credits": 4
+        }
+      ],
+
+      "conditional_courses": {
+        "physics_group": [
+          {
+            "code": "BCHES202",
+            "name": "Applied Chemistry for CSE Stream",
+            "credits": 4
+          },
+          {
+            "code": "BCEDK203",
+            "name": "Computer-Aided Engineering Drawing",
+            "credits": 3
+          }
+        ],
+        "chemistry_group": [
+          {
+            "code": "BPHYS202",
+            "name": "Applied Physics for CSE Stream",
+            "credits": 4
+          },
+          {
+            "code": "BPOPS203",
+            "name": "Principles of Programming Using C",
+            "credits": 3
+          }
+        ]
+      },
+
+      "choice_groups": [
+        {
+          "group_id": "esc_2",
+          "name": "Engineering Science Course-II",
+          "selection": "one",
+          "options": [
+            {
+              "code": "BESCK204A",
+              "name": "Engineering Science Course-II Option A",
+              "credits": 3
+            },
+            {
+              "code": "BESCK204B",
+              "name": "Engineering Science Course-II Option B",
+              "credits": 3
+            },
+            {
+              "code": "BESCK204C",
+              "name": "Engineering Science Course-II Option C",
+              "credits": 3
+            },
+            {
+              "code": "BESCK204D",
+              "name": "Engineering Science Course-II Option D",
+              "credits": 3
+            },
+            {
+              "code": "BESCK204E",
+              "name": "Engineering Science Course-II Option E",
+              "credits": 3
+            }
+          ]
+        },
+
+        {
+          "group_id": "etc_plc_2",
+          "name": "Programming Language Course-II / Emerging Technology Course-II",
+          "selection": "one",
+          "groups": [
+            {
+              "group": "ETC-II",
+              "selection": "one",
+              "codes": [
+                "BETCK205A",
+                "BETCK205B",
+                "BETCK205C",
+                "BETCK205D",
+                "BETCK205E",
+                "BETCK205F",
+                "BETCK205G",
+                "BETCK205H",
+                "BETCK205I",
+                "BETCK205J"
+              ]
+            },
+            {
+              "group": "PLC-II",
+              "selection": "one",
+              "codes": [
+                "BPLCK205A",
+                "BPLCK205B",
+                "BPLCK205C",
+                "BPLCK205D"
+              ]
+            }
+          ],
+          "cross_semester_rule": "The Semester 2 choice must be the opposite category selected in Semester 1."
+        }
+      ],
+
+      "language_and_foundation": [
+        {
+          "choice": [
+            {
+              "code": "BPWSK206",
+              "name": "Professional Writing Skills in English"
+            },
+            {
+              "code": "BENGK206",
+              "name": "Communicative English"
+            }
+          ],
+          "credits": 1
+        },
+        {
+          "choice": [
+            {
+              "code": "BICOK207",
+              "name": "Indian Constitution"
+            },
+            {
+              "code": "BKSKK207",
+              "name": "Samskrutika Kannada"
+            },
+            {
+              "code": "BKBKK207",
+              "name": "Balake Kannada"
+            }
+          ],
+          "credits": 1
+        },
+        {
+          "choice": [
+            {
+              "code": "BSFHK258",
+              "name": "Scientific Foundations of Health"
+            },
+            {
+              "code": "BIDTK258",
+              "name": "Innovation and Design Thinking"
+            }
+          ],
+          "credits": 1
+        }
+      ]
+    }
+  ]
+}

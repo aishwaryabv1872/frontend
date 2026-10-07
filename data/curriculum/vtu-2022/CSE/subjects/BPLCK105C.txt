@@ -1,0 +1,196 @@
+16-2-2023
+
+1
+
+
+ Course Title:  Basics of Java Programming
+ Course Code: BPLCK105C/BPLCK205C CIE Marks 50
+ Course Type (Theory/Practical
+/Integrated )
+Integrated
+
+SEE Marks 50
+ Total Marks 100
+ Teaching Hours/Week (L:T:P: S) 2:0:2 Exam Hours 03
+ Total Hours of Pedagogy 40 hours  Credits 03
+
+
+Course objectives
+● Learn fundamental features of object oriented language and JAVA
+● Set up Java JDK environment to create, debug and run simple Java programs.
+● Learn object oriented concepts using programming examples.
+● Study the concepts of importing of packages and exception handling mechanism.
+
+
+Teaching-Learning Process
+These are sample Strategies, which teacher can use to accelerate the attainment of the various course outcomes
+and make Teaching –Learning more effective
+1. Use https://pythontutor.com/visualize.html#mode=edit in order to visualize the Java programs
+2. Chalk and talk
+3. Onine demonstration
+4. Hands on problem solving
+
+
+
+ Module-1  (8 hours)
+ An Overview of Java: Object-Oriented Programming, A First Simple Program, A Second Short Program, Two
+Control Statements, Using Blocks of Code, Lexical Issues, The Java Class  Libraries, Data Types, Variables, and
+Arrays: Java Is a Strongly Typed Language, The Primitive Types, Integers, Floatin g-Point Types, Characters,
+Booleans, A Closer Look at Literals, Variables, Type Conversion and Ca sting, Automatic Type Promotion in
+Expressions, Arrays, A Few Words About Strings
+Text book 1: Ch 2, Ch 3
+ Module-2   (8 hours)
+ Operators: Arithmetic Operators, The Bitwise Operators, Relational Opera tors, Boolean Logical Operators, The
+Assignment Operator, The ? Operator, Operator Precedence, Using Parenthese s, Control Statements: Java‟s
+Selection Statements, Iteration Statements, Jump Statements.
+Text book 1: Ch 4, Ch 5
+ Module-3 (8 hours)
+ Introducing Classes: Class Fundamentals, Declaring Objects, Assigning Object Reference Variables,
+Introducing Methods, Constructors, The this Keyword, Garbage Collection, The finalize( ) Method, A
+Stack Class, A Closer Look at Methods and Classes: Overloading Methods, Using Objects as
+Parameters, A Closer Look at Argument Passing, Returning Objects, Recursion, Introducing Ac cess
+Control, Understanding static, Introducing final, Arrays Revisited
+Text book 1: Ch 6, Ch 7 ( 7.1-7.9 )
+ Module-4 (8 hours)
+ Inheritance: Inheritance, Using super, Creating a Multilevel Hierarchy, When Constructors Are
+Called, Method Overriding, Dynamic Method Dispatch, Using Abstract Classes, Using f inal with
+Inheritance, The Object Class.
+Text book 1: Ch 8
+ Module-5 (8 hours)
+
+16-2-2023
+
+2
+
+ Packages and Interfaces: Packages, Access Protection, Importing Packages, Int erfaces, Exception Handling:
+Exception-Handling Fundamentals, Exception Types, Uncaught Exceptions, Using tr y and catch, Multiple catch
+Clauses, Nested try Statements, throw, throws, finally, Java‟s Built -in Exceptions, Creating Your Own Exception
+Subclasses, Chained Exceptions, Using Exceptions.
+Text book 1: Ch 9, Ch 10
+Course outcome (Course Skill Set)
+
+At the end of the course the student will be able to:
+CO1 To explain the features and object oriented concepts in JAVA programming
+CO2 To analyse working of bitwise operators in JAVA
+CO3 To develop simple programs based on polymorphism and inheritance
+CO4 To describe the concepts of importing packages and exception handling mechanism
+
+
+Programming Assignments
+
+1. Write a JAVA program that prints all real solutions to the quadratic equation ax2+bx+c=0. Read in a,
+b, c and use the quadratic formula.
+2. Write a JAVAprogram for multiplication of two arrays.
+3. Demonstrate the following operations and sign extension with Java programs
+(i) <<  (ii)  >> (iii)  >>>
+4. Write aJAVA program to sort list of elements in ascending and descending order
+
+5. Create a JAVA class called Student with the following details as variables within it.
+USN
+NAME
+BRANCH
+PHONE
+PERCENTAGE
+Write a JAVA program to create n Student objects and print the USN, Name, Branch,  Phone, and percentage
+of these objects with suitable headings.
+
+6. Write a JAVA program demonstrating Method overloading and Constructor overloading.
+
+7. Design a super class called Staff with details as StaffId, Name, Phone, Salary. Extend this class by
+writing three subclasses namely Teaching (domain, publications), Technical (skills), and Contract
+(period). Write a JAVA program to read and display at least 3 staff objects of all three categories.
+
+8. Demonstrate dynamic dispatch using abstract class in JAVA.
+
+9. Create two packages P1 and P2. In package P1, create  class A, class B inherited from A,  class C .  In
+package P2, create class D inherited from class A in package P1 and class E. Demonstrate working of
+access modifiers (private, public, protected, default) in all these classes using JAVA.
+10. Write a JAVA program to read two integers a and b. Compute a/b and print, when b is not zero. Raise
+an exception when b is equal to zero. Also demonstrate working of ArrayIndexOutOfBoundException.
+
+
+16-2-2023
+
+3
+
+Assessment Details (both CIE and SEE)
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester End Exam (SEE) is 50%. The
+minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The minimum passing
+mark for the SEE is 35% of the maximum marks (18 marks out of 50). A student shall be deemed to have
+satisfied the academic requirements and earned the credits allotted to each subject/ course if the student secures
+not less than 35% (18 Marks out of 50) in the semester-end examination(SEE), and a minim um of 40% (40
+marks out of 100) in the sum total of the CIE (Continuous Internal Evaluation) and SEE ( Semester End
+Examination) taken together.
+Continuous Internal Evaluation (CIE):
+The CIE marks for the theory component of the IC shall be 30 marks and for the laboratory
+component 20 Marks.
+CIE for the theory component of the IC
+ Three Tests each of 20 Marks; after the completion of the syllabus of 35-40%,  65-70%, and
+90-100%  respectively.
+ Two Assignments/two quizzes/ seminars/one field survey and report presentation/one-
+course project totaling20 marks.
+Total Marks scored (test + assignments) out of 80 shall be scaled down to 30 marks
+CIE for the practical component of the IC
+ On completion of every experiment/program in the laboratory, the students shall be
+evaluated and marks shall be awarded on the same day. The 15 marks are for
+conducting the experiment and preparation of the laboratory record, the other 05
+marks shall be for the test conducted at the end of the semester.
+ The CIE marks awarded in the case of the Practical component shall be based on the
+continuous evaluation of the laboratory report. Each experiment report can be evaluated
+for 10 marks. Marks of all experiments’ write-ups are added and scaled down to 15
+marks.
+ The laboratory test (duration 03 hours) at the end of the 15th week of the semester
+/after completion of all the experiments (whichever is early) shall be conducted for 50
+marks and scaled down to 05 marks.
+Scaled-down marks of write-up evaluations and tests added will be CIE marks for the laboratory
+component of IC for 20 marks.
+ The minimum marks to be secured in CIE to appear for SEE shall be 12 (40% of
+maximum marks) in the theory component and 08 (40% of maximum marks) in the
+practical component. The laboratory component of the IC/IPCC shall be for CIE only.
+
+16-2-2023
+
+4
+
+However, in SEE, the questions from the laboratory component shall be included. The
+maximum of 05 questions is to be set from the practical component of IC/IPCC, the total
+marks of all questions should not be more than 25 marks.
+The theory component of the IC shall be for both CIE and SEE.
+Semester End Examination (SEE):
+Theory SEE will be conducted by University as per the scheduled timetable, with com mon question papers for
+the subject (duration 03 hours)
+ The question paper shall be set for 100 marks. The medium of the question paper shall be English).
+The duration of SEE is 03 hours.
+The question paper will have 10 questions. Two questions per module. Each question is set for 20 marks.
+The students have to answer 5 full questions, selecting one full question from each module. The student
+has to answer for 100 marks and marks scored out of 100 shall be proportionally reduced to 30 marks.
+There will be 2 questions from each module. Each of the two questions under a module (with a
+maximum of 3 sub-questions), should have a mix of topics under that module.
+
+
+
+Suggested Learning Resources:
+Books (Title of the Book/Name of the author/Name of the publisher/Edition and  Year)
+1.  Herbert Schildt, Java The Complete Reference, 7th Edition, Tata McGraw Hill, 2007.
+Web links and Video Lectures (e-Resources):
+
+● https://onlinecourses.nptel.ac.in/noc22_cs47/preview
+
+Activity Based Learning (Suggested Activities in Class)/ Practical Based learning
+● Conduct on spot problem solving based on JAVA
+● Develop simple GUI interfaces for a computer program to interact with users
+
+
+
+COs and POs Mapping (Individual teacher has to fill up)
+COs POs
+1 2 3 4 5 6 7
+CO1
+CO2
+CO3
+CO4
+
+
+
+Level 3- Highly Mapped,      Level 2-Moderately Mapped,       Level 1-Low Mapped,     Level 0- Not Mapped

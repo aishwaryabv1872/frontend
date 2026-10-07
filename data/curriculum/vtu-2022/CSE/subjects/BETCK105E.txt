@@ -1,0 +1,145 @@
+16-2-2023
+1
+
+
+RENEWABLE ENERGY SOURCES
+Course Code: BETCK105E/205E CIE Marks 50
+Course Type
+(Theory/Practical/Integrated )
+Theory SEE Marks 50
+Total Marks 100
+Teaching Hours/Week (L:T:P: S) 3:0:0:0 Exam Hours 03
+Total Hours of Pedagogy 40 hours  Credits 03
+
+Course objectives
+ To understand energy scenario, energy sources and theirutilization.
+ To explore society’s present needs and future energy demands.
+ To Study the principles of renewable energy conversionsystems.
+ To exposed to energy conservation methods.
+
+Teaching-Learning Process
+These are sample Strategies, which teacher can use to accelerate the attainment of the various course outcomes
+and make Teaching –Learning more effective
+1. Use pie chart showing distribution of renewable energy sources
+2. Use wind turbine models
+3. Use sun path diagrams
+Module-1  (08 hours)
+Introduction: Principles of renewable energy; energy and sustainable development, fundamentals  and social
+implications. worldwide renewable energy availability, renewable energy availabilit y in India,  brief descriptions on
+solar energy, wind energy, tidal energy, wave energy, ocean thermal en ergy, biomass energy, geothermal energy, oil
+shale. Introduction to Internet of energy (IOE).
+Module-2   (08 hours)
+Solar Energy:Fundamentals; Solar Radiation; Estimation of solar radiation on horizontal and in clined surfaces; Solar
+radiation Measurements- Pyrheliometers, Pyrometer, Sunshine Recorder.Solar Thermal systems: Flat plate collector;
+Solar distillation; Solar pond electric power plant.
+Solar electric power generation- Principle of Solar cell, Photovoltaic system for electric power generation, adva ntages,
+Disadvantages and applications of solar photovoltaic system.
+Module-3(08 hours)
+Wind Energy : Properties of wind, availability of wind energy in India, wind velo city and power from wind; major
+problems associated with wind power, Basic components of wind energ y conversion system (WECS) ; Classification of
+WECS- Horizontal axis- single, double and muliblade system. Vertical axis- Sa vonius and darrieus types.
+Biomass Energy : Introduction; Photosynthesis Process; Biofuels; Biomass Resources ; Biomass conversion
+technologies-fixed dome; Urban waste to energy conversion; Biomass gasification (Do wndraft) .
+Module-4(08 hours)
+Tidal Power : Tides and waves as energy suppliers and their mechanics; fundamental ch aracteristics of tidal power,
+harnessing tidal energy, advantages and limitations.
+Ocean Thermal Energy Conversion:  Principle of working, OTEC power stations in the world, problems ass ociated
+with OTEC.
+Module-5 (08 hours)
+Green Energy : Introduction, Fuel cells: Classification of fuel cells – H 2; Operating principles,
+ZeroenergyConcepts.Benefits of hydrogen energy, hydrogen prod uction technologies (electrolysis method only),
+hydrogen energy storage, applications of hydrogen energy, problem associated with hydrogen energy.
+
+16-2-2023
+2
+
+Course outcome (Course Skill Set)
+
+At the end of the course the student will be able to:
+CO1 Describe the environmental aspects of renewable energy resources. In Comp arison with various
+conventional energy systems, their prospects and limitations.
+CO2 Describe the use of solar energy and the various components used in the ener gy production with respect to
+applications like-heating, cooling, desalination, power generation.
+CO3 Understand the conversion principles of wind and tidal energy
+CO4 Understand the concept of biomass energy resources and green energy.
+CO5 Acquire the basic knowledge of ocean thermal energy conversion and hydrogen energy.
+
+
+16-2-2023
+3
+
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester En d Exam (SEE) is 50%. The
+minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The mini mum passing
+mark for the SEE is 35% of the maximum marks (18 marks out of 50). A student shall be deemed to have satisfied
+the academic requirements and earned the credits allotted to each subject/ course if the student secures not less
+than 35% (18 Marks out of 50) in the semester-end examination(SEE), and a minimum of 40% (40 marks out of
+100) in the sum total of the CIE (Continuous Internal Evaluation) and SEE (S emester End Examination) taken
+together.
+Continuous Internal Evaluation(CIE):
+Three Tests each of 20 Marks;
+ 1st, 2nd, and 3rd tests shall be conducted after completion of the syllabus of 30-35%,
+70-75%, and 90-100% of the course/s respectively.
+ Assignments/Seminar/quiz/group discussion /field survey & report presentation/ course
+project/Skill development activities, suitably planned to attain the COs and POs for a total of
+40 Marks.
+If the nature of the courses requires assignments/Seminars/Quizzes/group discussion two
+evaluation components shall be conducted. If course project/field survey/skill development
+activities etc then the evaluation method shall be one.
+
+Total CIE marks (out of 100 marks) shall be scaled down to 50 marks
+
+Semester End Examination (SEE):
+Theory SEE will be conducted by University as per the scheduled timetable, with c ommon question papers for the
+subject (duration 03 hours)
+ The question paper shall be set for 100 marks. The medium of the question paper shall be English). The duration of
+SEE is 03 hours.
+ The question paper will have 10 questions. Two questions per module. Each question is set for 20 marks. The students
+have to answer 5 full questions, selecting one full question from each module. The student has to answer for 100
+marks and marks scored out of 100 shall be proportionally reduced to 50 marks.
+ There will be 2 questions from each module. Each of the two questions under a module (with a maximum of 3 sub-
+questions), should have a mix of topics under that module.
+
+
+
+
+Semester End Examination(SEE):
+Theory SEE will be conducted by University as per the scheduled timetable, with c ommon question papers for the
+subject (duration 03 hours)
+ The question paper shall be set for 100 marks. The medium of the question paper shall be
+English/Kannada). The duration of SEE is 03 hours.
+ The question paper will have 10 questions. Two questions per module. Each question is set for 20
+marks.The students have to answer 5 full questions, selecting one full question from each module. The
+
+Suggested Learning Resources:
+Text Books (Title of the Book/Name of the author/Name of the publisher/Edi tion and Year)
+1. Nonconventional Energy sources, G D Rai, Khanna Publication, Fourth Edition,
+2. Energy Technology, S.Rao and Dr. B.B. Parulekar, Khanna Publication.Solaren ergy, SubhasPSukhatme,
+TataMcGrawHill, 2ndEdition,1996.
+
+
+
+16-2-2023
+4
+
+Reference Books:
+1. Principles of Energy conversion, A. W. Culp Jr.,, McGraw Hill, 1996
+2. Non-Convention EnergyResources, Shobh Nath Singh, Pearson, 2018
+Web links and Video Lectures (e-Resources):
+  E-book URL:https://www.pdfdrive.com/non-conventional-energy-sources-e10086374. html
+ E-book URL:https://www.pdfdrive.com/non-conventional-energy-systems-nptel-d17376903.html
+ E-book URL: https://www.pdfdrive.com/renewable-energy-sources-and-their-applications- e33 423592.html
+ E-book URL: https://www.pdfdrive.com/lecture-notes-on-renewable-energy-sources-e34339149.html
+ https://onlinecourses.nptel.ac.in/noc18_ge09/preview
+ Activity Based Learning (Suggested Activities in Class)/ Practical Based learning
+ Poster presentation on the theme of renewable energy sources
+ Industry Visit
+ COs and POs Mapping (Individual teacher has to fill up)
+ PO1 PO2 PO3 PO4 PO5 PO6 PO7 PO8 PO9 PO10 PO11 PO12
+CO1
+CO2
+CO3
+CO4
+CO5
+
+Level 3- Highly Mapped, Level 2-Moderately Mapped, Level 1-Low Mapped, Level 0- Not Mapped

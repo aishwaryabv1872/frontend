@@ -1,0 +1,226 @@
+{
+  "subject_code": "BETCK105F",
+  "subject_name": "Waste Management",
+  "credits": 3,
+  "course_type": "Theory",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction to Solid Waste Management",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Classification of solid wastes (source and type based)"
+        },
+        {
+          "title": "Solid waste management (SWM)"
+        },
+        {
+          "title": "Elements of SWM"
+        },
+        {
+          "title": "ESSWM (environmentally sound solid waste management)"
+        },
+        {
+          "title": "EST (environmentally sound technologies)"
+        },
+        {
+          "title": "Factors affecting SWM"
+        },
+        {
+          "title": "Indian scenario"
+        },
+        {
+          "title": "Progress in MSW (municipal solid waste) management in India"
+        },
+        {
+          "title": "Indian and global scenario of e-waste"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Waste Generation Aspects",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Waste stream assessment (WSA)"
+        },
+        {
+          "title": "Waste generation and composition"
+        },
+        {
+          "title": "Waste characteristics (physical and chemical)"
+        },
+        {
+          "title": "Health and environmental effects"
+        },
+        {
+          "title": "Public health and environmental effects"
+        },
+        {
+          "title": "Comparative assessment of waste generation and composition of developing and developed nations"
+        },
+        {
+          "title": "A case study results from an Indian city"
+        },
+        {
+          "title": "Handouts on solid waste compositions"
+        },
+        {
+          "title": "E-waste generation"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Collection, Storage, Transport and Disposal of Wastes",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Waste Collection"
+        },
+        {
+          "title": "Storage and Transport"
+        },
+        {
+          "title": "Collection components"
+        },
+        {
+          "title": "Storage - containers and collection vehicles"
+        },
+        {
+          "title": "Collection operation"
+        },
+        {
+          "title": "Transfer station"
+        },
+        {
+          "title": "Waste collection system design"
+        },
+        {
+          "title": "Record keeping"
+        },
+        {
+          "title": "Control, inventory and monitoring"
+        },
+        {
+          "title": "Implementing collection and transfer system"
+        },
+        {
+          "title": "A case study"
+        },
+        {
+          "title": "Waste Disposal"
+        },
+        {
+          "title": "Key issues in waste disposal"
+        },
+        {
+          "title": "Disposal options and selection criteria"
+        },
+        {
+          "title": "Sanitary landfill"
+        },
+        {
+          "title": "Landfill gas emission"
+        },
+        {
+          "title": "Leachate formation"
+        },
+        {
+          "title": "Environmental effects of landfill"
+        },
+        {
+          "title": "Landfill operation issues"
+        },
+        {
+          "title": "A case study"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Waste Processing Techniques & Source Reduction, Product Recovery & Recycling",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Purpose of processing"
+        },
+        {
+          "title": "Mechanical volume and size reduction"
+        },
+        {
+          "title": "Component separation"
+        },
+        {
+          "title": "Drying and dewatering"
+        },
+        {
+          "title": "Source Reduction"
+        },
+        {
+          "title": "Product Recovery and Recycling"
+        },
+        {
+          "title": "Basics"
+        },
+        {
+          "title": "Purpose"
+        },
+        {
+          "title": "Implementation, monitoring and evaluation of source reduction"
+        },
+        {
+          "title": "Significance of recycling"
+        },
+        {
+          "title": "Planning of a recycling programme"
+        },
+        {
+          "title": "Recycling programme elements"
+        },
+        {
+          "title": "Commonly recycled materials and processes"
+        },
+        {
+          "title": "A case study"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Hazardous Waste Management and Treatment",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Identification and classification of hazardous waste"
+        },
+        {
+          "title": "Hazardous waste treatment"
+        },
+        {
+          "title": "Pollution prevention and waste minimization"
+        },
+        {
+          "title": "Hazardous wastes management in India"
+        },
+        {
+          "title": "E-waste recycling"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Apply the basics of solid waste management towards sustainable development",
+    "Apply technologies to process waste and dispose the same",
+    "Design working models to convert waste to energy",
+    "Identify and classify hazardous waste and manage the hazard"
+  ]
+}

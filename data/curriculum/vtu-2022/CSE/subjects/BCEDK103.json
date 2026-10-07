@@ -1,0 +1,281 @@
+{
+  "subject_code": "BCEDK103",
+  "subject_name": "Computer Aided Engineering Drawing",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction and Orthographic Projections of Points, Lines and Planes",
+      "hours": null,
+      "topics": [
+        {
+          "title": "Significance of Engineering Drawing"
+        },
+        {
+          "title": "BIS Conventions of Engineering Drawing"
+        },
+        {
+          "title": "Free hand sketching of engineering drawing"
+        },
+        {
+          "title": "Scales"
+        },
+        {
+          "title": "Introduction to Computer Aided Drafting software"
+        },
+        {
+          "title": "Coordinate system and reference planes HP, VP, RPP & LPP of 2D/3D environment"
+        },
+        {
+          "title": "Selection of drawing sheet size and scale"
+        },
+        {
+          "title": "Commands and creation of lines"
+        },
+        {
+          "title": "Coordinate points and axes"
+        },
+        {
+          "title": "Polylines"
+        },
+        {
+          "title": "Square, rectangle and polygons"
+        },
+        {
+          "title": "Splines"
+        },
+        {
+          "title": "Circles and ellipse"
+        },
+        {
+          "title": "Text"
+        },
+        {
+          "title": "Move, copy, offset, mirror and rotate"
+        },
+        {
+          "title": "Trim, extend, break, chamfer and fillet"
+        },
+        {
+          "title": "Curves"
+        },
+        {
+          "title": "Orthographic projections of points in first and third quadrants"
+        },
+        {
+          "title": "Orthographic projections of lines placed in First quadrant only"
+        },
+        {
+          "title": "Orthographic projections of planes: triangle, square, rectangle, pentagon, hexagon and circular laminae"
+        },
+        {
+          "title": "Application on projections of Lines & Planes"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Orthographic Projection of Solids",
+      "hours": null,
+      "topics": [
+        {
+          "title": "Orthographic projection of right regular solids resting on HP only"
+        },
+        {
+          "title": "Prisms"
+        },
+        {
+          "title": "Pyramids"
+        },
+        {
+          "title": "Cylinders"
+        },
+        {
+          "title": "Cones"
+        },
+        {
+          "title": "Cubes"
+        },
+        {
+          "title": "Tetrahedron"
+        },
+        {
+          "title": "Projections of Frustum of cone and pyramids"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Isometric Projections",
+      "hours": null,
+      "topics": [
+        {
+          "title": "Isometric scale"
+        },
+        {
+          "title": "Isometric projection of hexahedron (cube)"
+        },
+        {
+          "title": "Isometric projection of right regular prisms"
+        },
+        {
+          "title": "Isometric projection of pyramids"
+        },
+        {
+          "title": "Isometric projection of cylinders"
+        },
+        {
+          "title": "Isometric projection of cones"
+        },
+        {
+          "title": "Isometric projection of spheres"
+        },
+        {
+          "title": "Isometric projection of combination of two simple solids"
+        },
+        {
+          "title": "Conversion of simple isometric drawings into orthographic views"
+        },
+        {
+          "title": "Problems on applications of Isometric projections of simple objects / engineering components"
+        },
+        {
+          "title": "Introduction to drawing views using 3D environment"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Development of Lateral Surfaces of Solids",
+      "hours": null,
+      "topics": [
+        {
+          "title": "Development of lateral surfaces of right regular prisms, cylinders, pyramids and cones resting with base on HP only"
+        },
+        {
+          "title": "Development of lateral surfaces of their frustums and truncations"
+        },
+        {
+          "title": "Problems on applications of development of lateral surfaces like funnels and trays"
+        },
+        {
+          "title": "Problems on applications of development of lateral surfaces of transition pieces connecting circular duct and rectangular duct"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Multidisciplinary Applications & Practice",
+      "hours": null,
+      "topics": [
+        {
+          "title": "Free hand Sketching"
+        },
+        {
+          "title": "True free hand"
+        },
+        {
+          "title": "Guided Free hand"
+        },
+        {
+          "title": "Roads"
+        },
+        {
+          "title": "Buildings"
+        },
+        {
+          "title": "Utensils"
+        },
+        {
+          "title": "Hand tools & Furniture"
+        },
+        {
+          "title": "Drawing Simple Mechanisms"
+        },
+        {
+          "title": "Bicycles"
+        },
+        {
+          "title": "Tricycles"
+        },
+        {
+          "title": "Gear trains"
+        },
+        {
+          "title": "Ratchets"
+        },
+        {
+          "title": "Two-wheeler cart & Four-wheeler carts to dimensions"
+        },
+        {
+          "title": "Electric Wiring and lighting diagrams"
+        },
+        {
+          "title": "Automatic fire alarm"
+        },
+        {
+          "title": "Call bell system"
+        },
+        {
+          "title": "UPS system"
+        },
+        {
+          "title": "Basic power distribution system using suitable software"
+        },
+        {
+          "title": "Basic Building Drawing"
+        },
+        {
+          "title": "Architectural floor plan"
+        },
+        {
+          "title": "Basic foundation drawing"
+        },
+        {
+          "title": "Steel structures"
+        },
+        {
+          "title": "Frames, bridges and trusses using Auto CAD or suitable software"
+        },
+        {
+          "title": "Electronics Engineering Drawings"
+        },
+        {
+          "title": "Simple Electronics Circuit Drawings"
+        },
+        {
+          "title": "Practice on layers concept"
+        },
+        {
+          "title": "Graphs & Charts"
+        },
+        {
+          "title": "Column chart"
+        },
+        {
+          "title": "Pie chart"
+        },
+        {
+          "title": "Line charts"
+        },
+        {
+          "title": "Gantt charts"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Draw and communicate the objects with definite shape and dimensions",
+    "Recognize and Draw the shape and size of objects through different views",
+    "Develop the lateral surfaces of the object",
+    "Create a Drawing views using CAD software",
+    "Identify the interdisciplinary engineering components or systems through its graphical representation"
+  ]
+}

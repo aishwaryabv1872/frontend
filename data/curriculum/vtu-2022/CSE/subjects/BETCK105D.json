@@ -1,0 +1,248 @@
+{
+  "subject_code": "BETCK105D",
+  "subject_name": "Introduction to Sustainable Engineering",
+  "credits": 3,
+  "course_type": "Theory",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BETCK105D",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Sustainable Development and Role of Engineers",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction"
+        },
+        {
+          "title": "Why and What is Sustainable Development"
+        },
+        {
+          "title": "The Sustainable Development Goals (SDGs)"
+        },
+        {
+          "title": "Paris Agreement and Role of Engineering"
+        },
+        {
+          "title": "Sustainable Development and the Engineering Profession"
+        },
+        {
+          "title": "Key attributes of the Graduate Engineering"
+        },
+        {
+          "title": "Sustainable Engineering Concepts"
+        },
+        {
+          "title": "Factor 4 and Factor 10"
+        },
+        {
+          "title": "Goals of sustainability"
+        },
+        {
+          "title": "System Thinking"
+        },
+        {
+          "title": "Life Cycle Thinking"
+        },
+        {
+          "title": "Circular Economy"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Sustainable Engineering and Concepts, Principles and Frame Work",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Green Economy and Low Carbon Economy"
+        },
+        {
+          "title": "Eco Efficiency"
+        },
+        {
+          "title": "Triple Bottom Line"
+        },
+        {
+          "title": "Guiding principles of sustainable engineering"
+        },
+        {
+          "title": "Frameworks for sustainable Engineering"
+        },
+        {
+          "title": "Environmental Management System"
+        },
+        {
+          "title": "Environmental Auditing"
+        },
+        {
+          "title": "Cleaner Production Assessment"
+        },
+        {
+          "title": "Environmental Impact Assessment"
+        },
+        {
+          "title": "Strategic Environmental Assessment"
+        },
+        {
+          "title": "Life Cycle Management"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Fundamentals of Life Cycle Assessment",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Why and What is LCA"
+        },
+        {
+          "title": "LCA Goal and Scope"
+        },
+        {
+          "title": "Life Cycle Inventory"
+        },
+        {
+          "title": "Life Cycle Impact Assessment"
+        },
+        {
+          "title": "Interpretation and presentation of Results"
+        },
+        {
+          "title": "Iterative Nature of LCA"
+        },
+        {
+          "title": "Methodological Choices"
+        },
+        {
+          "title": "LCI Databases and LCA Softwares"
+        },
+        {
+          "title": "Strength and Limitations of LCA"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Environmental Life Cycle Costing, Social Life Cycle Assessment, and Life Cycle Sustainability Assessment",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction"
+        },
+        {
+          "title": "Environmental Life Cycle Costing"
+        },
+        {
+          "title": "Social Life Cycle Assessment"
+        },
+        {
+          "title": "Life Cycle Sustainability"
+        },
+        {
+          "title": "LCA Applications in Engineering"
+        },
+        {
+          "title": "Environmental Product Declarations and Product Category Rules"
+        },
+        {
+          "title": "Carbon and Water Foot Printing"
+        },
+        {
+          "title": "Energy systems"
+        },
+        {
+          "title": "Buildings and the Built Environment"
+        },
+        {
+          "title": "Chemical and Chemical Production"
+        },
+        {
+          "title": "Food and Agriculture"
+        },
+        {
+          "title": "Introduction to Environmental Economics"
+        },
+        {
+          "title": "What Is Environmental Economics?"
+        },
+        {
+          "title": "Valuing the Environment"
+        },
+        {
+          "title": "Market-based Incentives (or Economic Instruments) for Sustainability"
+        },
+        {
+          "title": "Command-and-Control versus Economic Instruments"
+        },
+        {
+          "title": "A Simple Model of Pollution Control"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Integrating Sustainability in Engineering Design",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Problems Solving in Engineering"
+        },
+        {
+          "title": "Conventional to Sustainable Engineering Design Process"
+        },
+        {
+          "title": "Design for Life Guidelines and Strategies"
+        },
+        {
+          "title": "Measuring Sustainability"
+        },
+        {
+          "title": "Sustainable Design through sustainable procurement criteria"
+        },
+        {
+          "title": "Case studies on sustainable Engineering Design Process"
+        },
+        {
+          "title": "Sustainable Process Design"
+        },
+        {
+          "title": "Sustainable Production Design"
+        },
+        {
+          "title": "Sustainable product design in Electronic Engineering"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Elucidate the basics of sustainable development, sustainable engineering and its role in engineering",
+    "Application of Sustainable Engineering Concepts and Principles in Engineering",
+    "Apply the Principle, and methodology of Life Cycle Assessment Tool to engineering systems",
+    "Understand integration methods of sustainability to Engineering Design"
+  ],
+  "course_learning_objectives": [
+    "To familiarize the students to the area of sustainability and concepts of sustainability engineering",
+    "To enable students with an understanding of principles and frame work of sustainable engineering",
+    "To provide students with an understanding of Life Cycle Assessment tool in sustainable engineering",
+    "To provide students with understanding of integration of sustainability with design."
+  ],
+  "teaching_learning_process": [
+    "Explanation via real life problem, deliberate on solution and inquiry type teaching",
+    "Instructions with interactions in class room lectures (physical/hybrid)",
+    "Use of ICT Tools including You Tube videos and related MOOCs, AR/VR/MR tools",
+    "Flipped Classroom session (approx. 10% of classes)",
+    "Guest talks and competitions for learning beyond the syllabus",
+    "Students oral presentation of case studies"
+  ],
+  "practicals": []
+}

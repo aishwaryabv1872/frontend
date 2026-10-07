@@ -1,0 +1,185 @@
+16-2-2023
+1
+
+
+Course Title:  Introduction to Civil Engineering
+Course Code: BESCK104A/204 CIE Marks 50
+Course Type (Theory/Practical
+/Integrated )
+Theory SEE Marks 50
+Total Marks 100
+Teaching Hours/Week (L:T:P: S) 2:2:0:0 Exam Hours 03
+Total Hours of Pedagogy 25 hrs Lecture+25 hrs Tutorial = 50 hrs Credits 03
+
+Course objectives
+ To make students learn the scope of various specializations of civil engineering.
+ To make students learn the concepts of sustainable infrastructure
+ To develop students’ ability to analyse the problems involving forces, moments with their
+applications.
+ To develop the student’s ability to find out the center of gravity and moment of inertia and their
+applications.
+ To make the students learn about kinematics
+
+Teaching-Learning Process
+These are sample Strategies; which teachers can use to accelerate the attainment of the various
+course outcomes.
+1. Lecture method (L) does not mean only the traditional lecture method, but a different type of
+teaching method may be adopted to develop the outcomes.
+2. Arrange visits to nearby sites to give brief information about the Civil Engineering structures.
+3. Show Video/animation films to explain the infrastructures and the mechanism involved in the
+principle.
+4. Encourage collaborative (Group) Learning in the class.
+5. Ask at least three HOT (Higher-order Thinking) questions in the class, which promotes critical
+thinking.
+6. Adopt Problem Based Learning (PBL), which fosters students’ Analytical skills, develop
+thinking skills such as the ability to evaluate, generalize, and analyze information rather than
+simply recall it.
+7. Topics will be introduced in multiple representations.
+8. Show the different ways to solve the same problem and encourage the students to come up
+with their own creative ways to solve them.
+9. Discuss how every concept can be applied to the real world - and when that's possible, it helps
+improve the students' understanding.
+10. Individual teachers can device innovative pedagogy to improve teaching-learning.
+Module-1  (10)
+Civil Engineering Disciplines and Building Science
+Introduction to Civil Engineering:  Surveying, StructuralEngineering, Geotechnical Engineering,
+Hydraulics & Water Resources, TransportationEngineering, Environmental Engineering,
+Construction planning &Project management.
+Basic Materials of Construction : Bricks, Cement & mortars, Plain, Reinforced &Pre-stressed
+Concrete, Structural steel, Construction Chemicals.
+Structural elements of a building:  foundation, plinth, lintel, chejja, Masonry wall, column, beam,
+slab and staircase
+Module-2   (10)
+Societal and Global Impact of Infrastructure
+Infrastructure:Introduction to sustainable development goals, Smart city concept, clean city concept,
+
+16-2-2023
+2
+
+Safe city concept
+Environment: Water Supply and Sanitary systems, urban air pollution management, Solid waste
+management, identification of Landfill sites, urban flood control
+Built-environment: Energy efficient buildings, recycling, Temperature andSound control in
+buildings, Security systems; Smart buildings.
+
+Module-3(10)
+Analysis of force systems:  Concept of idealization, system of forces, principles of superposition
+and transmissibility, Resolution and composition of forces, Law of Parallelogram of forces,
+Resultant of concurrent and non-concurrent coplanar force systems,moment of forces, couple,
+Varignon’s theorem, free body diagram, equations of equilibrium, equilibrium of concurrent and
+non-concurrent coplanar force systems
+Module-4(10)
+Centroid:Importance of centroid and centre of gravity, methods of determining the centroid,
+locating the centroid of plane laminae from first principles, centroid of built-up sections. Numerical
+examples
+
+Module-5 (10)
+Moment of inertia:Importance of Moment of Inertia, method of determining the second moment of
+area (moment of inertia) of plane sections from first principles, parallel axis theorem and
+perpendicular axis theorem, section modulus, radius of gyration, moment of inertia of built-up
+sections, Numerical Examples.
+Course outcome (Course Skill Set)
+
+At the end of the course the student will be able to:
+CO1 Understand the various disciplines of civil engineering
+CO2 Understand the infrastructure requirement for sustainable development
+CO3 Compute the resultant and equilibrium of force systems.
+CO4 Locate the centroid of plane and built-up sections
+CO5 Compute the moment of inertia of plane and built-up sections.
+
+
+16-2-2023
+3
+
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester En d Exam (SEE) is 50%. The
+minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The mini mum passing
+mark for the SEE is 35% of the maximum marks (18 marks out of 50). A student shall be deemed to have satisfied
+the academic requirements and earned the credits allotted to each subject/ course if the student secures not less
+than 35% (18 Marks out of 50) in the semester-end examination(SEE), and a minimum of 40% (40 marks out of
+100) in the sum total of the CIE (Continuous Internal Evaluation) and SEE (S emester End Examination) taken
+together.
+Continuous Internal Evaluation(CIE):
+Three Tests each of 20 Marks;
+ 1st, 2nd, and 3rd tests shall be conducted after completion of the syllabus of 30-35%,
+70-75%, and 90-100% of the course/s respectively.
+ Assignments/Seminar/quiz/group discussion /field survey & report presentation/ course
+project/Skill development activities, suitably planned to attain the COs and POs for a total of
+40 Marks.
+If the nature of the courses requires assignments/Seminars/Quizzes/group discussion two
+evaluation components shall be conducted. If course project/field survey/skill development
+activities etc then the evaluation method shall be one.
+
+Total CIE marks (out of 100 marks) shall be scaled down to 50 marks
+
+
+
+Semester End Examination(SEE):
+Theory SEE will be conducted by University as per the scheduled timetable, with c ommon question papers for the
+subject (duration 03 hours)
+ The question paper shall be set for 100 marks. The medium of the question paper shall be English). The
+duration of SEE is 03 hours.
+ The question paper will have 10 questions. Two questions per module. Each question is set for 20
+marks.The students have to answer 5 full questions, selecting one full question from each module. The
+student has to answer for 100 marks and marks scored out of 100 shall be proportionally reduced to
+50 marks.
+ There will be 2 questions from each module. Each of the two questions under a module (with a maximum
+of 3 sub-questions), should have a mix of topics under that module.
+
+Suggested Learning Resources:
+Text Books
+1. Bansal R. K., Rakesh Ranjan Beohar and Ahmad Ali Khan, Basic Civil Engineering and
+Engineering Mechanics, 2015,Laxmi Publications.
+2. Kolhapure B K, Elements of Civil Engineering and Engineering Mechanics, 2014, EBPB
+Reference Books:
+1. Beer F.P. and Johnston E. R., Mechanics for Engineers, Statics and Dynamics, 1987, McGraw Hill.
+2. Irving H. Shames, Engineering Mechanics, 2019, Prentice-Hall.
+3. Hibbler R. C., Engineering Mechanics: Principles of Statics and Dynamics, 2017, Pearson Press.
+4. Timoshenko S, Young D. H., Rao J. V., Engineering Mechanics, 5th Edition, 2017, Pearson Press.
+
+16-2-2023
+4
+
+5. Bhavikatti S S, Engineering Mechanics, 2019, New Age International
+6. Reddy Vijaykumar K and Suresh Kumar K, Engineering Mechanics, 2011, BS publication
+Web links and Video Lectures (e-Resources):
+  https://www.youtube.com/watch?v=nGfVTNfNwnk&list=PLOSWwFV98rfKXq2KBphJz95rao7q8PpwT
+ https://www.youtube.com/watch?v=nkg7VNW9UCc&list=PLOSWwFV98rfKXq2KBphJz95rao7q8PpwT&i
+ndex=2
+ https://www.youtube.com/watch?v=ljDIIMvxeg&list=PLOSWwFV98rfKXq2KBphJz95rao7q
+8PpwT&index=5
+ https://www.youtube.com/watch?v=VQRcChR9IkU&list=PLOSWwFV98rfKXq2KBphJz95r
+ao7q8PpwT&index=18
+ https://www.youtube.com/watch?v=3YBXteL-qY4
+ https://www.youtube.com/watch?v=z95UW4wwzSc&list=PLOSWwFV98rfKXq2KBphJz95r
+ao7q8PpwT&index=10
+ https://www.youtube.com/watch?v=lheoBL2QaqU&list=PLOSWwFV98rfKXq2KBphJz95rao
+7q8PpwT&index=7
+ https://www.youtube.com/watch?v=atoP5_DeTPE
+ https://www.youtube.com/watch?v=ksmsp9OzAsI
+ https://www.youtube.com/watch?v=x1ef048b3CE
+ https://www.youtube.com/watch?v=l_Nck-X49qc
+ https://play.google.com/store/apps/details?id=appinventor.ai_jgarc322.Resultant_Force
+ https://www.youtube.com/watch?v=RIBeeW1DSZg
+ https://www.youtube.com/watch?v=R8wKV0UQtlo
+ https://www.youtube.com/watch?v=0RZHHgL8m_A
+ https://www.youtube.com/watch?v=Bls5KnQOWkY
+
+Activity-Based Learning (Suggested Activities in Class)/ Practical Based learning
+ https://www.youtube.com/watch?v=Zrc_gB1YYS0
+ https://play.google.com/store/apps/details?id=vn.edu.best4u.com.bieudonoiluc
+ https://www.youtube.com/watch?v=Hn_iozUo9m4
+ https://play.google.com/store/apps/details?id=com.teobou
+ https://www.youtube.com/watch?v=WOHRp3V-QA0
+
+COs and POs Mapping (Individual teacher has to fill up)
+COs POs
+1 2 3 4 5 6 7 8 9 10 11 12
+CO1 1     1
+CO2 1     1 1
+CO3 2 3
+CO4 2 3
+CO5 2 3
+Level 3- Highly Mapped, Level 2-Moderately Mapped, Level 1-Low Mapped, Level 0- Not Mapped
+Note: Depending on the assessment tool used, higher order POs can be identified by the
+concerned course instructor.

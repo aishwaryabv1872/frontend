@@ -1,0 +1,147 @@
+16-2-2023
+1
+
+
+Course Title:  Introduction to Sustainable Engineering
+Course Code: BETC105D/205D CIE Marks 50
+Course Type (Theory/Practical
+/Integrated )
+Theory  SEE Marks 50
+Total Marks 100
+Teaching Hours/Week (L:T:P: S) 3-0-0-0 Exam Hours 03
+Total Hours of Pedagogy 40 hours  Credits 03
+
+Course Learning Objectives:
+ To familiarize the students to the area of sustainability and concepts of sustainability engineering
+ To enable students with an understanding of principles and frame work of sustainable engineering
+ To provide students with an understanding of Life Cycle Assessment tool in sustainable engineering
+ To provide students with understanding of integration of sustainability with design.
+Teaching-Learning Process
+These are sample Strategies, which teacher can use to accelerate the attainment of the various course
+outcomes and make Teaching –Learning more effective
+1. Explanation via real life problem, deliberate on solution and inquiry type teaching
+2. Instructions with interactions in class room lectures (physical/hybrid)
+3. Use of ICT Tools including You Tube videos and related MOOCs, AR/VR/MR tools
+4. Flipped Classroom session (approx.  10% of classes)
+5. Guest talks and competitions for learning beyond the syllabus
+6. Students oral presentation of case studies
+Module-1  (8 Hours)
+Sustainable Development and Role of Engineers : Introduction, Why and What is Sustainable
+Development, THE SDFs, Paris Agreement and Role of Engineering, Sustainable Development and the
+Engineering Profession, Key attributes of the Graduate Engineering
+Sustainable Engineering Concepts : Key concepts – Factor 4 and Factor 10: Goals of sustainability,
+System Thinking, Life Cycle Thinking and Circular Economy
+Module-2   (8 Hours)
+Sustainable Engineering and Concepts, Principles and Frame Work : Green Economy and Low
+Carbon Economy, Eco Efficiency, Triple bottom Line, Guiding principles of sustainable engineering,
+Frameworks for sustainable Engineering.
+Tools for sustainability Assessment:  Environmental Management System, Environmental Auditing,
+Cleaner Production Assessment, Environmental Impact Assessment, Strategic Environmental
+Assessment Life Cycle Management Module-3( 8 Hours)
+Fundamentals of Life Cycle Assessment
+Why and What is LCA, LCA  Goal and Scope, Life cycle inventory, Life Cycle Impact  Assessment,
+Interpretation and presentation of Results, Iterative  Nature of LCA, Methodological Choices, LCI
+Databases and LCA Softwares, Strength and Limitations of LCA.
+Module-4(8 Hours)
+Environmental Life Cycle Costing, Social Life Cycle Assessment, and Life Cycle Sustainability
+Assessment: Introduction, Environmental Life Cycle Costing, Social Life Cycle Assessment , Life Cycle
+Sustainability, LCA Applications in Engineering: Environmental Product Declarations and Product
+Category Rules, Carbon  and Water Foot Printing, Energy systems, Buildings and the Built Environment,
+Chemical and Chemical Production Food and Agriculture
+Introduction to Environmental Economics : Introduction – What Is Environmental Economics?,
+Valuing the Environment, Market-based Incentives (or Economic Instruments) for Sustainability,
+Command-and-Control versus Economic Instruments, A Simple Model of Pollution Control
+
+16-2-2023
+2
+
+Module-5 (8 Hours)
+Integrating Sustainability in Engineering Design:  Problems Solving in Engineering, conventional to
+Sustainable Engineering Design Process, Design for Life Guidelines and Strategies, Me asuring
+Sustainability, Sustainable Design through sustainable procurement criteria, Case studies on sustainable
+Engineering Design Process – Sustainable Process Design,  Sustainable Production Design Sustainable
+product design in Electronic Engineering,
+Course outcome (Course Skill Set)
+At the end of the course the student will be able to:
+CO1 Elucidate  the basics of   sustainable development, sustainable engineering and its role in
+engineering
+CO2 Application of Sustainable Engineering Concepts and Principles in Engineering
+CO3 Apply  the Principle, and  methodology of  Life Cycle Assessment Tool  to engineering systems
+CO4 Understand integration methods  of  sustainability to Engineering Design
+CO5
+
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester En d Exam (SEE) is 50%. The
+minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The mini mum passing
+mark for the SEE is 35% of the maximum marks (18 marks out of 50). A student shall be deemed to have satisfied
+the academic requirements and earned the credits allotted to each subject/ course if the student secures not less
+than 35% (18 Marks out of 50) in the semester-end examination(SEE), and a minimum of 40% (40 marks out of
+100) in the sum total of the CIE (Continuous Internal Evaluation) and SEE (S emester End Examination) taken
+together.
+Continuous Internal Evaluation(CIE):
+Three Tests each of 20 Marks;
+ 1st, 2nd, and 3rd tests shall be conducted after completion of the syllabus of 30-35%,
+70-75%, and 90-100% of the course/s respectively.
+ Assignments/Seminar/quiz/group discussion /field survey & report presentation/ course
+project/Skill development activities, suitably planned to attain the COs and POs for a total of
+40 Marks.
+If the nature of the courses requires assignments/Seminars/Quizzes/group discussion two
+evaluation components shall be conducted. If course project/field survey/skill development
+activities etc then the evaluation method shall be one.
+
+Total CIE marks (out of 100 marks) shall be scaled down to 50 marks
+
+Semester End Examination(SEE):
+Theory SEE will be conducted by University as per the scheduled timetable, with common que stion
+papers for the subject (duration 03 hours)
+ The question paper shall be set for 100 marks. The medium of the question paper shall be
+English). The duration of SEE is 03 hours.
+ The question paper will have 10 questions. Two questions per module. Each question is set for
+20 marks. The students have to answer 5 full questions, selecting one full question from each
+module. The student has to answer for 100 marks and marks scored out of 100 shall be
+proportionally reduced to 50 marks.
+ There will be 2 questions from each module. Each of the two questions under a module (wi th a
+maximum of 3 sub-questions),  under that module.
+
+
+16-2-2023
+3
+
+Suggested Learning Resources:
+Books (Title of the Book/Name of the author/Name of the publisher/Edition an d Year)
+1. Introduction to Sustainability for Engineers, ToolseeramRamjeawon, CRC Pres s, 1stEdn., 2020
+2. Sustainability Engineering: Concepts, Design and Case studies, Prentice Ha ll, 1stEdn, 2015
+3. System Analysis for sustainable Engineering: Theory and applications, Ni bin  Chang, McGraw Hill Publications,
+1stEdn., 2010
+4. Engineering for Sustainable development: Delivery a sustainable developme nt goals, UNESCO, International
+Centre for Engineering Education, France, 1stEdn., 2021
+5. Introduction to Sustainable Engineering, Rag. R.L. and Ramesh Lakshmi Dinachandra n, PHI Learning Pvt. Ltd.,
+2ndEdn, 2016
+Web links and Video Lectures (e-Resources):
+  VTU/EDUSAT/SWAYAM/NPTEL/MOOC.
+ https://nptel.ac.in/courses/127105018
+ https:/https://nptel.ac.in/courses/107103081/www.macfound.org
+ https://unesdoc.unesco.org/
+ https://unesdoc.unesco.org/ark:/48223/pf0000375644.locale=en
+ https://engineeringforoneplanet.org/
+
+
+
+
+
+Activity Based Learning (Suggested Activities in Class)/ Practical Based learning
+ Group Discussion of case studies.
+ Solutions to real time case studies
+ Seminar/Poster Presentation
+
+
+
+COs and POs Mapping (Individual course teacher has to fill up)
+COs POs
+1 2 3 4 5 6 7 8 9 10 11 12
+CO1
+CO2
+CO3
+CO4
+CO5
+Level 3- Highly Mapped,      Level 2-Moderately Mapped,       Level 1-Low Mapped,     Level 0- Not Mapped

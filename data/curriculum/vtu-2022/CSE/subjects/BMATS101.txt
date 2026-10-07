@@ -1,0 +1,252 @@
+16-2-2023
+1
+
+I Semester
+Course Title:  Mathematics-I for Computer Science and Engineering
+stream
+Course Code: BMATS101 CIE Marks 50
+Course Type
+(Theory/Practical/Integrated )
+Integrated SEE Marks 50
+Total Marks 100
+Teaching Hours/Week (L:T:P: S) 2:2:2:0 Exam Hours 03
+Total Hours of Pedagogy 40 hours Theory + 10 to12
+Lab slots Credits 04
+
+Course objectives:The goal of the courseMathematics-I for Computer Science and Engineering
+stream(22MATS11) is to
+ Familiarize the importance of calculus associated with one variable and multivariable for
+computer science and engineering.
+ AnalyzeComputer science and engineering problems by applying Ordinary Differential
+Equations.
+ Apply the knowledge of modular arithmetic to computer algorithms.
+ Develop the knowledge of Linear Algebra to solve the system of equations.
+Teaching-Learning Process
+Pedagogy (General Instructions):
+These are sample Strategies, which teachers can use to accelerate the attainment of the various course
+outcomes.
+1. In addition to the traditional lecture method, different types of innovative teaching methods
+may be adopted so that the delivered lessons shall develop students’ theoretical and applied
+mathematical skills.
+2.  State the need for Mathematics with Engineering Studies and Provide real-life examples.
+3. Support and guide the students for self–study.
+4. You will also be responsible for assigning homework, grading assignments and quizzes, and
+documenting students' progress.
+5. Encourage the students to group learning to improve their creative and analytical skills.
+6. Show short related video lectures in the following ways:
+ ● As an introduction to new topics (pre-lecture activity).
+ ● As a revision of topics (post-lecture activity).
+ ● As additional examples (post-lecture activity).
+ ● As an additional material of challenging topics (pre-and post-lecture activity).
+ ● As a model solution of some exercises (post-lecture activity).
+Module-1:Calculus  (8 hours)
+Introduction to polar coordinates and curvature relating to Computer Science and
+Engineering.
+Polar coordinates, Polar curves, angle between the radius vector and the tangent, angle betwee n two
+curves. Pedal equations. Curvature and Radius of curvature - Cartesian, Parametric, Polar and Pedal
+forms. Problems.
+
+Self-study: Center and circle of curvature, evolutes and involutes.
+Applications: Computer graphics, Image processing.
+(RBT Levels: L1, L2 and L3)
+Module-2:Series Expansion and Multivariable Calculus (8 hours)
+
+16-2-2023
+2
+
+Introduction of series expansion and partial differentiation in Computer Science &
+Engineering applications.
+Taylor’s and Maclaurin ’s series expansion for one variable (Statement only) – problems.
+Indeterminate forms - L’Hospital’s rule-Problems.
+Partial differentiation, total derivative - differentiation of composite functions. Jacobian and
+problems. Maxima and minima for a function of two variables. Problems.
+
+Self-study: Euler’s theorem and problems. Method of Lagrange ’s undetermined multipliers with
+single constraint.
+Applications: Series expansion in computer programming, Computing errors and approximations.
+(RBT Levels: L1, L2 and L3)
+ Module-3:  Ordinary Differential Equations (ODEs) of First Order (8 hours)
+Introduction to first-order ordinary differential equations pertaining to the applications f or
+Computer Science & Engineering.
+Linear and Bernoulli ’s differential equations. Exact and reducible to exact differential equations -
+Integrating factors on
+1
+𝑁 (
+𝜕𝑀
+𝜕𝑦 −
+𝜕𝑁
+𝜕𝑥)  𝑎𝑛𝑑
+1
+𝑀 (
+𝜕𝑁
+𝜕𝑥 −
+𝜕𝑀
+𝜕𝑦). Orthogonal trajectories, L-R & C-R circuits.
+Problems.
+Non-linear differential equations:  Introduction to general and singular solutions, Solvable for p
+only, Clairaut’s equations,reducible to Clairaut’s equations. Problems.
+
+Self-Study: Applications of ODEs, Solvable for x and y.
+
+Applications of ordinary differential equations: Rate of Growth or Decay, Conduction of heat.
+(RBT Levels: L1, L2 and L3)
+Module-4: Modular Arithmetic  (8 hours)
+Introduction of modular arithmetic and its applications in Computer Science and Engineering.
+Introduction to Congruences, Linear Congruences, The Remainder theorem, Solving Polynomials,
+Linear Diophantine Equation, System of Linear Congruences, Euler’s Theorem, Wilson Theorem and
+Fermat’s little theorem. Applications of Congruences-RSA algorithm.
+
+Self-Study: Divisibility, GCD, Properties of Prime Numbers, Fundamental theorem of Arithmetic.
+Applications: Cryptography, encoding and decoding, RSA applications in public key encryption.
+(RBT Levels: L1, L2 and L3)
+Module-5: Linear Algebra  (8 hours)
+Introduction of linear algebra related to Computer Science &Engineering.
+Elementary row transformationofa matrix, Rank of a matrix. Consistency and Solution of system of
+linear equations - Gauss-elimination method, Gauss-Jordan method and approximate solution by
+Gauss-Seidel method. Eigenvalues and Eigenvectors, Rayleigh ’s power method to find the
+dominant Eigenvalue and Eigenvector.
+
+Self-Study: Solution of system of equations by Gauss-Jacobi iterative method. Inverse of a square
+matrix by Cayley- Hamilton theorem.
+Applications: Boolean matrix, Network Analysis, Markov Analysis, Critical point of a network
+system. Optimum solution.
+(RBT Levels: L1, L2 and L3).
+
+16-2-2023
+3
+
+List of Laboratory experiments (2 hours/week per batch/ batch strength 15)
+10 lab sessions + 1 repetition class + 1 Lab Assessment
+1 2D plots for Cartesian and polar curves
+2 Finding angle between polar curves, curvature and radius of curvature of a given curve
+3 Finding partial derivatives and Jacobian
+4 Applications to Maxima and Minima of two variables
+5 Solution of first-order ordinary differential equation and plotting the solution curves
+6 Finding GCD using Euclid’s Algorithm
+7 Solving linear congruences 𝒂𝒙 ≡ 𝒃(𝒎𝒐𝒅 𝒎)
+8 Numerical solution of system of linear equations, test for consistency and graphical
+representation
+
+9 Solution of system of linear equations using Gauss-Seidel iteration
+10 Compute eigenvalues and eigenvectors and find the largest and smallest eigenvalue by
+Rayleigh power method.
+
+Suggested software: Mathematica/MatLab/Python/Scilab
+Course outcome (Course Skill Set)
+At the end of the course the student will be able to:
+CO1 apply the knowledge of calculus to solve problems related to polar curves andlearn the
+notion of partial differentiation to compute rate of change of multivariate functions
+CO2 analyze the solution of linear and nonlinear ordinary differential equations
+CO3 get acquainted and to apply modular arithmetic to computer algorithms
+CO4 make use of matrix theory for solving the system of linear equations and compute
+eigenvalues and eigenvectors
+CO5 familiarize with modern mathematical tools namely
+MATHEMATICA/MATLAB/ PYTHON/ SCILAB
+
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester End Exam (SEE) is
+50%. The minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50).
+The minimum passing mark for the SEE is 35% of the maximum marks (18 marks out of 50). A
+student shall be deemed to have satisfied the academic requirements and earned the credits allotted
+to each subject/ course if the student secures not less than 35% (18 Marks out of 50) in the semester-
+end examination(SEE), and a minimum of 40% (40 marks out of 100) in the total of the CIE
+(Continuous Internal Evaluation) and SEE (Semester End Examination) taken together.
+Continuous Internal Evaluation(CIE):
+The CIE marks for the theory component of the IC shall be 30 marks  and for the laboratory
+component 20 Marks.
+CIE for the theory component of the IC
+ Three Tests each of 20 Marks ; after the completion of the syllabus of 35-40%, 65-70%, and 90-
+100% respectively.
+ Two Assignments/two quizzes/ seminars/one field survey and report presentation/one-course
+project totalling 20 marks.
+Total Marks scored (test + assignments) out of 80 shall be scaled down to 30 marks
+CIE for the practical component of the IC
+
+16-2-2023
+4
+
+ On completion of every experiment/program in the laboratory, the students shall be evaluated
+and marks shall be awarded on the same day. The 15 marks  are for conducting the
+experiment and preparation of the laboratory record, the other 05 marks shall be for the test
+conducted at the end of the semester.
+ The CIE marks awarded in the case of the Practical component shall be based on the
+continuous evaluation of the laboratory report. Each experiment report can be evaluated for
+10 marks. Marks of all experiments’ write-ups are added and scaled down to 15 marks.
+ The laboratory test (duration 03 hours)  at the end of the 15 th week of the semester/after
+completion of all the experiments (whichever is early) shall be conducted for 50 marks and
+scaled down to 05 marks.
+Scaled-down marks of write-up evaluations and tests added will be CIE marks for the laboratory
+component of IC/IPCC for 20 marks.
+ The minimum marks to be secured in CIE to appear for SEE shall be 12 (40% of maximum
+marks) in the theory component and 08 (40% of maximum marks) in the practical
+component. The laboratory component of the IC/IPCC shall be for CIE only. However, in
+SEE, the questions from the laboratory component shall be included . The maximum of 05
+questions is to be set from the practical component of IC/IPCC, the total marks of all
+questions should not be more than 25 marks.
+The theory component of the IC shall be for both CIE and SEE.
+
+Semester End Examination(SEE):
+Theory SEE will be conducted by University as per the scheduled timetable, with common question
+papers for the subject (duration 03 hours)
+ The question paper shall be set for 100 marks. The medium of the question paper shall be
+English/Kannada). The duration of SEE is 03 hours.
+ The question paper will have 10 questions. Two questions per module. Each question is set
+for 20 marks. The students have to answer 5 full questions, selecting one full question from
+each module. The student has to answer for 100 marks and marks scored out of 100 shall be
+proportionally reduced to 50 marks.
+ There will be 2 questions from each module. Each of the two questions under a module (with
+a maximum of 3 sub-questions), should have a mix of topics under that module.
+Suggested Learning Resources:
+Books (Title of the Book/Name of the author/Name of the publisher/Edition and Year)
+Text Books
+1. B. S.  Grewal: “Higher Engineering Mathematics”, Khanna Publishers, 44thEd., 2021.
+2. E. Kreyszig: “Advanced Engineering Mathematics”, John Wiley & Sons, 10thEd., 2018.
+3. David M Burton: “Elementary Number Theory” Mc Graw Hill, 7th Ed.,2017.
+Reference Books
+4. V. Ramana: “Higher Engineering Mathematics” McGraw-Hill Education, 11th Ed., 2017
+5. Srimanta Pal & Subodh C.Bhunia : “Engineering Mathematics” Oxford University Press,
+3rd Ed., 2016.
+6. N.P Bali and Manish Goyal : “A Textbook of Engineering Mathematics ” Laxmi
+
+16-2-2023
+5
+
+Publications, 10th Ed., 2022.
+7. C. Ray Wylie, Louis C. Barrett:  “Advanced Engineering Mathematics ” McGraw – Hill
+Book Co., New York, 6th Ed., 2017.
+8. Gupta C.B, Sing S.R and Mukesh Kumar:  “Engineering Mathematic for Semester I and
+II”,  Mc-Graw Hill Education(India) Pvt. Ltd 2015.
+9. H. K. Dass and Er. Rajnish Verma:  “Higher Engineering Mathematics ” S. Chand
+Publication, 3rd Ed., 2014.
+10. James Stewart: “Calculus” Cengage Publications, 7thEd., 2019.
+11. David C Lay: “Linear Algebra and its Applications”, Pearson Publishers, 4th Ed., 2018.
+12. Gareth Williams:  “Linear Algebra with Applications ”, Jones Bartlett Publishers Inc., 6 th
+Ed., 2017.
+13. Gilbert Strang: “Linear Algebra and its Applications”, Cengage Publications, 4th Ed. 2022.
+14. William Stallings:  “Cryptography and Network Security ” Pearson Prentice Hall, 6 th Ed.,
+2013.
+15. Kenneth H Rosen: “Discrete Mathematics and its Applications ” McGraw-Hill, 8 th Ed.
+2019.
+16. Ajay Kumar Chaudhuri: “Introduction to Number Theory ”NCBA Publications, 2 nd Ed.,
+2009.
+17. Thomas Koshy: “Elementary Number Theory with Applications ”Harcourt Academic Press,
+2nd Ed., 2008.
+Web links and Video Lectures (e-Resources):
+ http://nptel.ac.in/courses.php?disciplineID=111
+ http://www.class-central.com/subject/math(MOOCs)
+ http://academicearth.org/
+ VTU e-Shikshana Program
+ VTU EDUSAT Program
+Activity Based Learning (Suggested Activities in Class)/ Practical Based Learning
+ Quizzes
+ Assignments
+ Seminar
+COs and POs Mapping (Individual teacher has to fill up)
+COs POs
+1 2 3 4 5 6 7
+CO1
+CO2
+CO3
+CO4
+CO5
+Level 3- Highly Mapped,      Level 2-Moderately Mapped,       Level 1-Low Mapped,     Level 0- Not Mapped

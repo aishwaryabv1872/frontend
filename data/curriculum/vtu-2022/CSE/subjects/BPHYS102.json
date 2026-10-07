@@ -1,0 +1,375 @@
+{
+  "subject_code": "BPHYS102",
+  "subject_name": "Applied Physics for CSE Stream",
+  "credits": 4,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "BPHYS102/202 official syllabus",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Laser and Optical Fibers",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Characteristics of LASER"
+        },
+        {
+          "title": "Interaction of radiation with matter"
+        },
+        {
+          "title": "Einstein A and B coefficients"
+        },
+        {
+          "title": "Energy density"
+        },
+        {
+          "title": "Laser action"
+        },
+        {
+          "title": "Population inversion"
+        },
+        {
+          "title": "Metastable state"
+        },
+        {
+          "title": "Requisites for laser action"
+        },
+        {
+          "title": "Semiconductor diode laser"
+        },
+        {
+          "title": "Laser applications: barcode scanner"
+        },
+        {
+          "title": "Laser applications: laser printer"
+        },
+        {
+          "title": "Laser cooling - qualitative"
+        },
+        {
+          "title": "Optical fiber principle and structure"
+        },
+        {
+          "title": "Propagation of light in optical fibers"
+        },
+        {
+          "title": "Acceptance angle and numerical aperture"
+        },
+        {
+          "title": "Modes"
+        },
+        {
+          "title": "Refractive-index profile and classification"
+        },
+        {
+          "title": "Attenuation and fiber losses"
+        },
+        {
+          "title": "Fiber networking and communication"
+        },
+        {
+          "title": "Numerical problems"
+        }
+      ],
+      "self_learning": [
+        "Total internal reflection"
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Quantum Mechanics",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "de Broglie hypothesis and wavelength"
+        },
+        {
+          "title": "Phase velocity and group velocity"
+        },
+        {
+          "title": "Heisenberg uncertainty principle"
+        },
+        {
+          "title": "Application of uncertainty principle to electron in nucleus"
+        },
+        {
+          "title": "Complementarity"
+        },
+        {
+          "title": "Wave function"
+        },
+        {
+          "title": "Time-independent Schrödinger equation"
+        },
+        {
+          "title": "Born interpretation"
+        },
+        {
+          "title": "Expectation value"
+        },
+        {
+          "title": "Eigenfunctions and eigenvalues"
+        },
+        {
+          "title": "Particle in one-dimensional infinite potential well"
+        },
+        {
+          "title": "Quantization of energy states"
+        },
+        {
+          "title": "Waveforms and probabilities"
+        },
+        {
+          "title": "Numerical problems"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Quantum Computing",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction to quantum computing"
+        },
+        {
+          "title": "Moore's law and its end"
+        },
+        {
+          "title": "Classical versus quantum computing"
+        },
+        {
+          "title": "Qubit"
+        },
+        {
+          "title": "Bloch sphere"
+        },
+        {
+          "title": "Single, two and N qubits"
+        },
+        {
+          "title": "Dirac representation"
+        },
+        {
+          "title": "Matrix operations"
+        },
+        {
+          "title": "0 and 1 states"
+        },
+        {
+          "title": "Identity operator"
+        },
+        {
+          "title": "Pauli matrices"
+        },
+        {
+          "title": "Conjugate and transpose"
+        },
+        {
+          "title": "Unitary matrix"
+        },
+        {
+          "title": "Row and column matrices and multiplication"
+        },
+        {
+          "title": "Inner product"
+        },
+        {
+          "title": "Probability"
+        },
+        {
+          "title": "Superposition"
+        },
+        {
+          "title": "Normalization"
+        },
+        {
+          "title": "Orthogonality and orthonormality"
+        },
+        {
+          "title": "Quantum gates: NOT, X, Y and Z"
+        },
+        {
+          "title": "Hadamard gate"
+        },
+        {
+          "title": "Phase/S gate"
+        },
+        {
+          "title": "T gate"
+        },
+        {
+          "title": "Controlled gates"
+        },
+        {
+          "title": "CNOT gate"
+        },
+        {
+          "title": "Swap gate"
+        },
+        {
+          "title": "Controlled-Z gate"
+        },
+        {
+          "title": "Toffoli gate"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Electrical Properties of Materials and Applications",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Conductivity in metals"
+        },
+        {
+          "title": "Resistivity"
+        },
+        {
+          "title": "Mobility"
+        },
+        {
+          "title": "Phonon"
+        },
+        {
+          "title": "Matthiessen rule"
+        },
+        {
+          "title": "Limitations of classical free electron theory"
+        },
+        {
+          "title": "Quantum free electron theory"
+        },
+        {
+          "title": "Fermi energy"
+        },
+        {
+          "title": "Density of states"
+        },
+        {
+          "title": "Fermi factor"
+        },
+        {
+          "title": "Temperature and energy variation"
+        },
+        {
+          "title": "Introduction to superconductivity"
+        },
+        {
+          "title": "Resistivity versus temperature"
+        },
+        {
+          "title": "Meissner effect"
+        },
+        {
+          "title": "Critical field and temperature dependence"
+        },
+        {
+          "title": "Types of superconductors"
+        },
+        {
+          "title": "BCS theory - qualitative"
+        },
+        {
+          "title": "Tunnelling"
+        },
+        {
+          "title": "High-temperature superconductivity"
+        },
+        {
+          "title": "Josephson junctions"
+        },
+        {
+          "title": "DC and RF SQUID - qualitative"
+        },
+        {
+          "title": "Charge, phase and flux qubits"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Applications of Physics in Computing",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Physics-based animation taxonomy"
+        },
+        {
+          "title": "Frames and FPS"
+        },
+        {
+          "title": "Size and scale"
+        },
+        {
+          "title": "Weight and strength"
+        },
+        {
+          "title": "Motion and timing"
+        },
+        {
+          "title": "Constant force and acceleration"
+        },
+        {
+          "title": "Odd rule and scenarios"
+        },
+        {
+          "title": "Motion graphs"
+        },
+        {
+          "title": "Character animation"
+        },
+        {
+          "title": "Jumping"
+        },
+        {
+          "title": "Animation of body parts"
+        },
+        {
+          "title": "Magnification"
+        },
+        {
+          "title": "Stop time"
+        },
+        {
+          "title": "Walking"
+        },
+        {
+          "title": "Strides, steps and timing"
+        },
+        {
+          "title": "Descriptive and inferential statistics"
+        },
+        {
+          "title": "Poisson distribution"
+        },
+        {
+          "title": "Proton decay modeling"
+        },
+        {
+          "title": "Normal distributions"
+        },
+        {
+          "title": "Monte Carlo determination of pi"
+        },
+        {
+          "title": "Numerical problems"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Describe the principles of LASERS and Optical fibers and their relevant applications.",
+    "Discuss the basic principles of the Quantum Mechanics and its application in Quantum Computing.",
+    "Summarize the essential properties of superconductors and its applications in qubits.",
+    "Illustrate the application of physics in design and data analysis.",
+    "Practice working in groups to conduct experiments in physics and perform precise and honest measurements."
+  ],
+  "practicals_note": "The official syllabus specifies 16 laboratory experiments, of which any 10 are to be conducted."
+}

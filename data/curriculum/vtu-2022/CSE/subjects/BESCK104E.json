@@ -1,0 +1,212 @@
+{
+  "subject_code": "BESCK104E",
+  "subject_name": "Introduction to C Programming",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction to C",
+      "hours": 6,
+      "topics": [
+        {
+          "title": "Introduction to computers"
+        },
+        {
+          "title": "Input and output devices"
+        },
+        {
+          "title": "Designing efficient programs"
+        },
+        {
+          "title": "Introduction to C"
+        },
+        {
+          "title": "Structure of C program"
+        },
+        {
+          "title": "Files used in a C program"
+        },
+        {
+          "title": "Compilers"
+        },
+        {
+          "title": "Compiling and executing C programs"
+        },
+        {
+          "title": "Variables"
+        },
+        {
+          "title": "Constants"
+        },
+        {
+          "title": "Input/output statements in C"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Operators in C, Decision Control and Looping Statements",
+      "hours": 6,
+      "topics": [
+        {
+          "title": "Operators in C"
+        },
+        {
+          "title": "Type conversion and typecasting"
+        },
+        {
+          "title": "Introduction to decision control"
+        },
+        {
+          "title": "Conditional branching statements"
+        },
+        {
+          "title": "Iterative statements"
+        },
+        {
+          "title": "Nested loops"
+        },
+        {
+          "title": "Break and continue statements"
+        },
+        {
+          "title": "Goto statement"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Functions and Arrays",
+      "hours": 6,
+      "topics": [
+        {
+          "title": "Introduction using functions"
+        },
+        {
+          "title": "Function definition"
+        },
+        {
+          "title": "Function declaration"
+        },
+        {
+          "title": "Function call"
+        },
+        {
+          "title": "Return statement"
+        },
+        {
+          "title": "Passing parameters to functions"
+        },
+        {
+          "title": "Scope of variables"
+        },
+        {
+          "title": "Storage classes"
+        },
+        {
+          "title": "Recursive functions"
+        },
+        {
+          "title": "Declaration of arrays"
+        },
+        {
+          "title": "Accessing the elements of an array"
+        },
+        {
+          "title": "Storing values in arrays"
+        },
+        {
+          "title": "Operations on arrays"
+        },
+        {
+          "title": "Passing arrays to functions"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Two Dimensional Arrays and Strings",
+      "hours": 6,
+      "topics": [
+        {
+          "title": "Two dimensional arrays"
+        },
+        {
+          "title": "Operations on two-dimensional arrays"
+        },
+        {
+          "title": "Two-dimensional arrays to functions"
+        },
+        {
+          "title": "Multidimensional arrays"
+        },
+        {
+          "title": "Applications of arrays"
+        },
+        {
+          "title": "Case study with sorting techniques"
+        },
+        {
+          "title": "Introduction to strings"
+        },
+        {
+          "title": "Reading strings"
+        },
+        {
+          "title": "Writing strings"
+        },
+        {
+          "title": "Summary of functions used to read and write characters"
+        },
+        {
+          "title": "Suppressing input using a Scanset"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Strings, Pointers and Structures",
+      "hours": 6,
+      "topics": [
+        {
+          "title": "String taxonomy"
+        },
+        {
+          "title": "Operations on strings"
+        },
+        {
+          "title": "Miscellaneous string and character functions"
+        },
+        {
+          "title": "Arrays of strings"
+        },
+        {
+          "title": "Understanding the Computers Memory"
+        },
+        {
+          "title": "Introduction to Pointers"
+        },
+        {
+          "title": "Declaring Pointer Variables"
+        },
+        {
+          "title": "Introduction to structures"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Elucidate the basic architecture and functionalities of a computer and also recognize the hardware parts",
+    "Apply programming constructs of C language to solve the real world problem",
+    "Explore user-defined data structures like arrays in implementing solutions to problems like searching and sorting",
+    "Explore user-defined data structures like structures, unions and pointers in implementing solutions",
+    "Design and Develop Solutions to problems using modular programming constructs using functions"
+  ]
+}

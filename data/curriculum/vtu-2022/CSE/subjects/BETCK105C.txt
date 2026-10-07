@@ -1,0 +1,172 @@
+16-2-2023
+BoS in NT (ETC in 1st and 2nd Sem)
+1
+
+
+Course Title:  Introduction to Nano Technology
+Course Code: BETCK105C/205C CIE Marks 50
+Course Type (Theory/Practical
+/Integrated )
+ETC (Integrated) SEE Marks 50
+Total Marks 100
+Teaching Hours/Week (L:T:P: S) 02:00:02:00 Exam Hours 03
+Total Hours of Pedagogy 40 hours  Credits 03
+Teaching Department NT/Chem/Phys/Any Engg. Branch QP setting NT/Chem/Phys
+
+Course objectives
+ To provide a comprehensive overview of synthesis and characterization of nanoparticles,
+nanocomposites and hierarchical materials with nanoscale features.
+ To provide the engineering students with necessary background for understanding variou s
+nanomaterials characterization techniques
+ To develop an understanding of the basis of the choice of material for device applications
+ To give an insight into complete systems where nanotechnology can be used to improve our
+everyday life
+
+Teaching-Learning Process
+These are sample Strategies, which teacher can use to accelerate the attainment of the various course outcomes
+and make Teaching –Learning more effective
+1. Chalk and Talk
+2. Powerpoint presentation
+3. Video Lecturing
+4. E-sources
+5. Self learning
+Module-1  (07 hours of pedagogy)
+Introduction to Nanomaterials
+Nanotechnology, Frontier of future-an overview, Length Scales, Variation of physical properties from bulk to thin
+films to nanomaterials, Confinement of electron in 0D, 1D, 2D and 3D systems, Surface  to Volume Ratio,
+Synthesis of Nanomaterials: Bottom-Up approach: Chemical Routes for Synthesis of nanomaterials-Sol-gel,
+Precipitation, Solution Combustion synthesis, Hydrothermal, SILAR, Chemical Bath Deposition . Top-Down
+approach- Ball milling technique, Sputtering, Laser Ablation
+Module-2   (07 hours of pedagogy)
+
+16-2-2023
+BoS in NT (ETC in 1st and 2nd Sem)
+2
+
+Characterization of Nanomaterials
+Basic principles and instrumentations of Electron Microscopy –Transmission Electron Microscope, Scanning
+Electron Microscope, Scanning Probes- Scanning Tunneling microscope, Atomic Force Microscope –different
+imaging modes, comparison of SEM and TEM, AFM and STM, AFM and SEM.
+Basic principles of working of X-ray diffraction, derivation of Debye-Scherre r equation, numericals on Debye
+Scherrer equation, Optical Spectroscopy- Instrumentation and application of IR, UV/VIS (Band gap
+measurement)
+Module-3(07 hours of pedagogy)
+Carbon Based Materials
+Introduction, Synthesis, Properties (electrical, Electronic and Mechanical), and Applications of
+Graphene, SWCNT, MWCNT , Fullerenes and other Carbon Materials: Carbon nanocomposites,
+nanofibres, nanodiscs, nanodiamonds.
+Module-4(07 hours of pedagogy)
+Nanotechnology in Energy storage and conversion
+Solar cells: First generation, Second generation and third generation s olar cells: Construction and working of Dye
+sensitized and Quantum dot sensitized solar cells.
+Batteries: Nanotechnology in Lithium ion battery- working, Requirements of anodic and cathodic materials,
+classification based on ion storage mechanisms, limitations of graphite anodes, Advances in Cathodic materials,
+Anodic materials, Separators
+Fuel Cells:Introduction, construction, working of fuel cells and nanotec hnology in hydrogen storage and proton
+exchange membranes
+Self study for lifelong learning:
+Super capacitors:  Introduction, construction and working of supercapacitor
+Module-5 (07 hours of pedagogy)
+Applications of Nanotechnology
+Nanotech Applications and Recent Breakthroughs: Introduction, Significant Impac t of Nanotechnology and
+Nanomaterial, Medicine and Healthcare Applications, Biological and Biochemica l Applications (Nano
+biotechnology), Electronic Applications (Nano electronics), Computing Applica tions (Nano computers), Chemical
+Applications (Nano chemistry), Optical Applications (Nano photonics), Agriculture  and Food Applications, Recent
+Major Breakthroughs in Nanotechnology.
+Self study for lifelong learning:
+Nano coatings (Photocatalysts) and super hydrophobic coatings (Lotus effect)
+Course outcome (Course Skill Set)
+
+At the end of the course the student will be able to:
+CO1 Demonstrate the synthesis of nanoparticles by various techniques. [L2]
+CO2 Explain working of basic instruments used in characterization of nanoparticles. [L2]
+CO3 Discuss the application of nanotechnology to mechanical and civil domains [L2]
+CO4 Classify the nanomaterials based on the dimensions. [L3]
+CO5 Assess the suitability of nanomaterials for various device applications. [L4]
+
+
+16-2-2023
+BoS in NT (ETC in 1st and 2nd Sem)
+3
+
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester En d Exam (SEE) is 50%. The
+minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The mini mum passing
+mark for the SEE is 35% of the maximum marks (18 marks out of 50). A student shall be deemed to have satisfied
+the academic requirements and earned the credits allotted to each subject/ course if the student secures not less
+than 35% (18 Marks out of 50) in the semester-end examination(SEE), and a minimum of 40% (40 marks out of
+100) in the sum total of the CIE (Continuous Internal Evaluation) and SEE (S emester End Examination) taken
+together.
+Continuous Internal Evaluation(CIE):
+Three Tests each of 20 Marks;
+ 1st, 2nd, and 3rd tests shall be conducted after completion of the syllabus of 30-35%,
+70-75%, and 90-100% of the course/s respectively.
+ Assignments/Seminar/quiz/group discussion /field survey & report presentation/ course
+project/Skill development activities, suitably planned to attain the COs and POs for a total of
+40 Marks.
+If the nature of the courses requires assignments/Seminars/Quizzes/group discussion two
+evaluation components shall be conducted. If course project/field survey/skill development
+activities etc then the evaluation method shall be one.
+
+Total CIE marks (out of 100 marks) shall be scaled down to 50 marks
+
+Semester End Examination (SEE):
+Theory SEE will be conducted by University as per the scheduled timetable, with c ommon question papers for the
+subject (duration 03 hours)
+ The question paper shall be set for 100 marks. The medium of the question paper shall be English). The
+duration of SEE is 03 hours.
+ The question paper will have 10 questions. Two questions per module. Each question is set for 20
+marks.The students have to answer 5 full questions, selecting one full question from each module. The
+student has to answer for 100 marks and marks scored out of 100 shall be proportionally reduced to
+50 marks.
+ There will be 2 questions from each module. Each of the two questions under a module (with a maximum
+of 3 sub-questions), should have a mix of topics under that module.
+
+
+16-2-2023
+BoS in NT (ETC in 1st and 2nd Sem)
+4
+
+Suggested Learning Resources:
+Books (Title of the Book/Name of the author/Name of the publisher/Edition an d Year)
+1. Nano Materials – A.K. Bandyopadhyay/ New Age Publishers
+2. Nanocrystals: Synthesis, Properties and Applications – C.N.R. Rao, P. John Thomas and G. U. Kulkarni, Springer
+Series in Materials Science
+3. Nano Essentials- T. Pradeep/TMH
+4. Peter J. F. Harris, Carbon nanotube science: synthesis, properties, an d applications. Cambridge University
+Press, 2011
+5. M.A. Shah, K.A. Shah, “Nanotechnology: The Science of Small”, Wiley India, ISBN 13: 9788126538683
+Reference Books (Title of the Book/Name of the author/Name of the publisher/ Edition and Year)
+1. Introduction to Nanotechnology, C. P. Poole and F. J. Owens, Wiley, 2003
+2. Understanding Nanotechnology, Scientific American 2002
+3. Nanotechnology, M. Ratner and D. Ratner, Prentice Hall 2003
+4. Nanotechnology, M. Wildon, K. Kannagara, G. Smith, M. Simmons and B. Raguse, CRC Press Boca Raton 2002
+5. Recent reviews on Li-ion batteries, solar cells and fuel cells
+Web links and Video Lectures (e-Resources):
+ https://nptel.ac.in/courses/118104008
+ https://www.digimat.in/nptel/courses/video/118104008/L16.html
+ https://archive.nptel.ac.in/courses/113/106/113106099/
+ https://nptel.ac.in/courses/112107283
+ https://onlinecourses.nptel.ac.in/noc22_me131/preview
+Practical Based learning (Any 5 experiments x 2 hours = 10 practical hours)
+ Preparation of silver nanoparticles and characterization of particle size by optical spectroscopy
+ Preparation of ZnO nanoparticles by combustion technique
+ Preparation of Al2O3 nanoparticles by precipitation method
+ Preparation of Silica nanoparticles by sol-gel method
+ Preparation of metal oxide nanoparticles by hydrothermal method
+ Determination of thermal conductivity of nanofluids using a thermal analyser
+ Preparation of thin films by SILAR method
+ Determination of Band gap of given material using Tauc plot
+COs and POs Mapping (Individual teacher has to fill up)
+COs POs
+1 2 3 4 5 6 7 8 9 10 11 12
+CO1 3 3 2      2 1
+CO2 3 3 2
+CO3 3 3
+CO4 3 3       2 1  2
+CO5 3 3       2 1  2
+Level 3- Highly Mapped, Level 2-Moderately Mapped, Level 1-Low Mapped, Level 0- Not Mapped
+
+16-2-2023
+BoS in NT (ETC in 1st and 2nd Sem)
+5

@@ -1,0 +1,267 @@
+{
+  "subject_code": "BMATS101",
+  "subject_name": "Mathematics-I for Computer Science and Engineering stream",
+  "credits": 4,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Calculus",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Polar coordinates"
+        },
+        {
+          "title": "Polar curves"
+        },
+        {
+          "title": "Angle between the radius vector and the tangent"
+        },
+        {
+          "title": "Angle between two curves"
+        },
+        {
+          "title": "Pedal equations"
+        },
+        {
+          "title": "Curvature and radius of curvature - Cartesian form"
+        },
+        {
+          "title": "Curvature and radius of curvature - Parametric form"
+        },
+        {
+          "title": "Curvature and radius of curvature - Polar form"
+        },
+        {
+          "title": "Curvature and radius of curvature - Pedal form"
+        }
+      ],
+      "self_learning": [
+        "Center and circle of curvature",
+        "Evolutes and involutes"
+      ],
+      "applications": [
+        "Computer graphics",
+        "Image processing"
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Series Expansion and Multivariable Calculus",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Taylor's series expansion for one variable"
+        },
+        {
+          "title": "Maclaurin's series expansion for one variable"
+        },
+        {
+          "title": "Indeterminate forms"
+        },
+        {
+          "title": "L'Hospital's rule"
+        },
+        {
+          "title": "Partial differentiation"
+        },
+        {
+          "title": "Total derivative"
+        },
+        {
+          "title": "Differentiation of composite functions"
+        },
+        {
+          "title": "Jacobian"
+        },
+        {
+          "title": "Maxima and minima for a function of two variables"
+        }
+      ],
+      "self_learning": [
+        "Euler's theorem",
+        "Lagrange's undetermined multipliers with single constraint"
+      ],
+      "applications": [
+        "Series expansion in computer programming",
+        "Computing errors and approximations"
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Ordinary Differential Equations (ODEs) of First Order",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "First-order ordinary differential equations"
+        },
+        {
+          "title": "Linear differential equations"
+        },
+        {
+          "title": "Bernoulli's differential equations"
+        },
+        {
+          "title": "Exact differential equations"
+        },
+        {
+          "title": "Reducible-to-exact differential equations"
+        },
+        {
+          "title": "Integrating factors"
+        },
+        {
+          "title": "Orthogonal trajectories"
+        },
+        {
+          "title": "L-R circuits"
+        },
+        {
+          "title": "C-R circuits"
+        },
+        {
+          "title": "General and singular solutions of nonlinear differential equations"
+        },
+        {
+          "title": "Nonlinear equations solvable for p"
+        },
+        {
+          "title": "Clairaut's equations"
+        },
+        {
+          "title": "Equations reducible to Clairaut's equations"
+        }
+      ],
+      "self_learning": [
+        "Applications of ODEs",
+        "Equations solvable for x and y"
+      ],
+      "applications": [
+        "Rate of growth or decay",
+        "Conduction of heat"
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Modular Arithmetic",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Congruences"
+        },
+        {
+          "title": "Linear congruences"
+        },
+        {
+          "title": "Remainder theorem"
+        },
+        {
+          "title": "Solving polynomials"
+        },
+        {
+          "title": "Linear Diophantine equation"
+        },
+        {
+          "title": "System of linear congruences"
+        },
+        {
+          "title": "Euler's theorem"
+        },
+        {
+          "title": "Wilson theorem"
+        },
+        {
+          "title": "Fermat's little theorem"
+        },
+        {
+          "title": "Applications of congruences"
+        },
+        {
+          "title": "RSA algorithm"
+        }
+      ],
+      "self_learning": [
+        "Divisibility",
+        "GCD",
+        "Properties of prime numbers",
+        "Fundamental theorem of arithmetic"
+      ],
+      "applications": [
+        "Cryptography",
+        "Encoding and decoding",
+        "RSA applications in public key encryption"
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Linear Algebra",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Elementary row transformation of a matrix"
+        },
+        {
+          "title": "Rank of a matrix"
+        },
+        {
+          "title": "Consistency of a system of linear equations"
+        },
+        {
+          "title": "Gauss-elimination method"
+        },
+        {
+          "title": "Gauss-Jordan method"
+        },
+        {
+          "title": "Approximate solution by Gauss-Seidel method"
+        },
+        {
+          "title": "Eigenvalues and eigenvectors"
+        },
+        {
+          "title": "Rayleigh's power method"
+        },
+        {
+          "title": "Dominant eigenvalue and eigenvector"
+        }
+      ],
+      "self_learning": [
+        "Gauss-Jacobi iterative method",
+        "Inverse of a square matrix by Cayley-Hamilton theorem"
+      ],
+      "applications": [
+        "Boolean matrix",
+        "Network Analysis",
+        "Markov Analysis",
+        "Critical point of a network system",
+        "Optimum solution"
+      ]
+    }
+  ],
+  "practicals": [
+    "2D plots for Cartesian and polar curves",
+    "Finding angle between polar curves, curvature and radius of curvature of a given curve",
+    "Finding partial derivatives and Jacobian",
+    "Applications to Maxima and Minima of two variables",
+    "Solution of first-order ordinary differential equation and plotting the solution curves",
+    "Finding GCD using Euclid's Algorithm",
+    "Solving linear congruences ax ≡ b (mod m)",
+    "Numerical solution of system of linear equations, test for consistency and graphical representation",
+    "Solution of system of linear equations using Gauss-Seidel iteration",
+    "Compute eigenvalues and eigenvectors and find the largest and smallest eigenvalue by Rayleigh power method"
+  ],
+  "course_outcomes": [
+    "Apply calculus to solve problems related to polar curves and use partial differentiation to compute rate of change of multivariate functions",
+    "Analyze solutions of linear and nonlinear ordinary differential equations",
+    "Apply modular arithmetic to computer algorithms",
+    "Use matrix theory for solving systems of linear equations and compute eigenvalues and eigenvectors",
+    "Use modern mathematical tools including Mathematica, MATLAB, Python and Scilab"
+  ]
+}

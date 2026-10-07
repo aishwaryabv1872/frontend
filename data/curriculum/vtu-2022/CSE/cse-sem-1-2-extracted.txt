@@ -1,0 +1,551 @@
+29052023/V10  scheme for Computer Science and Engineering and allied branches (CSE/ISE and BT all allied branches of CSE)
+1
+
+Visvesvaraya Technological University, Belagavi
+SchemeofTeaching and examinations-2022
+Outcome-Based Education (OBE)andChoiceBasedCreditSystem(CBCS)
+(Effectivefromtheacademicyear 2022-23)
+ISemester  (CSE    Stream) (Physics Group)
+
+
+Sl.
+No
+
+
+Course and course
+code
+
+
+Course titlee
+TD/PSB
+Teaching
+Hours/Week Examination
+
+Credits
+Theory
+Lecture
+Tutorial
+Practical/
+Drawing
+SDA
+Duration in
+hours
+
+CIE
+Marks
+
+SEE
+Marks
+Total
+Marks
+L T P S
+1 *ASC(IC) BMATS101 Mathematics-I for CSE Stream Maths 2 2 2 0 03 50 50 100 04
+2 #ASC(IC) BPHYS102 Applied Physics for CSE stream Physics 2 2 2 0 03 50 50 100 04
+3 ESC BPOPS103 Principles of Programming Using C CSE 2 0 2 0 03 50 50 100 03
+4 ESC-I BESCK104x Engineering Science Course-I Respective Engg
+Dept 3 0 0 0 03 50 50 100 03
+5
+ETC-I BETCK105x Emerging Technology Course-I
+Any Dept
+3 0 0 0 03
+50 50 100 03 OR
+PLC-I BPLCK105x Programming Languages Course-I 2 0 2 0 03
+6 AEC
+BENGK106 Communicative English
+Humanities 1 0 0 0 01 50 50 100 01  OR
+BPWSK106 Professional Writing Skills in English
+7 HSMC
+BKSKK107
+BKBKK107
+Samskrutika Kannada/ Balake
+Kannada Humanities 1 0 0 0 01 50 50 100 01
+ OR
+BICOK107 Indian Constitution
+8 AEC/SDC
+BIDTK158 Innovation and Design Thinking
+Any Dept
+1 0 0 0 02
+50 50 100 01  OR
+BSFHK158 Scientific Foundations of Health 1 0 0 0 01
+TOTAL      400 400 800 20
+SDA-Skill Development Activities,  TD/PSB- Teaching Department / Paper Setting Board, ASC-Applied Science Course, ESC- Engineering Science Courses, ETC-
+
+29052023/V10  scheme for Computer Science and Engineering and allied branches (CSE/ISE and BT all allied branches of CSE)
+2
+
+Emerging Technology Course, AEC- Ability Enhancement Course, HSMS-Humanity and Social Science and management Course, SDC- Skill Development Course,
+CIE–Continuous Internal Evaluation, SEE- Semester End Examination, IC – Integrated Course (Theory Course Integrated with Practical Course)
+
+Credit Definition:
+1-hour Lecture (L) per week=1Credit
+2-hoursTutorial(T) per week=1Credit
+2-hours Practical / Drawing (P) per week=1Credit
+2-hous Skill Development Actives (SDA) per week = 1 Credit
+
+04-Credits courses are to be designed for 50 hours of Teaching-Learning Session
+04-Credits (IC) are to be designed for 40 hours’ theory and 12-14 hours of practical
+sessions
+03-Credits courses are to be designed for 40 hours of Teaching-Learning Session
+02- Credits courses are to be designed for 25 hours of Teaching-Learning Ses sion
+01-Credit courses are to be designed for 12-15 hours of Teaching-Learning sessions
+Student’s Induction Program: Motivating (Inspiring) Activities under the Induction program – The main aim of the induction program is to
+provide newly admitted students a broad understanding of society, relationships, and values. Along with the knowledge and skill of his/her study,
+students’ character needs to be nurtured as an essential quality by which he/she would understand and fulfill th e responsibility as an engineer.
+The following activities are to be covered in 21 days. Physical Activity, Creative A rts, Universal Human Values, Literary, Proficiency Modules,
+Lectures by Eminent People, Visits to Local areas, Familiarization with Department/Branch and Innovation, etc. For details, refer the  ANNEXURE-
+I of Induction Programs notification of the University published at the beginning of the 1st semester.
+AICTE Activity Points  to be earned by students admitted to BE/ B.Tech., / B. Plan day college program (For more details refer to Chapter 6,
+AICTE Activity Point Program, Model Internship Guidelines): Over and above the academic g rades, every regular student admitted to the 4 years
+Degree program and every student entering 4 years Degree programs through lateral entry, shall earn 100 and 75 Activity Points respectively for
+the award of degree through AICTE Activity Point Program. Students transferred from other Universiti es to the fifth semester are required to
+earn 50 Activity Points from the year of entry to VTU. The Activity Points earn ed shall be reflected on the student ’s eighth semester Grade Card.
+The activities can be spread over the years, any time during the semester weekends, and  holidays, as per the liking and convenience of the
+student from the year of entry to the program. However, the minimum hours ’ requirement should be fulfilled. Activity Points (non-credit) do not
+affect SGPA/CGPA and shall not be considered for vertical progression. In case students fai l to earn the prescribed activity Points, an Eighth
+Semester Grade Card shall be issued only after earning the required activity points. S tudents shall be admitted for the award of the degree only
+after the release of the Eighth semester Grade Card.
+*- BMATS101Shall have the 03 hours of theory examination (SEE), however, practical sessions question shall be included in the theory question papers . ** The
+mathematics subject should be taught by a single faculty member per division, wit h no sharing of the course(subject)module-wise by different
+faculty members.
+#- BPHYS102SEE shall have the 03 hours of theory examination and 02-03 hours of practical e xamination
+ESC or ETC of 03 credits Courses shall have only a theory component (L:T :P:S=3:0:0:0) or if the nature then, of course, required practical learning
+syllabus shall be designed as an Integrated course (L:T:P:S= 2:0:2:0 ).
+All 01 Credit-  courses shall have the SEE of 01 hours duration and the pattern of the ques tion paper shall be MCQ
+
+
+
+29052023/V10  scheme for Computer Science and Engineering and allied branches (CSE/ISE and BT all allied branches of CSE)
+3
+
+
+(ESC-I) Engineering Science Courses-I (ETC-I ) Emerging Technology Courses-I
+Code Title L T P Code Title L T P
+BESCK104A Introduction to Civil Engineering 3 0 0 BETCK105A Smart Materials and Systems 3 0 0
+BESCK104B Introduction to Electrical Engineering 3 0 0 BETCK105B Green Buildings 3 0 0
+BESCK104C Introduction to Electronics
+Communication
+3 0 0 BETCK105C Introduction to Nano Technology 3 0 0
+BESCK104D Introduction to Mechanical Engineering 3 0 0 BETCK105D Introduction to Sustainable Engineering 3 0 0
+BESCK104E Introduction to C Programming 2 0 2 BETCK105E Renewable Energy Sources 3 0 0
+     BETCK105F Waste Management 3 0 0
+     BETCK105G Emerging Applications of Biosensors 3 0 0
+     BETCK105H Introduction to Internet of Things (IOT) 3 0 0
+     BETCK105I Introduction to Cyber Security 3 0 0
+     BETCK105J Introduction to Embedded System 3 0 0
+(PLC-I) Programming Language Courses-I
+Code Title L T P
+BPLCK105A Introduction to Web Programming 2 0 2
+BPLCK105B Introduction to Python  Programming 2 0 2
+BPLCK105C Basics of JAVA programming 2 0 2
+BPLCK105D Introduction to C++ Programming 2 0 2
+The course 22ESC145/245, Introduction to C Programming, and all courses under PLC and ETC  groups can be taught by ANY
+DEPARTMENT
+
+
+ The student has to select one course from the ESC-I group.
+ CSE/ISE and allied branches Students shall opt for any one of the courses from the ESC-I group except,  BESCK104E-Introduction to C
+Programming
+ The students have to opt for the courses from ESC group without repeating the course in either 1st or 2nd semester
+ The students must select one course from either ETC-I or PLC-I group.
+ If students study the subject from ETC-I in 1st  semester he/she has to select the course from PLC-II in the 2nd  semester and vice-versa
+
+29052023/V10  scheme for Computer Science and Engineering and allied branches (CSE/ISE and BT all allied branches of CSE)
+4
+
+Visvesvaraya Technological University, Belagavi
+Schemeof Teaching and Examinations-2022
+Outcome-Based Education (OBE)andChoiceBasedCreditSystem(CBCS)
+(Effectivefromtheacademicyear 2022-23)
+IISemester(CSEStream)   (For students attended 1st semester under Physics Group)
+
+
+Sl.
+No
+
+
+Course and Course
+Code
+
+
+
+Course Title
+TD/PSB
+Teaching
+Hours/Week Examination
+
+Credits
+Theory
+Lecture
+Tutorial
+Practical/
+Drawing
+SDA
+Duration in
+hours
+
+CIE
+Marks
+
+SEE
+Marks
+Total
+Marks
+L T P S
+1 *ASC(IC) BMATS201 Mathematics-II forCSE Stream Maths 2 2 2 0 03 50 50 100 04
+2 #ASC(IC) BCHES202 Applied Chemistry for CSE Stream Chemistry 2 2 2 0 03 50 50 100 04
+3 ESC BCEDK203 Computer-Aided Engineering Drawing  Civil/Mech
+Engg dept 2 0 2 0 03 50 50 100 03
+4 ESC-II BESCK204x Engineering Science Course-II Respective
+Engg. Dept 3 0 0 0 03 50 50 100 03
+5
+PLC-II BETCK205x Programming Language Course-II
+Any Dept
+2 00 2 0 03
+50 50 100 03 OR
+ETC-II BPLCK205x Emerging Technology Course-II 3 0 0 0 03
+6 AEC
+BPWSK206 Professional Writing Skills in English
+Humanities 1 0 0 0 01 50 50 100 01  OR
+BENGK206 Communicative English
+7 HSMS
+BICOK207 Indian Constitution
+Humanities
+1 0 0 0
+01 50 50 100 01 OR
+BKSKK207/
+BKBKK207 Samskrutika Kannada/ Balake Kannada 1 0 0 0
+8 HSMS
+BSFHK258 Scientific Foundations of Health
+Any
+Dept
+1 0 0 0 01
+50 50 100 01  OR
+KIDTK258 Innovation and Design Thinking 1 0 0 0 01
+TOTAL      400 400 800 20
+
+29052023/V10  scheme for Computer Science and Engineering and allied branches (CSE/ISE and BT all allied branches of CSE)
+5
+
+SDA-Skill Development Activities,  TD/PSB- Teaching Department / Paper Setting Board, ASC-Applied Science Course, ESC- Engineering Science Courses, ETC- Emerging
+Technology Course, AEC- Ability Enhancement Course, HSMS-Humanity and Social Science and management Course, SDC- Skill Development Course, CIE–Continuous
+Internal Evaluation, SEE- Semester End Examination, IC – Integrated Course (Theory Course Integrated with Practical Course)
+*- BMATS201 Shall have the 03 hours of theory examination(SEE), however, practical sessions  question shall be included in the theory question papers . ** The
+mathematics subject should be taught by a single faculty member per division, wit h no sharing of the course(subject)module-wise by different faculty
+members.
+#- BCHES202- SEE shall have the 03 hours of theory examination and 02-03 hours of practical e xamination
+ESC or ETC of 03 credits Courses shall have only a theory component (L:T :P:S=3:0:0:0) or if the nature the  of c ourse required experimental learning syllabus shall be
+designed as an Integrated course (L:T:P:S= 2:0:2:0 ),
+All 01 Credit-  courses shall have the SEE of 01 hours duration and the pattern of the ques tion paper shall be MCQ
+
+
+
+29052023/V10  scheme for Computer Science and Engineering and allied branches (CSE/ISE and BT all allied branches of CSE)
+6
+
+
+(ESC-II) Engineering Science Courses-II (ETC-II) Emerging Technology Courses-II
+Code Title L T P Code Title L T P
+BESCK204A Introduction to Civil Engineering 3 0 0 BETCK205A Smart materials and Systems 3 0 0
+BESCK204B Introduction to Electrical Engineering 3 0 0 BETCK205B Green Buildings 3 0 0
+BESCK204C Introduction to Electronics
+Communication
+3 0 0 BETCK205C Introduction to Nano Technology 3 0 0
+BESCK204D Introduction to Mechanical Engineering 3 0 0 BETCK205D Introduction to Sustainable Engineering 3 0 0
+BESCK204E Introduction to C Programming 2 0 2 BETCK205E Renewable Energy Sources 3 0 0
+     BETCK205F Waste Management 3 0 0
+     BETCK205G Emerging Applications of Biosensors 3 0 0
+     BETCK205H Introduction to Internet of Things(IoT) 3 0 0
+     BETCK205I Introduction to Cyber Security 3 0 0
+     BETCK205J Introduction to Embedded System 3 0 0
+(PLC-II) Programming Language Courses-II
+Code Title L T P
+BPLCK205A Introduction to Web Programming 2 0 2
+BPLCK205B Introduction to Python  Programming 2 0 2
+BPLCK205C Basics of  JAVA programming 2 0 2
+BPLCK205D Introduction to C++ Programming 2 0 2
+The course BESCK204E, Introduction to C Programming, and all courses under PLC and ETC  groups can be taught by ANY
+DEPARTMENT
+
+
+ The student has to select one course from the ESC-II group.
+ CSE/ISE and allied branches Students shall opt for any one of the courses from the ESC-II group except, BESCK245E-Introduction to C
+Programming
+ The students have to opt for the courses from ESC group without repeating the course in either 1st or 2nd semester
+ The students must select one course from either ETC-II or PLC-II group.
+ If students study the subject from ETC-I in 1st  semester he/she has to select the course from PLC-II in the 2nd  semester and vice-versa
+
+
+
+29052023/V10  scheme for Computer Science and Engineering and allied branches (CSE/ISE and BT all allied branches of CSE)
+7
+
+Visvesvaraya Technological University, Belagavi
+Schemeof Teaching and Examinations-2022
+Outcome-Based Education(OBE)andChoiceBasedCreditSystem(CBCS)
+(Effectivefromtheacademicyear 2022-23)
+I Semester   (CSE  Stream)                                                                                                   (For Chemistry  Group)
+
+
+Sl.
+No
+
+
+Course and Course
+Code
+
+
+
+Course Title
+TD/PSB
+Teaching
+Hours/Week Examination
+
+Credits
+Theory
+Lecture
+Tutorial
+Practical/
+Drawing
+SDA
+Duration in
+hours
+
+CIE
+Marks
+
+SEE
+Marks
+Total
+Marks
+L T P S
+1 *ASC(IC) BMATS101 Mathematics-I forCSE Stream Maths 2 2 2 0 03 50 50 100 04
+2 #ASC(IC) BCHES102 Applied Chemistry for CSE Stream Chemistry 2 2 2 0 03 50 50 100 04
+3 ESC BCEDK103 Computer-Aided Engineering Drawing Civil/Mech
+Engg dept 2 0 2 0 03 50 50 100 03
+4 ESC-I BESCK104x Engineering Science Course-I Respective Engg
+Dept 3 0 0 0 03 50 50 100 03
+5
+ETC-I BETCK105x Emerging Technology Course-I
+Any Dept
+3 0 0 0 03
+50 50 100 03 OR
+PLC-I BPLCK105x Programming Language Course-I 2 0 2 0 03
+6 AEC
+BPWSK106 Professional Writing Skills in English
+Humanities 1 0 0 0 01 50 50 100 01  OR
+BENGK106 Communicative English
+7 HSMS
+BICOK107 Indian Constitution
+Humanities
+1 0 0 0
+01 50 50 100 01 OR
+BKSKK107/
+BKBKK107 Samskrutika Kannada/ Balake Kannada 1 0 0 0
+8 HSMS
+BSFHK158 Scientific Foundations of Health
+Any
+Dept
+1 0 0 0 01
+50 50 100 01  OR
+BIDTK158 Innovation and Design Thinking 1 0 0 0 02
+TOTAL      400 400 800 20
+
+29052023/V10  scheme for Computer Science and Engineering and allied branches (CSE/ISE and BT all allied branches of CSE)
+8
+
+
+SDA-Skill Development Activities,  TD/PSB- Teaching Department / Paper Setting Board, ASC-Applied Science Course, ESC- Engineering Science Courses, ETC- Emerging
+Technology Course, AEC- Ability Enhancement Course, HSMS-Humanity and Social Science and management Course, SDC- Skill Development Course, CIE -Continuous
+Internal Evaluation, SEE- Semester End Examination, IC – Integrated Course (Theory Course Integrated with Practical Course)
+
+*- BMATS1 01Shall have the 03 hours of theory examination (SEE), however, practical sessions  question shall be included in the theory question papers . ** The
+mathematics subject should be taught by a single faculty member per division, wit h no sharing of the course(subject)module-wise by different faculty
+members.
+#- BCHES102- SEE shall have the 03 hours of theory examination and 02-03 hours of practical e xamination
+ESC or ETC of 03 credits Courses shall have only a theory component (L:T :P:S=3:0:0:0) or if the nature the  of course required experimental learning syllabus shall be
+designed as an Integrated course (L:T:P:S= 2:0:2:0 ),
+All 01 Credit-  courses shall have the SEE of 01 hours duration and the pattern of the que stion paper shall be MCQ
+Credit Definition:
+1-hour Lecture (L) per week=1Credit
+2-hoursTutorial(T) per week=1Credit
+2-hours Practical / Drawing (P) per week=1Credit
+2-hous Skill Development Actives (SDA) per week = 1 Credit
+
+04-Credits courses are to be designed for 50 hours of Teaching-Learning Session
+04-Credits (IC) are to be designed for 40 hours’ theory and 12-14 hours of practical sessions
+03-Credits courses are to be designed for 40 hours of Teaching-Learning Session
+02- Credits courses are to be designed for 25 hours of Teaching-Learning Se ssion
+01-Credit courses are to be designed for 12-15 hours of Teaching-Learni ng sessions
+Student’s Induction Program: Motivating (Inspiring) Activities under the Induction program – The main aim of the induction program is to provide newly
+admitted students a broad understanding of society, relationships, and values. Along with the knowledge and skill of his/her study, students ’ character
+needs to be nurtured as an essential quality by which he/she would understand and fulf ill the responsibility as an engineer.  The following activities are to
+be covered in 21 days. Physical Activity, Creative Arts, Universal Human Values,  Literary, Proficiency Modules, Lectures by Eminent People, Visits to Loca l
+areas, Familiarization with Department/Branch and Innovation, etc. For details, refer the  ANNEXURE-I of Inducti on Programs notification of the University
+published at the beginning of the 1st semester.
+AICTE Activity Points to be earned by students admitted to BE/ B.Tech., / B. Plan day college program (For more deta ils refer to Chapter 6, AICTE Activity
+Point Program, Model Internship Guidelines): Over and above the academic grades, every regular student admitted to the 4 years Degree program and
+every student entering 4 years Degree programs through lateral entry, shall earn 100 and 75 Activi ty Points respectively for the award of degree through
+AICTE Activity Point Program. Students transferred from other Universities to the f ifth semester are required to earn 50 Activity Points from the year of
+entry to VTU. The Activity Points earned shall be reflected on the student’s eighth semester Grade Card. The activities can be spread over the years, any time
+during the semester weekends, and holidays, as per the liking and convenience of the student from the year of entry to the program. However, the minimum
+hours’ requirement should be fulfilled. Activity Points (non-credit) do not affect SGPA/CGPA and shall not be considered for vertical progression. In case
+students fail to earn the prescribed activity Points, an Eighth Semester Grade Card shall be issued only after earning the required activity points. Students
+shall be admitted for the award of the degree only after the release of the Eighth semester Grade Card.
+
+
+29052023/V10  scheme for Computer Science and Engineering and allied branches (CSE/ISE and BT all allied branches of CSE)
+9
+
+
+(ESC-I) Engineering Science Courses-I (ETC-I ) Emerging Technology Courses-I
+Code Title L T P Code Title L T P
+BESCK104A Introduction to Civil Engineering 3 0 0 BETCK105A Smart Materials and Systems 3 0 0
+BESCK104B Introduction to Electrical Engineering 3 0 0 BETCK105B Green Buildings 3 0 0
+BESCK104C Introduction to Electronics
+Communication
+3 0 0 BETCK105C Introduction to Nano Technology 3 0 0
+BESCK104D Introduction to Mechanical Engineering 3 0 0 BETCK105D Introduction to Sustainable Engineering 3 0 0
+BESCK104E Introduction to C Programming 2 0 2 BETCK105E Renewable Energy Sources 3 0 0
+     BETCK105F Waste Management 3 0 0
+     BETCK105G Emerging Applications of Biosensors 3 0 0
+     BETCK105H Introduction to Internet of Things (IOT) 3 0 0
+     BETCK105I Introduction to Cyber Security 3 0 0
+     BETCK105J Introduction to Embedded System 3 0 0
+(PLC-I) Programming Language Courses-I
+Code Title L T P
+BPLCK105A Introduction to Web Programming 2 0 2
+BPLCK105B Introduction to Python  Programming 2 0 2
+BPLCK105C Basics of JAVA programming 2 0 2
+BPLCK105D Introduction to C++ Programming 2 0 2
+The course BESCK104E, Introduction to C Programming, and all courses under PLC and ETC  groups can be taught by ANY
+DEPARTMENT
+
+
+ The student has to select one course from the ESC-I group.
+ CSE/ISE & allied branch students shall opt for any one of the courses from the ESC-I group except, BESCK145E-Introduction to C
+Programming
+ The students have to opt for the courses from ESC group without repeating the course in either 1st or 2nd semester
+ The students must select one course from either ETC-I or PLC-I group.
+ If students study the subject from ETC-I in 1st  semester he/she has to select the course from PLC-II in the 2nd  semester and vice-versa
+
+
+29052023/V10  scheme for Computer Science and Engineering and allied branches (CSE/ISE and BT all allied branches of CSE)
+10
+
+Visvesvaraya Technological University, Belagavi
+Scheme of  Teaching and Examinations-2022
+Outcome-Based Education(OBE)andChoiceBasedCreditSystem(CBCS)
+(Effectivefromtheacademicyear 2022-23)
+II  Semester  (CSE    Streams)                                       (For students who attended 1st semester under Chemistry Group)
+
+
+Sl.
+No
+
+
+Course and Course
+Code
+
+
+
+Course Title
+TD/PSB
+Teaching
+Hours/Week Examination
+
+Credits
+Theory
+Lecture
+Tutorial
+Practical/
+Drawing
+SDA
+Duration in
+hours
+
+CIE
+Marks
+
+SEE
+Marks
+Total
+Marks
+L T P S
+1 *ASC(IC) BMATS201 Mathematics-II for CSEStream Maths 2 2 2 0 03 50 50 100 04
+2 #ASC(IC) BPHYS202 Applied Physics for CSE Stream Physics 2 2 2 0 03 50 50 100 04
+3 ESC BPOPS203 Principles of Programming Using C CSE 2 0 2 0 03 50 50 100 03
+4 ESC-II BESCK204x Engineering Science Course-II Respective Engg
+dept 3 0 0 0 03 50 50 100 03
+5
+ETC-II BPLCK205x  Programming Language Course-II
+Any Dept
+2 00 2 0 03
+50 50 100 03 OR
+PLC-II BETCK205x Emerging Technology Course-II 3 0 0 0 03
+6 AEC
+BENGK206 Communicative English
+Humanities 1 0 0 0 01 50 50 100 01  OR
+BPWSK206 Professional Writing Skills in English
+7 HSMC
+BKSKK207
+BKBKK207 Samskrutika Kannada/ Balake Kannada
+Humanities 1 0 0 0 01 50 50 100 01
+ OR
+BICOK207 Indian Constitution
+8 AEC/SDC
+BIDTK258 Innovation and Design Thinking
+Any Dept
+1 0 0 0 01
+50 50 100 01  OR
+BSFHK258 Scientific Foundations of Health 1 0 0 0 01
+TOTAL      400 400 800 20
+
+29052023/V10  scheme for Computer Science and Engineering and allied branches (CSE/ISE and BT all allied branches of CSE)
+11
+
+SDA-Skill Development Activities,  TD/PSB- Teaching Department / Paper Setting Board, ASC-Applied Science Course, ESC- Engineering Science Courses, ETC- Emerging
+Technology Course, AEC- Ability Enhancement Course, HSMS-Humanity and Social Science and management Course, SDC- Skill Development Course, CIE–Continuous
+Internal Evaluation, SEE- Semester End Examination, IC – Integrated Course (Theory Course Integrated with Practical Course)
+*- BMATS201 Shall have the 03 hours of theory examination(SEE), however, practical sessions  question shall be included in the theory question papers . ** The
+mathematics subject should be taught by a single faculty member per division, with  no sharing of the course(subject)module-wise by different faculty
+members.
+#- BPHYS202SEE shall have the 03 hours of theory examination and 02-03 hours of practical e xamination
+ESC or ETC of 03 credits Courses shall have only a theory component (L:T :P:S=3:0:0:0) or if the nature of  the  of course required experimental learning syllabus
+shall be designed as an Integrated course (L:T:P:S= 2:0:2:0 ).All 01 Credit-  courses shall have the SEE of 01 hours duration and the pattern of the qu estion paper shall
+be MCQ
+
+(ESC-II) Engineering Science Courses-II (ETC-II) Emerging Technology Courses-II
+Code Title L T P Code Title L T P
+BESCK204A Introduction to Civil Engineering 3 0 0 BETCK205A Smart materials and Systems 3 0 0
+BESCK204B Introduction to Electrical Engineering 3 0 0 BETCK205B Green Buildings 3 0 0
+BESCK204C Introduction to Electronics
+Communication
+3 0 0 BETCK205C Introduction to Nano Technology 3 0 0
+BESCK204D Introduction to Mechanical Engineering 3 0 0 BETCK205D Introduction to Sustainable Engineering 3 0 0
+BESCK204E Introduction to C Programming 2 0 2 BETCK205E Renewable Energy Sources 3 0 0
+     BETCK205F Waste Management 3 0 0
+     BETCK205G Emerging Applications of Biosensors 3 0 0
+     BETCK205H Introduction to Internet of Things (IoT) 3 0 0
+     BETCK205I Introduction to Cyber Security 3 0 0
+     BETCK205J Introduction to Embedded System 3 0 0
+(PLC-II) Programming Language Courses-II
+Code Title L T P
+BPLCK205A Introduction to Web Programming 2 0 2
+BPLCK205B Introduction to Python Programming 2 0 2
+BPLCK205C Basics of JAVA programming 2 0 2
+BPLCK205D Introduction to C++ Programming 2 0 2
+The course BESCK204E, Introduction to C Programming, and all courses under PLC and ETC  groups can be taught b y ANY
+DEPARTMENT
+
+
+
+29052023/V10  scheme for Computer Science and Engineering and allied branches (CSE/ISE and BT all allied branches of CSE)
+12
+
+
+ The student has to select one course from the ESC-II group.
+ Civil Engineering Students shall opt for any one of the courses from the ESC-II group except, BESCK204E-Introduction to C
+Programming
+ The students have to opt for the courses from ESC group without repeating the course in either 1st or 2nd semester
+ The students must select one course from either ETC-II or PLC-II group.
+ If students study the subject from ETC-I in 1st semester he/she has to select the course from PLC-II in the 2nd  semester and vice-versa

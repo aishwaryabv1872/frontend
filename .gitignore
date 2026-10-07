@@ -48,3 +48,20 @@ supabase/.temp/
 *.swp
 
 supabase/.branches/
+
+# Vertex curriculum working artifacts
+data/curriculum/**/subjects/*.json.before-*
+data/curriculum/**/subjects/*-copy.txt
+
+# Vertex temporary curriculum reports
+import-dry-run.txt
+review-output.txt
+
+# Local database type backup
+lib/database.types.ts.bak
+
+# Vertex curriculum repair backups
+data/curriculum/**/subjects/_repair-backups/
+
+# Vertex curriculum repair backups
+data/curriculum/**/subjects/_repair-backups/

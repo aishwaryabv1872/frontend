@@ -1,0 +1,185 @@
+16-2-2023
+1/3
+
+I Semester
+INNOVATION and DESIGN THINKING
+Course Code BIDTK158/258 CIE Marks 50
+Teaching Hours/Week (L: T:P: S) 1:0:0 SEE Marks 50
+Total Hours of Pedagogy 15 Total Marks 100
+Credits 01 Exam Hours 01
+
+Course Category: Foundation
+Preamble: This course provides an introduction to the basic concepts and techniques of
+engineering and reverses engineering, the process of design, analytical thinking and ideas, basics
+and development of engineering drawing, application of engineering drawing with computer aide.
+Course objectives:
+ To explain the concept of design thinking for product and service development
+ To explain the fundamental concept of innovation and design thinking
+ To discuss the methods of implementing design thinking in the real world.
+
+Teaching-Learning Process (General Instructions)
+These are sample Strategies; which teachers can use to accelerate the attainment of the various  course
+outcomes.
+1. Lecturer method (L) does not mean only the traditional lecture method, but a different type of
+teaching method may be adopted to develop the outcomes.
+2. Show Video/animation films to explain concepts
+3. Encourage collaborative (Group Learning) Learning in the class
+4. Ask at least three HOTS (Higher-order Thinking) questions in the class, which prom otes critical
+thinking
+5. Adopt Problem Based Learning (PBL), which fosters students’ Analytical skills, develops thinking
+skills such as the ability to evaluate, generalize, and analyze information rather than simply recall
+it.
+6. Topics will be introduced in multiple representations.
+7. Show the different ways to solve the same problem and encourage the students to com e up with
+their own creative ways to solve them.
+8. Discuss how every concept can be applied to the real world - and when that's possible, it helps
+improve the students' understanding.
+
+Module-1
+PROCESS OF DESIGN
+Understanding Design thinking
+Shared model in team-based design – Theory and practice in Design thinking – Explore presentation
+signers across globe – MVP or Prototyping
+Teaching-
+Learning
+Process
+Introduction about the design thinking: Chalk and Talk method
+Theory and practice through presentation
+MVP and Prototyping through live examples and videos
+Module-2
+Tools for Design Thinking
+Real-Time design interaction capture and analysis – Enabling efficient collaboration in digital space
+– Empathy for design – Collaboration in distributed Design
+Teaching-
+Learning
+Case studies on design thinking for real-time interaction and analysis
+
+16-2-2023
+2/3
+
+Process Simulation exercises for collaborated enabled design thinking
+Live examples on the success of collaborated design thinking
+Module-3
+Design Thinking in IT
+Design Thinking to Business Process modelling – Agile in Virtual collaboration environment – Scenario
+based Prototyping
+Teaching-
+Learning
+Process
+Case studies on design thinking and business acceptance of the design
+Simulation on the role of virtual eco-system for collaborated  prototyping
+Module-4
+DT For strategic innovations
+Growth – Story telling representation – Strategic Foresight - Change – Sense Making - Maintenance
+Relevance – Value redefinition - Extreme Competition – experience design - Standardization –
+Humanization - Creative Culture – Rapid prototyping, Strategy and Organization – Business Model
+design.
+Teaching-
+Learning
+Process
+Business model examples of successful designs
+Presentation by the students on the success of design
+Live project on design thinking in a group of 4 students
+Module-5
+Design thinking workshop
+Design Thinking Work shop Empathize, Design, Ideate, Prototype and Test
+Teaching-
+Learning
+Process
+8 hours design thinking workshop from the expect and then presentation by the students
+on the learning from the workshop
+Course Outcomes:
+Upon the successful completion of the course, students will be able to:
+CO
+Nos.
+
+Course Outcomes
+Knowledge Level
+(Based on revised
+Bloom’s Taxonomy)
+CO1 Appreciate various design process procedure K2
+CO2 Generate and develop design ideas through different
+technique K2
+CO3 Identify the significance of reverse Engineering to Understand
+products
+K2
+CO4 Draw technical drawing for design ideas K3
+
+
+16-2-2023
+3/3
+
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester End Exam (SEE) is 50%. The minimum
+passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The minimum passing mark for the SEE is
+35% of the maximum marks (18 marks out of 50). A student shall be deemed to have satisfied the academic
+requirements and earned the credits allotted to each subject/ course if the  student secures not less than 35% (18
+Marks out of 50) in the semester-end examination(SEE), and a minimum of 40% (40 marks  out of 100) in the sum
+total of the CIE (Continuous Internal Evaluation) and SEE (Semester End Examination) taken together.
+Continuous Internal Evaluation (CIE):
+ Two Tests (preferably in MCQ pattern ) each of 30 Marks; The first test after the completion
+of the 40 -50% syllabus of the course. A second test after the completion of 90-100% of the
+syllabus of the course.
+ Two Assignments/two quizzes/two seminars/one field survey and report
+presentation/one-course project totaling 40 marks
+Total Marks scored (test + assignments) out of 100 shall be scaled down to 50 marks
+
+At the beginning of the semester, the instructor/faculty teaching the course has to announce
+the methods of CIE for the course.
+
+The Teachers shall choose the types of assignments depending on the req uirement of the course and plan to
+attain the Cos and POs.  (to have a less stressed CIE, the portion of the syllabus should not be common
+/repeated for any of the methods of the CIE.   Each method of CIE should have  a different syllabus portion of the
+course).  CIE methods /test question paper is designed to attain the differe nt levels of Bloom ’s taxonomy as per
+the outcome defined for the course.
+
+
+Semester-End Examination:
+Theory SEE will be conducted by University as per the scheduled timetable, with common que stion
+papers for subject
+SEE paper will be set for 50 questions of each of 01 marks. The pattern of the question paper is
+MCQ. The time allotted for SEE is 01 hour
+Suggested Learning Resources:
+Text Books :
+1. John.R.Karsnitz, Stephen O ’Brien and John P. Hutchinson, “Engineering Design”, Cengage
+learning (International edition) Second Edition, 2013.
+2. Roger Martin, "The Design of Business: Why Design Thinking is the Next Competitive Advantage",
+Harvard Business Press , 2009.
+3. Hasso Plattner, Christoph Meinel and Larry Leifer (eds), "Design Thinking: Understand – Improve
+– Apply", Springer, 2011
+4. Idris Mootee, "Design Thinking for Strategic Innovation: What They Can't Teach You at Business
+or Design School", John Wiley & Sons 2013.
+
+References:
+
+16-2-2023
+4/3
+
+5. Yousef Haik and Tamer M.Shahin, “Engineering Design Process ”, Cengage Learning, Second
+Edition, 2011.
+6. Book - Solving Problems with Design Thinking - Ten Stories of What Works (Columbia Bu siness
+School Publishing) Hardcover – 20 Sep 2013 by Jeanne Liedtka (Author), Andrew King (Author),
+Kevin Bennett (Author).
+Web links and Video Lectures (e-Resources):
+ 1. www.tutor2u.net/business/presentations/. /productlifecycle/default.html
+2. https://docs.oracle.com/cd/E11108_02/otn/pdf/. /E11087_01.pdf
+3. www.bizfilings.com › Home › Marketing › Product Developmen
+4. https://www.mindtools.com/brainstm.html
+5. https://www.quicksprout.com/. /how-to-reverse-engineer-your-competit
+6. www.vertabelo.com/blog/documentation/reverse-engineering
+https://support.microsoft.com/en-us/kb/273814
+7. https://support.google.com/docs/answer/179740?hl=en
+8. https://www.youtube.com/watch?v=2mjSDIBaUlM
+thevirtualinstructor.com/foreshortening.html
+ https://dschool.stanford.edu/.../designresources/.../ModeGuideBOOTCAMP2010L.pdf
+https://dschool.stanford.edu/use-our-methods/ 6. https://www.interaction-
+design.org/literature/article/5-stages-in-the-design-thinking-process 7.
+http://www.creativityatwork.com/design-thinking-strategy-for-innovation/ 49 8.
+https://www.nngroup.com/articles/design-thinking/ 9.
+https://designthinkingforeducators.com/design-thinking/ 10.
+www.designthinkingformobility.org/wp-content/.../10/NapkinPitch_Worksheet.pdf
+Activity Based Learning (Suggested Activities in Class)/ Practical Based learning
+ http://dschool.stanford.edu/dgift/
+
+
+https://onlinecourses.nptel.ac.in/noc19_mg60/preview

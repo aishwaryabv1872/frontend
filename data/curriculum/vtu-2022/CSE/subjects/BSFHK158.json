@@ -1,0 +1,104 @@
+{
+  "subject_code": "BSFHK158",
+  "subject_name": "Scientific Foundations of Health",
+  "credits": 1,
+  "course_type": "Integrated",
+  "pedagogy_hours": 15,
+  "source": {
+    "source_name": "Visvesvaraya Technological University",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BSFHK158"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "(03 hours of pedagogy)",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Good Health & It’s balance for positive mindset: Health -Importance of Health, Influencing factors of Health,"
+        },
+        {
+          "title": "Health beliefs, Advantages of good health, Health & Behavior, Health & Society, Health & family, Health & Personality,"
+        },
+        {
+          "title": "Psychological disorders-Methods to improve good psychological health, Changing health habits for good health."
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "(03 hours of pedagogy)",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Building of healthy lifestyles for better future: Developing healthy diet for good health, Food & health, Nutritional"
+        },
+        {
+          "title": "guidelines for good health, Obesity & overweight disorders and its management, Eating disorders, Fitness components for"
+        },
+        {
+          "title": "health, Wellness and physical function, How to avoid exercise injuries."
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "(03 hours of pedagogy)",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Creation of Healthy and caring relationships : Building communication skills, Friends and friendship - Education,"
+        },
+        {
+          "title": "the value of relationship and communication skills, Relationships for Better or worsening of life, understanding of basic"
+        },
+        {
+          "title": "instincts of life (more than a biology), Changing health behaviours through social engineering."
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "(03 hours of pedagogy)",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Avoiding risks and harmful habits : Characteristics of health compromising behaviors, Recognizing and avoiding of"
+        },
+        {
+          "title": "addictions, How addiction develops, Types of addictions, influencing factors of addictions, Differences between addictive"
+        },
+        {
+          "title": "people and non addictive people & their behaviors. Effects of addictions Such as..., how to recovery from addictions."
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "(03 hours of pedagogy)",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Preventing & fighting against diseases for good health: How to protect from different types of infections, How to"
+        },
+        {
+          "title": "reduce risks for good health, Reducing risks & coping with chronic conditions, Management of chronic illness for Quality"
+        },
+        {
+          "title": "of life, Health & Wellness of youth :a challenge for upcoming future, Measuring of health & wealth status."
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "To understand and analyse about Health and wellness (and its Beliefs) & It’s balance for positive mindset.",
+    "Develop the healthy lifestyles for good health for their better future.",
+    "Build a Healthy and caring relationships to meet the requirements of good/social/positive life.",
+    "To learn about Avoiding risks and harmful habits in their campus and outside the campus for their bright future.",
+    "Prevent and fight against harmful diseases for good health through positive mindset."
+  ]
+}

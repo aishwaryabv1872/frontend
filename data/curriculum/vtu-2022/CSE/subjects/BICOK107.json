@@ -1,0 +1,110 @@
+{
+  "subject_code": "BICOK107",
+  "subject_name": "Indian Constitution",
+  "credits": 1,
+  "course_type": "Integrated",
+  "pedagogy_hours": 15,
+  "source": {
+    "source_name": "Visvesvaraya Technological University",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BICOK107"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Indian Constitution",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Indian Constitution: Necessity of the Constitution, Societies before and after the Constitution adoption. Introduction to the"
+        },
+        {
+          "title": "Indian constitution, Making of the Constitution, Role of the Constituent Assembly."
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Salient features of India Constitution",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Salient features of India Constitution. Preamble of Indian Constitution & Key concepts of the Preamble. Fundamental"
+        },
+        {
+          "title": "Rights (FR’s) and its Restriction and limitations in different Complex Situations. building."
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Directive Principles of State Policy (DPSP’s) and its present relevance in Indian society",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Directive Principles of State Policy (DPSP’s) and its present relevance in Indian society. Fundamental Duties"
+        },
+        {
+          "title": "and its Scope and significance in Nation, Union Executive : Parliamentary System, Union Executive – President, Prime"
+        },
+        {
+          "title": "Minister, Union Cabinet."
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Parliament - LS and RS, Parliamentary Committees, Important Parliamentary Terminologies",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Parliament - LS and RS, Parliamentary Committees, Important Parliamentary Terminologies. Judicial System of India,"
+        },
+        {
+          "title": "Supreme Court of India and other Courts, Judicial Reviews and Judicial Activism."
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "State Executive and Governer, CM, State Cabinet, Legislature - VS & VP, Election Commission, Elections & Electoral Process",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "State Executive and Governer, CM, State Cabinet, Legislature - VS & VP, Election Commission, Elections & Electoral"
+        },
+        {
+          "title": "Process. Amendment to Constitution, and Important Constitutional Amendments till today. Emergency Provisions."
+        }
+      ]
+    }
+  ],
+  "practicals": [
+    "Module-1 (03 hours of pedagogy)",
+    "Indian Constitution: Necessity of the Constitution, Societies before and after the Constitution adoption. Introduction to the",
+    "Indian constitution, Making of the Constitution, Role of the Constituent Assembly.",
+    "Module-2 (03 hours of pedagogy)",
+    "Salient features of India Constitution. Preamble of Indian Constitution & Key concepts of the Preamble. Fundamental",
+    "Rights (FR’s) and its Restriction and limitations in different Complex Situations. building.",
+    "Module-3 (03 hours of pedagogy)",
+    "Directive Principles of State Policy (DPSP’s) and its present relevance in Indian society. Fundamental Duties",
+    "and its Scope and significance in Nation, Union Executive : Parliamentary System, Union Executive – President, Prime",
+    "Minister, Union Cabinet.",
+    "Module-4 (03 hours of pedagogy)",
+    "Parliament - LS and RS, Parliamentary Committees, Important Parliamentary Terminologies. Judicial System of India,",
+    "Supreme Court of India and other Courts, Judicial Reviews and Judicial Activism.",
+    "Module-5 (03 hours of pedagogy)",
+    "State Executive and Governer, CM, State Cabinet, Legislature - VS & VP, Election Commission, Elections & Electoral",
+    "Process. Amendment to Constitution, and Important Constitutional Amendments till today. Emergency Provisions."
+  ],
+  "course_outcomes": [
+    "Analyse the basic structure of Indian Constitution.",
+    "Remember their Fundamental Rights, DPSP’s and Fundamental Duties (FD’s) of our constitution.",
+    "know about our Union Government, political structure & codes, procedures.",
+    "Understand our State Executive & Elections system of India.",
+    "Remember the Amendments and Emergency Provisions, other important provisions given by the constitution. BICOK07-207 BICOK07-207 BICOK107-207 BICOK107-207"
+  ]
+}

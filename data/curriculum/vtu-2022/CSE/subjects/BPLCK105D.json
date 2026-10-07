@@ -1,0 +1,178 @@
+{
+  "subject_code": "BPLCK105D",
+  "subject_name": "Introduction to C++ Programming",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction to Object Oriented Programming",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Computer programming background"
+        },
+        {
+          "title": "C++ overview"
+        },
+        {
+          "title": "First C++ Program"
+        },
+        {
+          "title": "Basic C++ syntax"
+        },
+        {
+          "title": "What is an object"
+        },
+        {
+          "title": "Classes"
+        },
+        {
+          "title": "Methods and messages"
+        },
+        {
+          "title": "Abstraction and encapsulation"
+        },
+        {
+          "title": "Inheritance"
+        },
+        {
+          "title": "Abstract classes"
+        },
+        {
+          "title": "Polymorphism"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Functions in C++",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Tokens"
+        },
+        {
+          "title": "Keywords"
+        },
+        {
+          "title": "Identifiers and constants"
+        },
+        {
+          "title": "Operators in C++"
+        },
+        {
+          "title": "Scope resolution operator"
+        },
+        {
+          "title": "Expressions and their types"
+        },
+        {
+          "title": "Special assignment expressions"
+        },
+        {
+          "title": "Function prototyping"
+        },
+        {
+          "title": "Call by reference"
+        },
+        {
+          "title": "Return by reference"
+        },
+        {
+          "title": "Inline functions"
+        },
+        {
+          "title": "Default arguments"
+        },
+        {
+          "title": "Function overloading"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Inheritance & Polymorphism",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Derived class Constructors"
+        },
+        {
+          "title": "Destructors"
+        },
+        {
+          "title": "Types of Inheritance"
+        },
+        {
+          "title": "Defining Derived classes"
+        },
+        {
+          "title": "Single Inheritance"
+        },
+        {
+          "title": "Multiple Inheritance"
+        },
+        {
+          "title": "Hierarchical Inheritance"
+        },
+        {
+          "title": "Hybrid Inheritance"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "I/O Streams",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "C++ Class Hierarchy"
+        },
+        {
+          "title": "File Stream"
+        },
+        {
+          "title": "Text File Handling"
+        },
+        {
+          "title": "Binary File Handling during file operations"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Exception Handling",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction to Exception"
+        },
+        {
+          "title": "Benefits of Exception handling"
+        },
+        {
+          "title": "Try and catch block"
+        },
+        {
+          "title": "Throw statement"
+        },
+        {
+          "title": "Pre-defined exceptions in C++"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Able to understand and design the solution to a problem using object-oriented programming concepts",
+    "Able to reuse the code with extensible Class types, User-defined operators and function Overloading",
+    "Achieve code reusability and extensibility by means of Inheritance and Polymorphism",
+    "Implement the features of C++ including templates, exceptions and file handling for providing programmed solutions to complex problems"
+  ]
+}

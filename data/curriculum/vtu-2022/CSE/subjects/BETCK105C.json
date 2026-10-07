@@ -1,0 +1,177 @@
+{
+  "subject_code": "BETCK105C",
+  "subject_name": "Introduction to Nano Technology",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "Visvesvaraya Technological University",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BETCK105C"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction to Nanomaterials",
+      "hours": 7,
+      "topics": [
+        {
+          "title": "Introduction to Nanomaterials"
+        },
+        {
+          "title": "Nanotechnology, Frontier of future-an overview, Length Scales, Variation of physical properties from bulk to thin"
+        },
+        {
+          "title": "films to nanomaterials, Confinement of electron in 0D, 1D, 2D and 3D systems, Surface to Volume Ratio,"
+        },
+        {
+          "title": "Synthesis of Nanomaterials: Bottom-Up approach: Chemical Routes for Synthesis of nanomaterials-Sol-gel,"
+        },
+        {
+          "title": "Precipitation, Solution Combustion synthesis, Hydrothermal, SILAR, Chemical Bath Deposition . Top-Down"
+        },
+        {
+          "title": "approach- Ball milling technique, Sputtering, Laser Ablation"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Characterization of Nanomaterials",
+      "hours": 7,
+      "topics": [
+        {
+          "title": "BoS in NT (ETC in 1st and 2nd Sem)"
+        },
+        {
+          "title": "Characterization of Nanomaterials"
+        },
+        {
+          "title": "Basic principles and instrumentations of Electron Microscopy –Transmission Electron Microscope, Scanning"
+        },
+        {
+          "title": "Electron Microscope, Scanning Probes- Scanning Tunneling microscope, Atomic Force Microscope –different"
+        },
+        {
+          "title": "imaging modes, comparison of SEM and TEM, AFM and STM, AFM and SEM."
+        },
+        {
+          "title": "Basic principles of working of X-ray diffraction, derivation of Debye-Scherre r equation, numericals on Debye"
+        },
+        {
+          "title": "Scherrer equation, Optical Spectroscopy- Instrumentation and application of IR, UV/VIS (Band gap"
+        },
+        {
+          "title": "measurement)"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Carbon Based Materials",
+      "hours": 7,
+      "topics": [
+        {
+          "title": "Carbon Based Materials"
+        },
+        {
+          "title": "Introduction, Synthesis, Properties (electrical, Electronic and Mechanical), and Applications of"
+        },
+        {
+          "title": "Graphene, SWCNT, MWCNT , Fullerenes and other Carbon Materials: Carbon nanocomposites,"
+        },
+        {
+          "title": "nanofibres, nanodiscs, nanodiamonds."
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Nanotechnology in Energy storage and conversion",
+      "hours": 7,
+      "topics": [
+        {
+          "title": "Nanotechnology in Energy storage and conversion"
+        },
+        {
+          "title": "Solar cells: First generation, Second generation and third generation s olar cells: Construction and working of Dye"
+        },
+        {
+          "title": "sensitized and Quantum dot sensitized solar cells."
+        },
+        {
+          "title": "Batteries: Nanotechnology in Lithium ion battery- working, Requirements of anodic and cathodic materials,"
+        },
+        {
+          "title": "classification based on ion storage mechanisms, limitations of graphite anodes, Advances in Cathodic materials,"
+        },
+        {
+          "title": "Anodic materials, Separators"
+        },
+        {
+          "title": "Fuel Cells:Introduction, construction, working of fuel cells and nanotec hnology in hydrogen storage and proton"
+        },
+        {
+          "title": "exchange membranes"
+        },
+        {
+          "title": "Self study for lifelong learning:"
+        },
+        {
+          "title": "Super capacitors: Introduction, construction and working of supercapacitor"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Applications of Nanotechnology",
+      "hours": 7,
+      "topics": [
+        {
+          "title": "Applications of Nanotechnology"
+        },
+        {
+          "title": "Nanotech Applications and Recent Breakthroughs: Introduction, Significant Impac t of Nanotechnology and"
+        },
+        {
+          "title": "Nanomaterial, Medicine and Healthcare Applications, Biological and Biochemica l Applications (Nano"
+        },
+        {
+          "title": "biotechnology), Electronic Applications (Nano electronics), Computing Applica tions (Nano computers), Chemical"
+        },
+        {
+          "title": "Applications (Nano chemistry), Optical Applications (Nano photonics), Agriculture and Food Applications, Recent"
+        },
+        {
+          "title": "Major Breakthroughs in Nanotechnology."
+        },
+        {
+          "title": "Self study for lifelong learning:"
+        },
+        {
+          "title": "Nano coatings (Photocatalysts) and super hydrophobic coatings (Lotus effect)"
+        }
+      ]
+    }
+  ],
+  "practicals": [
+    "Preparation of silver nanoparticles and characterization of particle size by optical spectroscopy",
+    "Preparation of ZnO nanoparticles by combustion technique",
+    "Preparation of Al2O3 nanoparticles by precipitation method",
+    "Preparation of Silica nanoparticles by sol-gel method",
+    "Preparation of metal oxide nanoparticles by hydrothermal method",
+    "Determination of thermal conductivity of nanofluids using a thermal analyser",
+    "Preparation of thin films by SILAR method",
+    "Determination of Band gap of given material using Tauc plot"
+  ],
+  "course_outcomes": [
+    "Demonstrate the synthesis of nanoparticles by various techniques. [L2]",
+    "Explain working of basic instruments used in characterization of nanoparticles. [L2]",
+    "Discuss the application of nanotechnology to mechanical and civil domains [L2]",
+    "Classify the nanomaterials based on the dimensions. [L3]",
+    "Assess the suitability of nanomaterials for various device applications. [L4]"
+  ]
+}

@@ -1,4 +1,4 @@
-export type Json =
+﻿export type Json =
   | string
   | number
   | boolean
@@ -39,6 +39,42 @@ export type Database = {
   }
   public: {
     Tables: {
+      academic_program_branches: {
+        Row: {
+          branch_id: string
+          created_at: string
+          id: string
+          program_id: string
+        }
+        Insert: {
+          branch_id: string
+          created_at?: string
+          id?: string
+          program_id: string
+        }
+        Update: {
+          branch_id?: string
+          created_at?: string
+          id?: string
+          program_id?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "academic_program_branches_branch_id_fkey"
+            columns: ["branch_id"]
+            isOneToOne: false
+            referencedRelation: "branches"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "academic_program_branches_program_id_fkey"
+            columns: ["program_id"]
+            isOneToOne: false
+            referencedRelation: "academic_programs"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
       academic_programs: {
         Row: {
           created_at: string | null
@@ -77,6 +113,9 @@ export type Database = {
           id: string
           name: string
           regulation_year: number | null
+          source_name: string | null
+          source_url: string | null
+          status: string | null
           university_id: string | null
         }
         Insert: {
@@ -84,6 +123,9 @@ export type Database = {
           id?: string
           name: string
           regulation_year?: number | null
+          source_name?: string | null
+          source_url?: string | null
+          status?: string | null
           university_id?: string | null
         }
         Update: {
@@ -91,6 +133,9 @@ export type Database = {
           id?: string
           name?: string
           regulation_year?: number | null
+          source_name?: string | null
+          source_url?: string | null
+          status?: string | null
           university_id?: string | null
         }
         Relationships: [
@@ -862,6 +907,76 @@ export type Database = {
         Relationships: [
           {
             foreignKeyName: "colleges_university_id_fkey"
+            columns: ["university_id"]
+            isOneToOne: false
+            referencedRelation: "universities"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      curriculum_imports: {
+        Row: {
+          branch_id: string | null
+          created_at: string
+          error_message: string | null
+          id: string
+          imported_at: string | null
+          scheme_id: string | null
+          semester_number: number
+          source_name: string
+          source_url: string | null
+          status: string
+          subject_count: number
+          university_id: string
+          verified_at: string | null
+        }
+        Insert: {
+          branch_id?: string | null
+          created_at?: string
+          error_message?: string | null
+          id?: string
+          imported_at?: string | null
+          scheme_id?: string | null
+          semester_number: number
+          source_name: string
+          source_url?: string | null
+          status?: string
+          subject_count?: number
+          university_id: string
+          verified_at?: string | null
+        }
+        Update: {
+          branch_id?: string | null
+          created_at?: string
+          error_message?: string | null
+          id?: string
+          imported_at?: string | null
+          scheme_id?: string | null
+          semester_number?: number
+          source_name?: string
+          source_url?: string | null
+          status?: string
+          subject_count?: number
+          university_id?: string
+          verified_at?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "curriculum_imports_branch_id_fkey"
+            columns: ["branch_id"]
+            isOneToOne: false
+            referencedRelation: "branches"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "curriculum_imports_scheme_id_fkey"
+            columns: ["scheme_id"]
+            isOneToOne: false
+            referencedRelation: "academic_schemes"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "curriculum_imports_university_id_fkey"
             columns: ["university_id"]
             isOneToOne: false
             referencedRelation: "universities"
@@ -2242,42 +2357,61 @@ export type Database = {
       }
       syllabi: {
         Row: {
+          branch_id: string | null
           college_id: string | null
           created_at: string | null
           id: string
           program_id: string | null
           scheme_id: string | null
           semester: number
+          source_name: string | null
           source_type: string | null
+          source_url: string | null
           status: string | null
           title: string | null
           university_id: string | null
+          verification_status: string | null
         }
         Insert: {
+          branch_id?: string | null
           college_id?: string | null
           created_at?: string | null
           id?: string
           program_id?: string | null
           scheme_id?: string | null
           semester: number
+          source_name?: string | null
           source_type?: string | null
+          source_url?: string | null
           status?: string | null
           title?: string | null
           university_id?: string | null
+          verification_status?: string | null
         }
         Update: {
+          branch_id?: string | null
           college_id?: string | null
           created_at?: string | null
           id?: string
           program_id?: string | null
           scheme_id?: string | null
           semester?: number
+          source_name?: string | null
           source_type?: string | null
+          source_url?: string | null
           status?: string | null
           title?: string | null
           university_id?: string | null
+          verification_status?: string | null
         }
         Relationships: [
+          {
+            foreignKeyName: "syllabi_branch_id_fkey"
+            columns: ["branch_id"]
+            isOneToOne: false
+            referencedRelation: "branches"
+            referencedColumns: ["id"]
+          },
           {
             foreignKeyName: "syllabi_college_id_fkey"
             columns: ["college_id"]

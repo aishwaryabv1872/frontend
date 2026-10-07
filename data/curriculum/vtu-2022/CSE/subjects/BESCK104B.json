@@ -1,0 +1,164 @@
+{
+  "subject_code": "BESCK104B",
+  "subject_name": "Introduction to Electrical Engineering",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "Visvesvaraya Technological University",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BESCK104B"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction:Conventional and non-conventional energy resources; General structure of electrical"
+        },
+        {
+          "title": "power systems using single line diagram approach."
+        },
+        {
+          "title": "Power Generation: Hydel, Nuclear, Solar & wind power generation (Block Diagram approach)."
+        },
+        {
+          "title": "DC Circuits:"
+        },
+        {
+          "title": "Ohm’s Law and its limitations. KCL & KVL, series, parallel, series-parallel circuits."
+        },
+        {
+          "title": "Simple Numerical."
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "A.C. Fundamentals",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "C. Fundamentals:"
+        },
+        {
+          "title": "Equation of AC Voltage and current, waveform, time period, frequency, amplitude, phase, phase"
+        },
+        {
+          "title": "difference, average value, RMS value, form factor, peak factor. (only definitions)"
+        },
+        {
+          "title": "Voltage and current relationship with phasor diagrams in R, L, and C circuits. Concept of Impedance."
+        },
+        {
+          "title": "Analysis of R-L, R-C, R-L-C Series circuits.Active power, reactive power and appa rent power."
+        },
+        {
+          "title": "Concept of power factor. (Simple Numerical)."
+        },
+        {
+          "title": "Three Phase Circuits:"
+        },
+        {
+          "title": "Generation of Three phase AC quantity, advantages and limitations; star and delta connection,"
+        },
+        {
+          "title": "relationship between line and phase quantities (excluding proof)"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "DC Machines",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "DC Machines:"
+        },
+        {
+          "title": "DC Generator: Principle of operation, constructional details, induced emf expression, types of"
+        },
+        {
+          "title": "generators.Relation between induced emf and terminal voltage.Simple numerical."
+        },
+        {
+          "title": "DC Motor: Principle of operation, back emf and its significance. Torque equation, types of motors,"
+        },
+        {
+          "title": "characteristics and speed control (armature & field)of DC motors(series & shunt only). Applications"
+        },
+        {
+          "title": "of DC motors. Simple numerical."
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Transformers",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Transformers: Necessity of transformer, principle of operation, Types and construction of single-"
+        },
+        {
+          "title": "phase transformers, E MF equation, losses, variation of losses with respect to load. Efficiency and"
+        },
+        {
+          "title": "simple numerical."
+        },
+        {
+          "title": "Three-phase induction Motors: Concept of rotating magnetic field, Principle of operation,"
+        },
+        {
+          "title": "constructional features of motor, types – squirrel cage and wound rotor. S lip and its significance"
+        },
+        {
+          "title": "simple numerical."
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Domestic Wiring",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Domestic Wiring: Requirements, Types of wiring: casing, capping .Two way and three way control"
+        },
+        {
+          "title": "of load."
+        },
+        {
+          "title": "Electricity Bill: Power rating of household appliances including air conditioners, PCs, laptops,"
+        },
+        {
+          "title": "printers, etc. Definition of “unit” used for consumption of electrical energy, two-part electricity tariff,"
+        },
+        {
+          "title": "calculation of electricity bill for domestic consumers."
+        },
+        {
+          "title": "Equipment Safety measures: Working principle of Fuse and Miniature circuit breaker (MCB),"
+        },
+        {
+          "title": "merits and demerits."
+        },
+        {
+          "title": "Personal safety measures: Electric Shock, Earthing and its types, Safety Precautions to avoid shock."
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Understand the concepts of various energy sources and Electric circuits.",
+    "Apply the basic Electrical laws to solve circuits.",
+    "Discuss the construction and operation of various Electrical Machines.",
+    "Identify suitable Electrical machine for practical implementation.",
+    "Explain the concepts of electric power transmission and distribution, electricity billing, circuit protective devices and personal safety measures."
+  ]
+}

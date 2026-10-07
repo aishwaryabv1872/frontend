@@ -1,0 +1,122 @@
+{
+  "subject_code": "BETCK105E",
+  "subject_name": "RENEWABLE ENERGY SOURCES",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "Visvesvaraya Technological University",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BETCK105E"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction: Principles of renewable energy; energy and sustainable development, fundamentals and social"
+        },
+        {
+          "title": "implications. worldwide renewable energy availability, renewable energy availabilit y in India, brief descriptions on"
+        },
+        {
+          "title": "solar energy, wind energy, tidal energy, wave energy, ocean thermal en ergy, biomass energy, geothermal energy, oil"
+        },
+        {
+          "title": "shale. Introduction to Internet of energy (IOE)."
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Solar Energy",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Solar Energy:Fundamentals; Solar Radiation; Estimation of solar radiation on horizontal and in clined surfaces; Solar"
+        },
+        {
+          "title": "radiation Measurements- Pyrheliometers, Pyrometer, Sunshine Recorder.Solar Thermal systems: Flat plate collector;"
+        },
+        {
+          "title": "Solar distillation; Solar pond electric power plant."
+        },
+        {
+          "title": "Solar electric power generation- Principle of Solar cell, Photovoltaic system for electric power generation, adva ntages,"
+        },
+        {
+          "title": "Disadvantages and applications of solar photovoltaic system."
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Wind Energy",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Wind Energy : Properties of wind, availability of wind energy in India, wind velo city and power from wind; major"
+        },
+        {
+          "title": "problems associated with wind power, Basic components of wind energ y conversion system (WECS) ; Classification of"
+        },
+        {
+          "title": "WECS- Horizontal axis- single, double and muliblade system. Vertical axis- Sa vonius and darrieus types."
+        },
+        {
+          "title": "Biomass Energy : Introduction; Photosynthesis Process; Biofuels; Biomass Resources ; Biomass conversion"
+        },
+        {
+          "title": "technologies-fixed dome; Urban waste to energy conversion; Biomass gasification (Do wndraft) ."
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Tidal Power",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Tidal Power : Tides and waves as energy suppliers and their mechanics; fundamental ch aracteristics of tidal power,"
+        },
+        {
+          "title": "harnessing tidal energy, advantages and limitations."
+        },
+        {
+          "title": "Ocean Thermal Energy Conversion: Principle of working, OTEC power stations in the world, problems ass ociated"
+        },
+        {
+          "title": "with OTEC."
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Green Energy",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Green Energy : Introduction, Fuel cells: Classification of fuel cells – H 2; Operating principles,"
+        },
+        {
+          "title": "ZeroenergyConcepts.Benefits of hydrogen energy, hydrogen prod uction technologies (electrolysis method only),"
+        },
+        {
+          "title": "hydrogen energy storage, applications of hydrogen energy, problem associated with hydrogen energy."
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Describe the environmental aspects of renewable energy resources. In Comp arison with various conventional energy systems, their prospects and limitations.",
+    "Describe the use of solar energy and the various components used in the ener gy production with respect to applications like-heating, cooling, desalination, power generation.",
+    "Understand the conversion principles of wind and tidal energy",
+    "Understand the concept of biomass energy resources and green energy.",
+    "Acquire the basic knowledge of ocean thermal energy conversion and hydrogen energy."
+  ]
+}

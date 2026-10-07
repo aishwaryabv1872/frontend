@@ -1,0 +1,283 @@
+{
+  "subject_code": "BPLCK105A",
+  "subject_name": "Introduction to Web Programming",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Traditional HTML and XHTML",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "First Look at HTML and XHTML"
+        },
+        {
+          "title": "Hello HTML and XHTML World"
+        },
+        {
+          "title": "HTML and XHTML: Version History"
+        },
+        {
+          "title": "HTML and XHTML DTDs: The Specifications Up Close"
+        },
+        {
+          "title": "(X)HTML Document Structure"
+        },
+        {
+          "title": "Browsers and (X)HTML"
+        },
+        {
+          "title": "The Rules of (X)HTML"
+        },
+        {
+          "title": "Major Themes of (X)HTML"
+        },
+        {
+          "title": "The Future of Markup—Two Paths?"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "HTML5",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Hello HTML5"
+        },
+        {
+          "title": "Loose Syntax Returns"
+        },
+        {
+          "title": "XHTML5"
+        },
+        {
+          "title": "HTML5: Embracing the Reality of Web Markup"
+        },
+        {
+          "title": "Presentational Markup Removed and Redefined"
+        },
+        {
+          "title": "HTML5 Document Structure Changes"
+        },
+        {
+          "title": "Adding Semantics"
+        },
+        {
+          "title": "HTML5's Open Media Effort"
+        },
+        {
+          "title": "Client-Side Graphics with <canvas>"
+        },
+        {
+          "title": "HTML5 Form Changes"
+        },
+        {
+          "title": "Emerging Elements and Attributes to Support Web Applications"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Cascading Style Sheets (CSS)",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction"
+        },
+        {
+          "title": "CSS Overview"
+        },
+        {
+          "title": "CSS Rules"
+        },
+        {
+          "title": "Example with Type Selectors and the Universal Selector"
+        },
+        {
+          "title": "CSS Syntax and Style"
+        },
+        {
+          "title": "Class Selectors"
+        },
+        {
+          "title": "ID Selectors"
+        },
+        {
+          "title": "span and div Elements"
+        },
+        {
+          "title": "Cascading"
+        },
+        {
+          "title": "style Attribute"
+        },
+        {
+          "title": "style Container"
+        },
+        {
+          "title": "External CSS Files"
+        },
+        {
+          "title": "CSS Properties"
+        },
+        {
+          "title": "Color Properties"
+        },
+        {
+          "title": "RGB Values for Color"
+        },
+        {
+          "title": "Opacity Values for Color"
+        },
+        {
+          "title": "HSL and HSLA Values for Color"
+        },
+        {
+          "title": "Font Properties"
+        },
+        {
+          "title": "line-height Property"
+        },
+        {
+          "title": "Text Properties"
+        },
+        {
+          "title": "Border Properties"
+        },
+        {
+          "title": "Element Box"
+        },
+        {
+          "title": "padding Property"
+        },
+        {
+          "title": "margin Property"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Tables and CSS, Links and Images",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Table Elements"
+        },
+        {
+          "title": "Formatting a Data Table: Borders, Alignment, and Padding"
+        },
+        {
+          "title": "CSS Structural Pseudo-Class Selectors"
+        },
+        {
+          "title": "thead and tbody Elements"
+        },
+        {
+          "title": "Cell Spanning"
+        },
+        {
+          "title": "Web Accessibility"
+        },
+        {
+          "title": "CSS display Property with Table Values"
+        },
+        {
+          "title": "a Element"
+        },
+        {
+          "title": "Relative URLs"
+        },
+        {
+          "title": "Navigation Within a Web Page"
+        },
+        {
+          "title": "CSS for Links"
+        },
+        {
+          "title": "Bitmap Image Formats: GIF, JPEG, PNG"
+        },
+        {
+          "title": "img Element"
+        },
+        {
+          "title": "Responsive Images"
+        },
+        {
+          "title": "Positioning Images"
+        },
+        {
+          "title": "Shortcut Icon"
+        },
+        {
+          "title": "iframe Element"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Introduction to JavaScript: Functions, DOM, Forms, and Event Handlers",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "History of JavaScript"
+        },
+        {
+          "title": "Hello World Web Page"
+        },
+        {
+          "title": "Buttons"
+        },
+        {
+          "title": "Functions"
+        },
+        {
+          "title": "Variables"
+        },
+        {
+          "title": "Identifiers"
+        },
+        {
+          "title": "Assignment Statements and Objects"
+        },
+        {
+          "title": "Document Object Model"
+        },
+        {
+          "title": "Forms and How They're Processed"
+        },
+        {
+          "title": "Client-Side Versus Server-Side"
+        },
+        {
+          "title": "form Element"
+        },
+        {
+          "title": "Controls"
+        },
+        {
+          "title": "Text Control"
+        },
+        {
+          "title": "Accessing a Form's Control Values"
+        },
+        {
+          "title": "reset and focus Methods"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Explain the historical context and justification for HTML over XHTML",
+    "Develop HTML5 documents and adding various semantic markup tags",
+    "Analyse various attributes, values and types of CSS",
+    "Implement core constructs and event handling mechanisms of JavaScript"
+  ]
+}

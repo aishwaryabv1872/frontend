@@ -1,0 +1,116 @@
+{
+  "subject_code": "BETCK105G",
+  "subject_name": "EMERGING APPLICATIONS OF BIOSENSORS",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BETCK105G",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "INTRODUCTION TO BIOSENSORS",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "INTRODUCTION TO BIOSENSORS"
+        },
+        {
+          "title": "Introduction to biosensor, General components of biosensor , Biomolecules in biosensors such as enzyme, DNA,"
+        },
+        {
+          "title": "antigen antibody, protein, Classification of biosensors based on principle: amperometric, potentiometric"
+        },
+        {
+          "title": "biosensors, optical, acoustic, piezoelectric, and calorimetric biosensors, sco pe of biosensors and its limitations."
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "BASIC DESIGN AND TRANSDUCER",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "BASIC DESIGN AND TRANSDUCER"
+        },
+        {
+          "title": "Design Considerations: calibration, dynamic Range, signal to noise, sensitivity, selectivity, Interference recognition."
+        },
+        {
+          "title": "Transduction membrane protein sensors: ion channels, Types of Transduce r, Optical;Fiber Optic, ECL, Surface"
+        },
+        {
+          "title": "Plasmon Resonance, Electro chemical; FET, Impedance, Piezoelectric;Cantil eaver,"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "APPLICATIONS OF BIOSENSORS IN HEALTH AND ENVIRONMENT",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "APPLICATIONS OF BIOSENSORS IN HEALTH AND ENVIRONMENT"
+        },
+        {
+          "title": "Biosensors and diabetes management, Microfabricated biosensors and poin t-of-care diagnosticssystems,"
+        },
+        {
+          "title": "Noninvasive biosensors in clinical analysis; Surface plasmon resonance and evanescent wave biosensors, Biosensor"
+        },
+        {
+          "title": "in cancer and HIV early diagnosis."
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "APPLICATIONS OF BIOSENSORS IN FOOD AND AGRICULTURE INDUSTRY",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "APPLICATIONS OF BIOSENSORS IN FOOD AND AGRICULTURE INDUSTRY"
+        },
+        {
+          "title": "Detection of product content, allergic components , pathogens, pesticide residues. Monitoring of raw material"
+        },
+        {
+          "title": "conversions. Detection of crop diseases, pathogens in plants, Detection of soil nutrients, pesticide and its residual"
+        },
+        {
+          "title": "detection."
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "APPLICATIONS OF NANOMATERIALS IN BIOSENSORS",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "APPLICATIONS OF NANOMATERIALS IN BIOSENSORS"
+        },
+        {
+          "title": "Nano Materials in biosensors; Carbon based Nano Material, Metal oxide and nano particle, Quantumdots, Role of"
+        },
+        {
+          "title": "nano material in Signal Amplifications, Detection and Transducer Fabrication"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Classify types of biosensors based on principle",
+    "Able to differentiate different types of transducers based on theirphysicochemical characteristics",
+    "Apply bio sensing techniques in health, environment, agriculture and food industr y.",
+    "Use biomaterial and nanomaterials in biosensors for signal amplifica tion, Detection and Transducer Fabrication"
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "subject_code": "BETCK105B",
+  "subject_name": "GREEN BUILDINGS",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BETCK105B",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction to Python Programming",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction to Python"
+        },
+        {
+          "title": "Features of Python"
+        },
+        {
+          "title": "Python Interpreter"
+        },
+        {
+          "title": "Python Identifiers"
+        },
+        {
+          "title": "Keywords"
+        },
+        {
+          "title": "Variables"
+        },
+        {
+          "title": "Data Types"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Operators and Control Statements",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Arithmetic Operators"
+        },
+        {
+          "title": "Relational Operators"
+        },
+        {
+          "title": "Logical Operators"
+        },
+        {
+          "title": "Assignment Operators"
+        },
+        {
+          "title": "Conditional Statements"
+        },
+        {
+          "title": "if Statement"
+        },
+        {
+          "title": "if-else Statement"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Functions and Modules",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Functions"
+        },
+        {
+          "title": "Defining Functions"
+        },
+        {
+          "title": "Function Arguments"
+        },
+        {
+          "title": "Return Values"
+        },
+        {
+          "title": "Lambda Functions"
+        },
+        {
+          "title": "Modules"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Data Structures",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Lists"
+        },
+        {
+          "title": "Tuples"
+        },
+        {
+          "title": "Sets"
+        },
+        {
+          "title": "Dictionaries"
+        },
+        {
+          "title": "Strings"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "File Handling and Exception Handling",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "File Handling"
+        },
+        {
+          "title": "Reading Files"
+        },
+        {
+          "title": "Writing Files"
+        },
+        {
+          "title": "Exception Handling"
+        },
+        {
+          "title": "Regular Expressions"
+        },
+        {
+          "title": "Object Oriented Programming"
+        },
+        {
+          "title": "Classes and Objects"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Explain the basic concepts of Python programming.",
+    "Apply Python programming constructs to solve computational problems.",
+    "Develop programs using functions and modules.",
+    "Use Python data structures and file handling techniques."
+  ]
+}

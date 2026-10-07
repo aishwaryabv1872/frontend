@@ -1,0 +1,137 @@
+16-2-2023
+
+1
+
+
+Course Title:  Waste Management
+Course Code: BETCK105F/205F CIE Marks 50
+Course Type (Theory/Practical
+/Integrated )
+Theory SEE Marks 50
+Total Marks 100
+Teaching Hours/Week (L:T:P: S) 3:0:0:0 Exam Hours 3 hrs of Theory
+Total Hours of Pedagogy 40 hours Credits 03
+
+Course objectives
+ To learn broader understandings on various aspects of solid waste management practiced in industries.
+ To learn recovery of products from solid waste to compost and biogas, incineration and energy recovery,
+hazardous waste management and treatment, and integrated waste management.
+Teaching-Learning Process
+These are sample Strategies, which teacher can use to accelerate the attainment of the various course outcomes
+and make Teaching –Learning more effective
+1. Include traditional teaching learning process such as Chalk and Talk using writing boards.
+2. Construct graphical and pictorial representation of the subject in the form of Chart, hand-outs or
+PowerPoint presentations.
+3. Collaborate with students how tools are applied to solve biological probl ems.
+4. Integrate real time case studies in various scientific tools used.
+5. Reflective approaches on analysing how and why the tools are used in self -reflected or published data.
+6. Incorporate Inquiry based approach using demonstration, field study, experiments  and project work
+Module-1  (08)
+Module-2   (08)
+WASTE GENERATION ASPECTS:
+Waste stream assessment (WSA), waste generation and composition, waste cha racteristics (physical and
+chemical), health and environmental effects (public health and environmental), comparative assessment of waste
+generation and composition of developing and developed nations, a case study r esults from an Indian city,
+handouts on solid waste compositions. E-waste generation.
+Module-3 (08)
+COLLECTION, STORAGE, TRANSPORT AND DISPOSAL OF WASTES:
+Waste Collection, Storage and Transport: Collection components, storage- containers/collection vehicles,
+collection operation, transfer station, waste collection system design, re cord keeping, control, inventory and
+monitoring, implementing collection and transfer system, a case study. Waste  Disposal: key issues in waste
+disposal, disposal options and selection criteria, sanitary landfill, landfil l gas emission, leachate formation,
+environmental effects of landfill, landfill operation issues, a case study.
+Module-4 (08)
+WASTE PROCESSING TECHNIQUES & SOURCE REDUCTION, PRODUCT RECOVERY & RECYCLING:
+Purpose of processing, mechanical volume and size reduction, component separa tion, drying and dewatering.
+Source Reduction, Product Recovery and Recycling: basics, purpose, implementation monitoring and evaluation of
+source reduction, significance of recycling, planning of a recycling programme, recycling programme elements,
+commonly recycled materials and processes, a case study.
+Module-5 (08)
+HAZARDOUS WASTE MANAGEMENT AND TREATMENT:
+Identification and classification of hazardous waste, hazardous waste treatment, pol lution prevention and waste
+minimization, hazardous wastes management in India. E-waste recycling.
+INTRODUCTION TO SOLID WASTE MANAGEMENT:
+Classification of solid wastes (source and type based), solid waste manage ment (SWM), elements of SWM,
+ESSWM (environmentally sound solid waste management) and EST (environmental ly sound technologies),
+factors affecting SWM, Indian scenario, progress in MSW (municipal sol id waste) management in India.Indian
+and global scenario of e-waste,
+
+16-2-2023
+
+2
+
+Course outcome (Course Skill Set)
+
+At the end of the course the student will be able to:
+CO1 Apply the basics of solid waste management towards sustainable development
+CO2 Apply technologies to process waste and dispose the same.
+CO3 Design working models to convert waste to energy
+CO4 Identify and classify hazardous waste and manage the hazard
+
+
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester En d Exam (SEE) is 50%. The
+minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The mini mum passing
+mark for the SEE is 35% of the maximum marks (18 marks out of 50). A student shall be deemed to have satisfied
+the academic requirements and earned the credits allotted to each subject/ course if the student secures not less
+than 35% (18 Marks out of 50) in the semester-end examination(SEE), and a minimum of 40% (40 marks out of
+100) in the sum total of the CIE (Continuous Internal Evaluation) and SEE (S emester End Examination) taken
+together.
+Continuous Internal Evaluation(CIE):
+Three Tests each of 20 Marks;
+ 1st, 2nd, and 3rd tests shall be conducted after completion of the syllabus of 30-35%,
+70-75%, and 90-100% of the course/s respectively.
+ Assignments/Seminar/quiz/group discussion /field survey & report presentation/ course
+project/Skill development activities, suitably planned to attain the COs and POs for a total of
+40 Marks.
+If the nature of the courses requires assignments/Seminars/Quizzes/group discussion two
+evaluation components shall be conducted. If course project/field survey/skill development
+activities etc then the evaluation method shall be one.
+
+Total CIE marks (out of 100 marks) shall be scaled down to 50 marks
+Semester End Examination(SEE):
+Theory SEE will be conducted by University as per the scheduled timetable, with c ommon question papers for the
+subject (duration 03 hours)
+ The question paper shall be set for 100 marks. The medium of the question paper shall be English). The
+duration of SEE is 03 hours.
+ The question paper will have 10 questions. Two questions per module. Each question is set for 20 marks.
+ Students have to answer 5 full questions, selecting one full question from each module. The student has to
+answer for 100 marks and marks scored out of 100 shall be proportionally reduced to 50 marks .
+ There will be 2 questions from each module. Each of the two questions under a module (with a maximum
+of 3 sub-questions), should have a mix of topics under that module.
+Suggested Learning Resources:
+Books
+Text Books:
+1. Tchobaanoglous, G., Theisen, H., and Samuel A Vigil, Integrated Solid Waste Manageme nt, McGraw-Hill
+Publishers, 1993.
+2. Bilitewski B., Hard He G., Marek K., Weissbach A., and Boeddicker H., Waste Management, Springer, 1994.
+
+16-2-2023
+
+3
+
+Reference Books:
+1. White, F. R., Franke P. R.,, & Hindle M., Integrated solid waste management: a life cycle inventory.
+McDougall,P. John Wiley & Sons. 2001
+2. Nicholas, P., & Cheremisinoff, P. D., Handbook of solid waste management and waste minimiza tion
+technologies, Imprint of Elsevier Science. 2005
+Web links and Video Lectures (e-Resources):
+  https://nptel.ac.in/courses/105103205
+ https://www.youtube.com/watch?v=k0ktJRoRcOA
+ https://nptel.ac.in/courses/103/107/103107125/
+ https://onlinecourses.nptel.ac.in/noc22_ce76/preview
+ https://onlinecourses.swayam2.ac.in/cec20_ge13/preview
+
+Activity Based Learning (Suggested Activities in Class)/ Practical Based learning
+ AV presentation by students (on specific topics).
+ Discussion of case studies based on research findings.
+ Model making and Poster presentations
+COs and POs Mapping (Individual teacher has to fill up)
+COs POs
+1 2 3 4 5 6 7 8 9 10 11 12
+CO1 3     3 3
+CO2 3     3 3
+CO3 3     3 3
+CO4 3     3 3
+
+Level 3- Highly Mapped, Level 2-Moderately Mapped, Level 1-Low Mapped, Level 0- Not Mapped

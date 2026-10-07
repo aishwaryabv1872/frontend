@@ -1,0 +1,202 @@
+{
+  "subject_code": "BPOPS103",
+  "subject_name": "Principles of Programming using C",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "BPOPS103/203 official syllabus",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction to C",
+      "hours": 6,
+      "topics": [
+        {
+          "title": "Introduction to computers"
+        },
+        {
+          "title": "Input and output devices"
+        },
+        {
+          "title": "Designing efficient programs"
+        },
+        {
+          "title": "Introduction to C"
+        },
+        {
+          "title": "Structure of a C program"
+        },
+        {
+          "title": "Files used in a C program"
+        },
+        {
+          "title": "Compilers"
+        },
+        {
+          "title": "Compiling and executing C programs"
+        },
+        {
+          "title": "Variables"
+        },
+        {
+          "title": "Constants"
+        },
+        {
+          "title": "Input/output statements"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Operators, Decision Control and Loops",
+      "hours": 6,
+      "topics": [
+        {
+          "title": "Operators"
+        },
+        {
+          "title": "Type conversion and typecasting"
+        },
+        {
+          "title": "Decision control statements"
+        },
+        {
+          "title": "Conditional branching"
+        },
+        {
+          "title": "Iterative statements"
+        },
+        {
+          "title": "Nested loops"
+        },
+        {
+          "title": "break, continue and goto"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Functions and Arrays",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Function definition, declaration, call and return"
+        },
+        {
+          "title": "Passing parameters"
+        },
+        {
+          "title": "Scope"
+        },
+        {
+          "title": "Storage classes"
+        },
+        {
+          "title": "Recursion"
+        },
+        {
+          "title": "Array declaration and access"
+        },
+        {
+          "title": "Array storage and operations"
+        },
+        {
+          "title": "Passing arrays to functions"
+        },
+        {
+          "title": "Two-dimensional and multidimensional arrays"
+        },
+        {
+          "title": "Applications of arrays"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Strings and Pointers",
+      "hours": 6,
+      "topics": [
+        {
+          "title": "Strings and string taxonomy"
+        },
+        {
+          "title": "String operations"
+        },
+        {
+          "title": "Miscellaneous string and character functions"
+        },
+        {
+          "title": "Arrays of strings"
+        },
+        {
+          "title": "Pointers"
+        },
+        {
+          "title": "Pointer variables"
+        },
+        {
+          "title": "Pointer types"
+        },
+        {
+          "title": "Passing arguments to functions using pointers"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Structures, Unions, Enumerated Data Types and Files",
+      "hours": 6,
+      "topics": [
+        {
+          "title": "Structures"
+        },
+        {
+          "title": "Structures and functions"
+        },
+        {
+          "title": "Unions"
+        },
+        {
+          "title": "Unions inside structures"
+        },
+        {
+          "title": "Enumerated data type"
+        },
+        {
+          "title": "Files"
+        },
+        {
+          "title": "Reading and writing data files"
+        },
+        {
+          "title": "End-of-file (EOF)"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Explain computer architecture and hardware functionality",
+    "Develop C programs to solve real-world problems",
+    "Apply arrays to searching and sorting problems",
+    "Use structures, unions and pointers",
+    "Develop modular programs using functions"
+  ],
+  "practicals": [
+    "Simulation of a Simple Calculator.",
+    "Compute the roots of a quadratic equation by accepting the coefficients. Print appropriate messages.",
+    "An electricity board charges the following rates for the use of electricity: for the first 200 units 80 paise per unit; for the next 100 units 90 paise per unit; beyond 300 units Rs 1 per unit. All users are charged a minimum of Rs. 100 as meter charge. If the total amount is more than Rs 400, then an additional surcharge of 15% of total amount is charged. Write a program to read the name of the user, number of units consumed and print out the charges.",
+    "Write a C Program to display the following by reading the number of rows as input: 1, 1 2 1, 1 2 3 2 1, 1 2 3 4 3 2 1, nth row.",
+    "Implement Binary Search on Integers.",
+    "Implement Matrix multiplication and validate the rules of multiplication.",
+    "Compute sin(x)/cos(x) using Taylor series approximation. Compare your result with the built-in library function. Print both the results with appropriate inferences.",
+    "Sort the given set of N numbers using Bubble sort.",
+    "Write functions to implement string operations such as compare, concatenate, and find string length. Use the parameter passing techniques.",
+    "Implement structures to read, write and compute average marks of the students, and list the students scoring above and below the average marks for a class of N students.",
+    "Develop a program using pointers to compute the sum, mean and standard deviation of all elements stored in an array of N real numbers.",
+    "Write a C program to copy a text file to another, and read both the input file name and target file name."
+  ]
+}

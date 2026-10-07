@@ -1,0 +1,129 @@
+16-2-2023
+
+1
+
+
+Course Title:  EMERGING APPLICATIONS OF BIOSENSORS
+Course Code: BETCK105G/205G CIE Marks 50
+Course Type (Theory/Practical
+/Integrated )
+Theory SEE Marks 50
+Total Marks 100
+Teaching Hours/Week (L:T:P: S) 3:0:0:0 Exam Hours 3 hrs of Theory
+Total Hours of Pedagogy 40 hours Credits 03
+Course objectives
+1. To learn the Fundamentals of biosensors.
+2. To acquaint the student with design and construction of biosensors.
+3. To expose the students to recent advances in application of biosensors in heal th, environment, agriculture
+and food industry.
+Teaching-Learning Process
+These are sample Strategies, which teacher can use to accelerate the attainment of the various course outcomes
+and make Teaching –Learning more effective
+1. Include traditional teaching learning process such as Chalk and Talk using writing boards.
+2. Construct graphical and pictorial representation of the subject in the form of Chart, hand-outs or
+PowerPoint presentations.
+3. Collaborate with students how tools are applied to solve biological probl ems.
+4. Integrate real time case studies in various scientific tools used.
+5. Reflective approaches on analysing how and why the tools are used in self -reflected or published data.
+6. Incorporate Inquiry based approach using demonstration, field study, experimen ts and project work
+Module-1  (8)
+INTRODUCTION TO BIOSENSORS
+Introduction to biosensor, General components of biosensor , Biomolecules in biosensors such as enzyme, DNA,
+antigen antibody, protein, Classification of biosensors based on principle: amperometric, potentiometric
+biosensors, optical, acoustic, piezoelectric, and calorimetric biosensors, sco pe of biosensors and its limitations.
+Module-2   (8)
+BASIC DESIGN AND TRANSDUCER
+Design Considerations: calibration, dynamic Range, signal to noise, sensitivity, selectivity, Interference   recognition.
+Transduction membrane protein sensors: ion channels, Types of Transduce r, Optical;Fiber Optic, ECL, Surface
+Plasmon Resonance, Electro chemical; FET, Impedance, Piezoelectric;Cantil eaver,
+Module-3(8)
+APPLICATIONS OF BIOSENSORS IN HEALTH AND ENVIRONMENT
+Biosensors and diabetes management, Microfabricated biosensors and poin t-of-care diagnosticssystems,
+Noninvasive biosensors in clinical analysis; Surface plasmon resonance  and evanescent wave biosensors, Biosensor
+in cancer and HIV early diagnosis.
+Module-4(8)
+APPLICATIONS OF BIOSENSORS IN FOOD AND AGRICULTURE INDUSTRY
+Detection of product content, allergic components , pathogens, pesticide residues. Monitoring of raw material
+conversions. Detection of crop diseases, pathogens in plants, Detection of soil nutrients, pesticide and its residual
+detection.
+Module-5 (8)
+APPLICATIONS OF NANOMATERIALS IN BIOSENSORS
+Nano Materials in biosensors; Carbon based Nano Material, Metal oxide  and nano particle, Quantumdots, Role of
+nano material in Signal Amplifications, Detection and Transducer Fabrication
+
+16-2-2023
+
+2
+
+Course outcome (Course Skill Set)
+
+At the end of the course the student will be able to:
+CO1 Classify types of biosensors based on principle
+CO2 Able to differentiate different types of transducers based on theirphysicochemical characteristics
+CO3 Apply bio sensing techniques in health, environment, agriculture and food industr y.
+CO4 Use biomaterial and nanomaterials in biosensors for signal amplifica tion, Detection and Transducer
+Fabrication
+
+
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester En d Exam (SEE) is 50%. The
+minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The mini mum passing
+mark for the SEE is 35% of the maximum marks (18 marks out of 50). A student shall be deemed to have satisfied
+the academic requirements and earned the credits allotted to each subject/  course if the student secures not less
+than 35% (18 Marks out of 50) in the semester-end examination(SEE), and a minimum of 40% (40 marks out of
+100) in the sum total of the CIE (Continuous Internal Evaluation) and SEE (S emester End Examination) taken
+together.
+Continuous Internal Evaluation(CIE):
+Three Tests each of 20 Marks;
+ 1st, 2nd, and 3rd tests shall be conducted after completion of the syllabus of 30-35%,
+70-75%, and 90-100% of the course/s respectively.
+ Assignments/Seminar/quiz/group discussion /field survey & report presentation/ course
+project/Skill development activities, suitably planned to attain the COs and POs for a total of
+40 Marks.
+If the nature of the courses requires assignments/Seminars/Quizzes/group discussion two
+evaluation components shall be conducted. If course project/field survey/skill development
+activities etc then the evaluation method shall be one.
+
+Total CIE marks (out of 100 marks) shall be scaled down to 50 marksSemester End
+Examination(SEE):
+Theory SEE will be conducted by University as per the scheduled timetable, with c ommon question papers for the
+subject (duration 03 hours)
+ The question paper shall be set for 100 marks. The medium of the question paper shall be
+English/Kannada). The duration of SEE is 03 hours.
+ The question paper will have 10 questions. Two questions per module. Each question is set for 20 marks.
+ Students have to answer 5 full questions, selecting one full question from each module. The student has to
+answer for 100 marks and marks scored out of 100 shall be proportionally reduced to 50 marks .
+ There will be 2 questions from each module. Each of the two questions under a module (with a maximum
+of 3 sub-questions), should have a mix of topics under that module.
+Suggested Learning Resources:
+Books
+Text Books:
+1. Jeong-Yeol Yoon,Introduction to Biosensors, Springer-Verlag New York Ed. 2016
+2. Mohammed Zourob,Recognition Receptors in Biosens; Publisher: Springer-Ver lag New York Ed. 2010
+Reference Books:
+1. Zvi Liron,Novel Approaches in Biosensors and Rapid Diagnostic Assays; Publisher: Springer US Ed..2001
+2. Pierre R. C, and Loïc J.B,Biosensor Principles and Applications, , CRC Press, 2019
+
+16-2-2023
+
+3
+
+Web links and Video Lectures (e-Resources):
+  https://www.youtube.com/watch?v=kQ6CY1qpGjY
+ https://nptel.ac.in/courses/102101054
+ https://onlinecourses.nptel.ac.in/noc20_ph13/preview
+ https://onlinecourses.nptel.ac.in/noc22_ph01/preview
+
+Activity Based Learning (Suggested Activities in Class)/ Practical Based learning
+ AV presentation by students (on specific topics).
+ Discussion of case studies based on research findings.
+ Model making and Poster presentations
+COs and POs Mapping (Individual teacher has to fill up)
+COs POs
+1 2 3 4 5 6 7 8 9 10 11 12
+CO1 2 2   2  2
+CO2 2 2   2  2
+CO3 3 2   2  2
+CO4 3 2   2  2
+
+Level 3- Highly Mapped, Level 2-Moderately Mapped, Level 1-Low Mapped, Level 0- Not Mapped

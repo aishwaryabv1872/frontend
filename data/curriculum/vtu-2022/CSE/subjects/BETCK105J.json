@@ -1,0 +1,125 @@
+{
+  "subject_code": "BETCK105J",
+  "subject_name": "INTRODUCTION TO EMBEDDED SYSTEMS",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "Visvesvaraya Technological University",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BETCK105J"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction: Embedded Systems and general purpose computer systems, history, classifications,"
+        },
+        {
+          "title": "applications and purpose of embedded systems Chapter 1 – Text 1"
+        },
+        {
+          "title": "Core of Embedded Systems : Microprocessors and microcontrollers, RISC and CISC controllers, Big"
+        },
+        {
+          "title": "endian and Little endian processors, Application specific ICs, Programmable logic devices, COTS,"
+        },
+        {
+          "title": "sensors and actuators, communication interface, embedded firmware, other system components,"
+        },
+        {
+          "title": "PCB and passive components Chapter 2 – Text 1"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Characteristics and quality attributes of embedded systems",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Characteristics and quality attributes of embedded systems: Characteristics, Operational and"
+        },
+        {
+          "title": "nonoperational quality attributes, application specific embedded system - washing machine, domain"
+        },
+        {
+          "title": "specific – automotive Chapter 3 & 4 – Text 1"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Hardware Software Co design and Program Modelling",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Hardware Software Co design and Program Modelling : Fundamental issues in Hardware"
+        },
+        {
+          "title": "Software Co-design, Computational models in Embedded System Design Chapter 7 – Text 1: 7.1, 7.2"
+        },
+        {
+          "title": "Embedded Hardware Design and Development: Analog Electronic Components, Digital Electronic"
+        },
+        {
+          "title": "Components, VLSI & Integrated Circuit Design, Electronic Design Automation Tools"
+        },
+        {
+          "title": "Chapter 8 – Text 1: 8.1, 8.2, 8.3, 8.4"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Embedded Firmware Design and Development",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Embedded Firmware Design and Development: Embedded Firmware Design Approaches,"
+        },
+        {
+          "title": "Embedded Firmware Development Languages Chapter 9 – Text 1: 9.1, 9.2"
+        },
+        {
+          "title": "Embedded System Development Environments: Types of files generated on cross compilation ("
+        },
+        {
+          "title": "only explanation – programming codes need not be dealt), disassemble/decompliler, Simulators,"
+        },
+        {
+          "title": "Emulators and Debugging Chapter 13 – Text 1: 13.2, 13.3,13.4"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Real-time Operating System(RTOS) based Embedded System Design",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Real-time Operating System(RTOS) based Embedded System Design:"
+        },
+        {
+          "title": "Operating System basics, Types of Operating Systems, Tasks, Process and Threads, Multiprocessing"
+        },
+        {
+          "title": "and Multitasking, Task Scheduling Chapter 10 – Text 1: 10.1 to 10.5"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Explain characteristics of Embedded System design",
+    "Acquire knowledge about basic concepts of circuit emulators, debugging and RTOS",
+    "Analyse embedded system software and hardware requirements",
+    "Develop programming skills in embedded systems for various applications.",
+    "Design basic embedded system for real time applications"
+  ]
+}

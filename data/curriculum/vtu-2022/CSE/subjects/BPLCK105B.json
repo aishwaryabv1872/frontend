@@ -1,0 +1,283 @@
+{
+  "subject_code": "BPLCK105B",
+  "subject_name": "Introduction to Python Programming",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Python Basics and Flow Control",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Entering Expressions into the Interactive Shell"
+        },
+        {
+          "title": "The Integer, Floating-Point, and String Data Types"
+        },
+        {
+          "title": "String Concatenation and Replication"
+        },
+        {
+          "title": "Storing Values in Variables"
+        },
+        {
+          "title": "Your First Program"
+        },
+        {
+          "title": "Dissecting Your Program"
+        },
+        {
+          "title": "Boolean Values"
+        },
+        {
+          "title": "Comparison Operators"
+        },
+        {
+          "title": "Boolean Operators"
+        },
+        {
+          "title": "Mixing Boolean and Comparison Operators"
+        },
+        {
+          "title": "Elements of Flow Control"
+        },
+        {
+          "title": "Program Execution"
+        },
+        {
+          "title": "Flow Control Statements"
+        },
+        {
+          "title": "Importing Modules"
+        },
+        {
+          "title": "Ending a Program Early with sys.exit()"
+        },
+        {
+          "title": "Functions"
+        },
+        {
+          "title": "def Statements with Parameters"
+        },
+        {
+          "title": "Return Values and return Statements"
+        },
+        {
+          "title": "The None Value"
+        },
+        {
+          "title": "Keyword Arguments and print()"
+        },
+        {
+          "title": "Local and Global Scope"
+        },
+        {
+          "title": "The global Statement"
+        },
+        {
+          "title": "Exception Handling"
+        },
+        {
+          "title": "A Short Program: Guess the Number"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Lists, Dictionaries and Structuring Data",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "The List Data Type"
+        },
+        {
+          "title": "Working with Lists"
+        },
+        {
+          "title": "Augmented Assignment Operators"
+        },
+        {
+          "title": "Methods"
+        },
+        {
+          "title": "Example Program: Magic 8 Ball with a List"
+        },
+        {
+          "title": "List-like Types: Strings and Tuples"
+        },
+        {
+          "title": "References"
+        },
+        {
+          "title": "The Dictionary Data Type"
+        },
+        {
+          "title": "Pretty Printing"
+        },
+        {
+          "title": "Using Data Structures to Model Real-World Things"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Manipulating Strings and Reading and Writing Files",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Working with Strings"
+        },
+        {
+          "title": "Useful String Methods"
+        },
+        {
+          "title": "Project: Password Locker"
+        },
+        {
+          "title": "Project: Adding Bullets to Wiki Markup"
+        },
+        {
+          "title": "Files and File Paths"
+        },
+        {
+          "title": "The os.path Module"
+        },
+        {
+          "title": "The File Reading/Writing Process"
+        },
+        {
+          "title": "Saving Variables with the shelve Module"
+        },
+        {
+          "title": "Saving Variables with the print.format() Function"
+        },
+        {
+          "title": "Project: Generating Random Quiz Files"
+        },
+        {
+          "title": "Project: Multiclipboard"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Organizing Files and Debugging",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "The shutil Module"
+        },
+        {
+          "title": "Walking a Directory Tree"
+        },
+        {
+          "title": "Compressing Files with the zipfile Module"
+        },
+        {
+          "title": "Project: Renaming Files with American-Style Dates to European-Style Dates"
+        },
+        {
+          "title": "Project: Backing Up a Folder into a ZIP File"
+        },
+        {
+          "title": "Raising Exceptions"
+        },
+        {
+          "title": "Getting the Traceback as a String"
+        },
+        {
+          "title": "Assertions"
+        },
+        {
+          "title": "Logging"
+        },
+        {
+          "title": "IDLE's Debugger"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Classes and Objects",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Programmer-defined types"
+        },
+        {
+          "title": "Attributes"
+        },
+        {
+          "title": "Rectangles"
+        },
+        {
+          "title": "Instances as return values"
+        },
+        {
+          "title": "Objects are mutable"
+        },
+        {
+          "title": "Copying"
+        },
+        {
+          "title": "Classes and functions"
+        },
+        {
+          "title": "Time"
+        },
+        {
+          "title": "Pure functions"
+        },
+        {
+          "title": "Modifiers"
+        },
+        {
+          "title": "Prototyping versus planning"
+        },
+        {
+          "title": "Object-oriented features"
+        },
+        {
+          "title": "Printing objects"
+        },
+        {
+          "title": "Another example"
+        },
+        {
+          "title": "A more complicated example"
+        },
+        {
+          "title": "The __init__ method"
+        },
+        {
+          "title": "The __str__ method"
+        },
+        {
+          "title": "Operator overloading"
+        },
+        {
+          "title": "Type-based dispatch"
+        },
+        {
+          "title": "Polymorphism"
+        },
+        {
+          "title": "Interface and implementation"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Demonstrate proficiency in handling loops and creation of functions",
+    "Identify the methods to create and manipulate lists, tuples and dictionaries",
+    "Develop programs for string processing and file organization",
+    "Interpret the concepts of Object-Oriented Programming as used in Python"
+  ]
+}

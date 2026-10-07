@@ -1,0 +1,252 @@
+16-2-2023
+
+Computer Science and Engineering and allied branches(Chemistry group)
+
+Course Title: Applied Chemistry for Computer Science
+&Engineering stream
+Course Code: BCHES102/202 CIEMarks 50
+Course
+Type(Theory/Practical/Integrated)
+
+Integrated
+SEEMarks 50
+Total
+Marks 100
+TeachingHours/Week(L:T:P:S)1 2:2:2:0 Exam
+Hours 03
+TotalHoursofPedagogy 40hoursTheory+
+10to12Labslots Credits 04
+Courseobjectives
+ Toenablestudentstoacquireknowledgeonprinciplesofchemistryforengineeringapplications.
+ Todevelopanintuitiveunderstandingofchemistrybyemphasizingtherelatedbranchesofengineer
+ing.
+ Toprovidestudentswithasolidfoundationinanalyticalreasoningrequiredtosolvesocietalproble
+ms.
+Teaching-LearningProcess
+Thesearesamplestrategies,whichteachercanusetoacceleratetheattainmentofthevariouscourseoutcom
+esandmakeTeaching–Learningmoreeffective
+ Tutorial&remedialclassesforneedystudents(notregularT/R)
+ ConductingMakeupclasses/Bridgecourses forneedystudents
+ Demonstrationofconceptseitherbybuildingmodelsorbyindustryvisit
+ Experimentsinlaboratoriesshallbeexecutedinblendedmode(conventionalornon–
+conventionalmethods)
+ UseofICT–Onlinevideos,onlinecourses
+ Useofonlineplatformsforassignments/Notes/Quizzes(Ex.Googleclassroom)
+MODULE1:SensorsandEnergySystems(8hr)
+Sensors:Introduction,working,principleandapplicationsofConductometricsensors,Electrochemical
+sensors,Thermometricsensors (Flame photometry)andOpticalsensors
+(colorimetry).Sensorsforthemeasurement of dissolved oxygen (DO). Electrochemical sensors for
+the pharmaceuticals.ElectrochemicalgassensorsforSOxandNOx.Disposablesensorsin
+thedetectionofbiomoleculesandpesticides.
+EnergySystems:Introductiontobatteries,construction,workingandapplicationsofLithiumionandSo
+diumionbatteries.QuantumDotSensitizedSolarCells(QDSSC’s)-Principle,
+PropertiesandApplications.
+Self-learning: Types of electrochemical sensor, Gas sensor - O 2 sensor, Biosensor -
+Glucosesensors.
+MODULE2:MaterialsforMemoryandDisplaySystems(8hr)
+Memory  Devices:  Introduction,  Basic  concepts  of  electronic  memory,  History  of
+organic/polymerelectronicmemorydevices,Classificationofelectronicmemorydevices,
+
+1.NOTE:Whereverthecontact hoursisnotsufficient,tutorialhourcanbeconvertedto theoryhours
+
+16-2-2023
+
+typesoforganicmemorydevices(organicmolecules,polymericmaterials,organic-
+inorganichybridmaterials).
+DisplaySystems:Photoactiveandelectroactivematerials,Nanomaterialsandorganicmaterials used
+in optoelectronic devices. Liquid crystals (LC ’s) - Introduction, classification,properties and
+application in Liquid Crystal Displays (LCD ’s). Properties and application ofOrganic Light
+Emitting Diodes (OLED ’s) and Quantum Light Emitting Diodes (QLED ’s),
+Lightemittingelectrochemicalcells.
+Self-learning:PropertiesandfunctionsofSilicon(Si),Germanium(Ge),Copper(Cu),
+Aluminium(Al),andBrominatedflameretardantsincomputers.
+MODULE3:CorrosionandElectrodeSystem(8hr)
+CorrosionChemistry:Introduction,electrochemicaltheoryofcorrosion,typesofcorrosion-
+differentialmetalanddifferentialaeration.Corrosioncontrol-galvanization,anodization and
+sacrificial anode method. Corrosion Penetration Rate (CPR) - Introductionandnumerical problem.
+Electrode System : Introduction, types of electrodes. Ion selective electrode –
+definition,construction, working and applications of glass electrode. Determination of pH using
+glasselectrode. Reference electrode- Introduction, calomel electrode – construction,
+workingandapplicationsofcalomelelectrode.Concentrationcell–
+Definition,constructionandNumericalproblems.
+Analytical Techniques : Introduction, principle and instrumentation of Conductometry;
+itsapplication in the estimation of weak acid. Potentiometry; its application in the
+estimationofiron.
+Self-learning:IRandUV-Visiblespectroscopy.
+MODULE4:PolymersandGreenFuels(8hr)
+Polymers:Introduction,Molecularweight-
+Numberaverage,weightaverageandnumericalproblems.Preparation,properties,andcommercialappl
+icationsofkevlar. Conductingpolymers –
+synthesisandconductingmechanismofpolyacetyleneandcommercialapplications.
+Green Fuels: Introduction, construction and working of solar photovoltaic cell, advantages,and
+disadvantages. Generation of energy (green hydrogen) by electrolysis of water and itsadvantages.
+Self-learning:Regenerativefuelcells
+MODULE5:E-WasteManagement(8hr)
+E-Waste: Introduction, sources of e-waste, Composition, Characteristics, and Need of e-
+wastemanagement.Toxicmaterialsusedinmanufacturingelectronicandelectricalproducts, health
+hazards due to exposure to e-waste. Recycling and Recovery:
+Differentapproachesofrecycling(separation,thermaltreatments,hydrometallurgicalextraction,pyro
+metallurgical methods, direct recycling). Extraction of gold from E-waste. Role of stakeholders
+in environmental management of e-waste (producers, consumers, recyclers, andstatutorybodies).
+Self-learning:Impactofheavymetalsonenvironmentandhumanhealth.
+PRACTICALMODULE
+A–Demonstration(anytwo)offline/virtual:
+A1.ChemicalStructure drawingusingsoftware:ChemDraworACD/ChemSketch
+
+16-2-2023
+
+A2. Determination of strength of an acid in Pb-acid
+batteryA3:SynthesisofIron-oxideNanoparticles
+A4.Electrolysisofwater
+B–Exercise(compulsorilyany4tobeconducted):
+B1.Conductometricestimationofacidmixture
+B2.PotentiometricestimationofFASusingK2Cr2O7
+B3.DeterminationofpKaofvinegarusingpHsensor(Glasselectrode)
+B4.DeterminationofrateofcorrosionofmildsteelbyweightlossmethodB5.
+EstimationoftotalhardnessofwaterbyEDTAmethod
+C–StructuredEnquiry (compulsorilyany4tobeconducted):
+C1. Estimation of Copper present in electroplating effluent by optical sensor
+(colorimetry)C2.DeterminationofViscositycoefficientoflubricant(Ostwald’sviscometer)
+C3. Estimation of iron in TMT bar by diphenyl amine/external indicator
+methodC4.EstimationofSodiumpresentinsoil/effluentsampleusingflamephotometry
+C5.DeterminationofChemicalOxygenDemand(COD)ofindustrialwastewatersample
+D–OpenEndedExperiments(anytwo):
+D1:EvaluationofacidcontentinbeveragesbyusingpHsensorsandsimulation.D2.
+Construction ofphotovoltaiccell.
+D3.DesignanexperimenttoIdentifythepresenceofproteinsingivensample.
+D4.SearchingsuitablePDBfileandtargetformoleculardocking
+Courseoutcome(CourseSkillSet)
+Attheendofthecourse thestudentwillbeableto:
+CO1. Identify the terms
+ andapplications
+processes involved in scientific and engineering
+CO2. Explainthephenomenaofchemistrytodescribethemethodsofengineeringprocesses
+CO3. Solvetheproblemsinchemistrythatarepertinentinengineeringapplications
+CO4. Applythebasicconceptsofchemistrytoexplainthechemicalpropertiesandprocesses
+CO5. Analyzepropertiesandmultidi
+sciplinarysituations
+processes associated withchemical  substances  in
+AssessmentDetails(bothCIEandSEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester End Exam (SEE) is50%.
+The minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50).The
+minimum passing mark for the SEE is 35% of the maximum marks (18 marks out of 50).
+Astudentshallbedeemedtohavesatisfiedtheacademicrequirementsandearnedthecreditsallotted to eac h
+subject/ course if the student secures not less than 35% (18 Marks out of 50) in thesemester-end
+examination (SEE), and a minimum of 40% (40 marks out of 100) in the sum total
+oftheCIE(ContinuousInternalEvaluation)andSEE(SemesterEndExamination)takentogether.
+ContinuousInternalEvaluation(CIE):
+The CIE marks for the theory component of the IC shall be 30 marks and for the laboratory component
+20 Marks.
+CIE for the theory component of the IC
+ Three Tests each of 20 Marks; after the completion of the syllabus of 35-40%, 65-70%, and 90-100%
+respectively.
+ Two Assignments/two quizzes/ seminars/one field survey and report presentatio n/one-course project
+totalling 20 marks.
+Total Marks scored (test + assignments) out of 80 shall be scaled down to 30 marks
+CIE for the practical component of the IC
+
+16-2-2023
+
+ On completion of every experiment/program in the laboratory, the students shall be evaluated and
+marks shall be awarded on the same day. The 15 marks  are for conducting the experiment and
+preparation of the laboratory record, the other 05 marks shall be for the test conducted at the end of
+the semester.
+ The CIE marks awarded in the case of the Practical component shall be based on the con tinuous
+evaluation of the laboratory report. Each experiment report can be evaluated for 10 m arks. Marks of
+all experiments’ write-ups are added and scaled down to 15 marks.
+ The laboratory test (duration 03 hours) at the end of the 15 th week of the semester /after completion
+of all the experiments (whichever is early) shall be conducted for 50 marks and sca led down to 05
+marks.
+Scaled-down marks of write-up evaluations and tests added will be CIE marks for the laboratory
+component of IC/IPCC for 20 marks.
+ The minimum marks to be secured in CIE to appear for SEE shall be 12 (40% of maximum marks) in
+the theory component and 08 (40% of maximum marks) in the practical component. The lab oratory
+component of the IC/IPCC shall be for CIE only. However, in SEE, the questions from the laboratory
+component shall be included. The maximum of 05 questions is to be set from the practical component
+of IC/IPCC, the total marks of all questions should not be more than 25 marks.
+The theory component of the IC shall be for both CIE and SEE.
+Semester End Examination(SEE):
+Theory SEE will be conducted by University as per the scheduled timetable,  with common question papers for the
+subject (duration 03 hours)
+ The question paper shall be set for 100 marks. The medium of the question paper shall be English/Kannada).
+The duration of SEE is 03 hours.
+ The question paper will have 10 questions. Two questions per module. Each question is set for 20 marks. The
+students have to answer 5 full questions, selecting one full question from each module. The student has to
+answer for 100 marks and marks scored out of 100 shall be proportionally reduced to 50 marks.
+There will be 2 questions from each module. Each of the two questions under a module (with a maximum of 3 sub-
+questions), should have a mix of topics under that module.
+SuggestedLearningResources:
+Books(TitleoftheBook/Nameoftheauthor/Nameofthepublisher/EditionandYear)
+1. WileyEngineeringChemistry,WileyIndiaPvt.Ltd.NewDelhi,2013-2ndEdition.
+2. EngineeringChemistry,Satyaprakash&ManishaAgrawal,KhannaBookPublishing,Delhi
+3. ATextBookofEngg.Chemistry,ShashiChawla,DhanpatRai&Co.(P)Ltd.
+4. EssentialsofPhysicalChemistry,Bahl&Tuli,S.ChandPublishing
+5. AppliedChemistry,SunitaRattan,Kataria5.EngineeringChemistry,Baskar,Wiley
+6. EngineeringChemistry–I,D.GrourKrishana,VikasPublishing
+7. ATextbookofEngineeringChemistry,SSDara&Dr.SSUmare,SChand&CompanyLtd.,12thEdition,2011.
+8. ATextBookofEngineeringChemistry,R.V.GadagandNityanandaShetty,I.K.InternationalPublishinghous
+e. 2ndEdition,2016.
+9. TextBookofPolymerScience,F.W.Billmeyer,JohnWiley&Sons,4thEdition,1999.
+10. NanotechnologyAChemicalApproachtoNanomaterials,G.A.Ozin&A.C.Arsenault,RSCPublishing,2005
+.
+11. CorrosionEngineering,M.G.Fontana,N.D.Greene,McGrawHillPublications,NewYork,3rdEdition,1996.
+
+16-2-2023
+
+12. Linden'sHandbookofBatteries,KirbyW.Beard,FifthEdition,McGrawHill,2019.
+13. OLEDDisplayFundamentalsandApplications,TakatoshiTsujimura,Wiley–Blackwell,2012
+14. Supercapacitors:Materials,Systems,andApplications,MaxLu,FrancoisBeguin,ElzbietaFrackowiak,Wile
+y-VCH;1stedition,2013.
+15. “HandbookonElectroplatingwithManufactureofElectrochemicals”,ASIAPACIFICBUSINESSPRESS
+Inc., 2017. Dr.H. Panda,
+16. ExpandingtheVisionofSensorMaterials.NationalResearchCouncil1995,Washington,DC:TheNationalAc
+ademies Press. doi:10.17226/4782.
+17. EngineeringChemistry,EditedbyDr.MaheshBandDr.RoopashreeB,SunstarPublisher,Bengaluru,ISBN97
+8-93-85155-70-3, 2022
+18. HighPerformanceMetallicMaterialsforCostSensitiveApplications,F.H.Froes,etal.JohnWiley&Sons,
+2010
+19. InstrumentalMethodsofAnalysis,Dr.K.R.MahadikandDr.L.Sathiyanarayanan,NiraliPrakashan,2020
+20. PrinciplesofInstrumentalAnalysis,DouglasA.Skoog,F.JamesHoller,StanleyR.CrouchSeventhEdition,Ce
+ngageLearning, 2020
+21. PolymerScience,VRGowariker,NVViswanathan,Jayadev,Sreedhar,NewageInt.Publishers,4thEdition,
+2021
+22. EngineeringChemistry,PCJain&MonicaJain,DhanpatRaiPublication,2015-16thEdition.
+23. Nanostructuredmaterialsandnanotechnology,Hari Singh, Nalwa,academicpress, 1stEdition,2002.
+24. NanotechnologyPrinciplesandPractices,SulabhaKKulkarni,CapitalPublishingCompany,3rdEdition2014
+25. Principlesofnanotechnology,Phanikumar,Scitechpublications,2ndEdition,2010.
+26. ChemistryforEngineeringStudents,B.S.JaiPrakash,R.Venugopal,Sivakumaraiah&PushpaIyengar.,Suba
+shPublications,5thEdition, 2014
+27. “EngineeringChemistry”,O.G.Palanna,TataMcGrawHillEducationPvt.Ltd.NewDelhi,FourthReprint,20
+15.
+28. ChemistryofEngineeringmaterials,MaliniS,KSAnanthaRaju,CBSpublishersPvtLtd.,
+29. LaboratoryManualEngg.Chemistry,AnupmaRajput,DhanpatRai&Co.
+WeblinksandVideoLectures(e-Resources):
+ http://libgen.rs/
+ https://nptel.ac.in/downloads/122101001/
+ https://nptel.ac.in/courses/104/103/104103019/
+ https://ndl.iitkgp.ac.in/
+ https://www.youtube.com/watch?v=faESCxAWR9k
+ https://www.youtube.com/watch?v=TBqXMWaxZYM&list=PLyhmwFtznRhuz8L1bb3X-
+9IbHrDMjHWWh
+ https://www.youtube.com/watch?v=j5Hml6KN4TI
+ https://www.youtube.com/watch?v=X9GHBdyYcyo
+ https://www.youtube.com/watch?v=1xWBPZnEJk8
+ https://www.youtube.com/watch?v=wRAo-M8xBHM
+
+16-2-2023
+
+ActivityBasedLearning(SuggestedActivitiesinClass)/PracticalBasedlearning
+ https://www.vlab.co.in/broad-area-chemical-sciences
+ https://demonstrations.wolfram.com/topics.php
+ https://interestingengineering.com/science
+
+ COsandPOsMapping(Individualteacherhastofillup)
+ PO
+  PO1 PO2 PO3 PO4 PO5 PO6 PO7 PO8 PO9 PO10 PO11 PO12
+ CO1 3 1 1    1
+ CO2 3 1 1    1
+ CO3 3 1 1    1
+ CO4 3 1 1    1
+ CO5 3 1 1    1
+
+16-2-2023

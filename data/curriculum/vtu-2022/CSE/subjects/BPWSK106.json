@@ -1,0 +1,110 @@
+{
+  "subject_code": "BPWSK106",
+  "subject_name": "Professional Writing Skills in English",
+  "credits": 1,
+  "course_type": "Integrated",
+  "pedagogy_hours": 15,
+  "source": {
+    "source_name": "Visvesvaraya Technological University",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BPWSK206"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "(03 hours of pedagogy)",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Identifying Common Errors in Writing and Speaking English : Common errors identification in parts of speech,"
+        },
+        {
+          "title": "Use of verbs and phrasal verbs, Auxiliary verbs and their forms, Subject Verb Agreement (Concord Rules), Common errors"
+        },
+        {
+          "title": "in Subject-verb agreement, Sequence of Tenses and errors identification in Tenses. Words Confused/Misused."
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "(03 hours of pedagogy)",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Nature and Style of sensible writing: Organizing Principles of Paragraphs in Documents, Writing Introduction and"
+        },
+        {
+          "title": "Conclusion, Importance of Proper Punctuation, Precise writing and Techniques in Essay writing, Sentence arrangements"
+        },
+        {
+          "title": "and Corrections activities. Misplaced modifiers, Contractions, Collocations, Word Order, Errors due to the Confusion of words."
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "(03 hours of pedagogy)",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Technical Reading and Writing Practices: Technical writing process, Introduction to Technical Reports writing ,"
+        },
+        {
+          "title": "Significance of Reports, Types of Reports. Introduction to Technical Proposals Writing, Types of Technical Proposals ,"
+        },
+        {
+          "title": "Characteristics of Technical Proposals. Scientific Writing Process. Grammar – Voices and Reported Speech, Spotting Error"
+        },
+        {
+          "title": "& Sentence Improvement, Cloze Test and Theme Detection Exercises."
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "(03 hours of pedagogy)",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Professional Communication for Employment: Listening Comprehension, Types of Listening, Listening Barriers,"
+        },
+        {
+          "title": "Improving Listening Skills. Reading Comprehension, Tips for effective reading. Job Applications, Types of"
+        },
+        {
+          "title": "official/employment/business Letters, Resume vs. Bio Data, Profile, CV. Writing effective resume for employment, Emails,"
+        },
+        {
+          "title": "Blog Writing and Memos."
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "(03 hours of pedagogy)",
+      "hours": 3,
+      "topics": [
+        {
+          "title": "Professional Communication at Workplace : Group Discussion and Professional Interviews, Characteristics and Strategies"
+        },
+        {
+          "title": "of a GD and PI’s, Intra and Interpersonal Communication Skills at workplace, Non-Verbal Communication Skills and its"
+        },
+        {
+          "title": "importance in GD and Interview. Presentation skills and Formal Presentations by Students, Strategies of Presentation Skills."
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "To understand and identify the Common Errors in Writing and Speaking.",
+    "To Achieve better Technical writing and Presentation skills.",
+    "To read Technical proposals properly and make them to Write good technical reports.",
+    "Acquire Employment and Workplace communication skills.",
+    "To learn about Techniques of Information Transfer through presentation in different level."
+  ]
+}

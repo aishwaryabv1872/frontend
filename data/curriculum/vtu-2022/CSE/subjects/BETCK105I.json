@@ -1,0 +1,108 @@
+{
+  "subject_code": "BETCK105I",
+  "subject_name": "Introduction to Cyber Security",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BETCK105I",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction to Cybercrime",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction to Cybercrime:"
+        },
+        {
+          "title": "Cybercrime: Definition and Origins of the Word, Cybercrime and Information Security, Who ar e"
+        },
+        {
+          "title": "Cybercriminals? Classifications of Cybercrimes, An Indian Perspective, Hacking and Indian"
+        },
+        {
+          "title": "Laws., Global Perspectives"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Cyber Offenses",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Cyber Offenses:"
+        },
+        {
+          "title": "How Criminals Plan Them: Introduction, How criminals plan the attacks, Social Engineering, Cyber Stalking,"
+        },
+        {
+          "title": "Cybercaafe & cybercrimes."
+        },
+        {
+          "title": "Botnets: The fuel for cybercrime, Attack Vector."
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Tools and Methods used in Cybercrime",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Tools and Methods used in Cybercrime: Introduction, Proxy Servers, Anonymizers, Phishing,"
+        },
+        {
+          "title": "Password Cracking, Key Loggers and Spyways, Virus and Worms, Trozen Horses and Backdoors,"
+        },
+        {
+          "title": "Steganography, DoS and DDOS Attackes, Attacks on Wireless networks."
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Phishing and Identity Theft",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Phishing and Identity Theft: Introduction, methods of phishing, phishing,phising techniques, spear phishing,"
+        },
+        {
+          "title": "types of phishing scams, phishing toolkits and spy phishing, counter measures, Identity Theft"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Understnading Computer Forensics",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Understnading Computer Forensics: Introdcution, Historical Background of Cyberforensics, Digital Foresics"
+        },
+        {
+          "title": "Science, Need for Computer Foresics, Cyber Forensics and Digital Evidence, Digital Forensic Life cycle, Chain of"
+        },
+        {
+          "title": "Custody Concepts, network forensics."
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Explain the cybercrime terminologies",
+    "Describe Cyber offenses and Botnets",
+    "Illustrate Tools and Methods used on Cybercrime",
+    "Explain Phishing and Identity Theft",
+    "Justify the need of computer forensics"
+  ]
+}

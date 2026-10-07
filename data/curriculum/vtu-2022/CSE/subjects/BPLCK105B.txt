@@ -1,0 +1,240 @@
+16-2-2023
+1
+
+
+ Course Title:  Introduction to Python Programming
+ Course Code: BPLCK105B/205B CIE Marks 50
+ Course Type (Theory/Practical
+/Integrated )
+Integrated SEE Marks 50
+ Total Marks 100
+ Teaching Hours/Week (L:T:P: S) 2:0:2:0 Exam Hours 03
+ Total Hours of Pedagogy 40 hours  Credits 03
+
+
+Course objectives
+● Learn the syntax and semantics of the Python programming language.
+● Illustrate the process of structuring the data using lists, tuples
+● Appraise the need for working with various documents like Excel, PDF, Word and Others.
+● Demonstrate the use of built-in functions to navigate the file system.
+● Implement the Object Oriented Programming concepts in Python.
+
+
+
+
+Teaching-Learning Process
+These are sample Strategies, which teacher can use to accelerate the attainment of the various course
+outcomes and make Teaching –Learning more effective
+1. Use https://pythontutor.com/visualize.html#mode=edit  in order to visualize the python code
+2. Demonstrate and visualize basic data types (list, tuple, dictionary).
+3. Chalk and talk
+4. online and videos
+
+
+ Module-1 (08 hrs)
+ Python Basics: Entering Expressions into the Interactive Shell, The Integer, Floating-Point,  and
+String Data Types, String Concatenation and Replication, Storing Values in Variab les,  Your First
+Program, Dissecting Your Program, Flow control: Boolean Values, Comparison  Operators,
+Boolean Operators,Mixing Boolean and Comparison Operators, Elements of Flow  Control,
+Program Execution, Flow Control Statements, Importing Modules,Ending a  Program Early wi th
+sys.exit(), Functions: def Statements with Parameters, Return Values  and return Statements,The
+None Value, Keyword Arguments and print(), Local and Global  Scope, The global Statement,
+Exception Handling, A Short Program: Guess the Number
+Textbook 1: Chapters 1 – 3
+ Module-2 (08 hrs)
+ Lists: The List Data Type, Working with Lists, Augmented Assignment Operators, Methods,
+Example Program: Magic 8 Ball with a List, List-like Types: Strings and Tuples, References,
+
+Dictionaries and Structuring Data: The Dictionary Data Type, Pretty Printing, Using Data
+Structures to Model Real-World Things,
+Textbook 1: Chapters 4 – 5
+ Module-3 (08 hrs)
+
+16-2-2023
+2
+
+ Manipulating Strings: Working with Strings, Useful String Methods, Project: Password Locker,
+Project: Adding Bullets to Wiki Markup
+
+Reading and Writing Files: Files and File Paths, The os.path Module, The File  Reading/Writing
+Process, Saving Variables with the shelve Module,Saving Variables with  the print .format()
+Function, Project: Generating Random Quiz Files, Project:  Multiclipboard,
+Textbook 1: Chapters 6 , 8
+ Module-4 (08 hrs)
+ Organizing Files: The shutil Module, Walking a Directory Tree,  Compressing Files with the
+zipfile Module, Project: Renaming Files with American-Style  Dates to European-Style
+Dates,Project: Backing Up a Folder into a ZIP File,
+
+Debugging: Raising Exceptions, Getting the T raceback as a String, Assertions, Logging, IDLE‟s
+Debugger.
+
+Textbook 1: Chapters 9-10
+ Module-5 (08 hrs)
+ Classes and objects: Programmer-defined types, Attributes, Rectangles, Instances as return
+values, Objects are mutable, Copying,
+
+Classes and functions: Time, Pure functions,  Modifiers, Prototyping versus planning,
+
+Classes and methods: Object-oriented features,  Printing objects, Another example, A more
+complicated example,Theinit method, The  __str__ method, Operator overloading, Type-based
+dispatch, Polymorphism, Interface and  implementation,
+
+Textbook 2: Chapters 15 – 17
+
+Course outcome (Course Skill Set)
+
+At the end of the course the student will be able to:
+CO1 Demonstrate proficiency in handling loops and creation of functions.
+CO2 Identify the methods to create and manipulate lists, tuples and dictionaries.
+CO3 Develop programs for string processing and file organization
+CO4 Interpret the concepts of Object-Oriented Programming as used in Python.
+
+
+Programming Exercises:
+
+1. a. Develop a program to read the student details like Name, USN, and Marks in three subjects. Display
+the student details, total marks and percentage with suitable messages.
+b. Develop a program to read the name and year of birth of a person. Display whether the person is a
+senior citizen or not.
+
+2. a. Develop a program to generate Fibonacci sequence of length (N). Read N from the console.
+b. Write a function to calculate factorial of a number. Develop a program to compute binom ial
+coefficient (Given N and R).
+
+3. Read N numbers from the console and create a list. Develop a program to print mean, variance and
+standard deviation with suitable messages.
+
+4. Read a multi-digit number (as chars) from the console. Develop a program to print  the frequency of
+each digit with suitable message.
+
+5. Develop a program to print 10 most frequently appearing words in a text file. [H int: Use dictionary
+
+16-2-2023
+3
+
+with distinct words and their frequency of occurrences. Sort the dictionar y in the reverse order of
+frequency and display dictionary slice of first 10 items]
+
+6. Develop a program to sort the contents of a text file and write the sorted cont ents into a separate text
+file. [Hint: Use string methods strip(), len(), list methods sort(), append() , and file methods open(),
+readlines(), and write()].
+
+7. Develop a program to backing Up a given Folder (Folder in a current working dire ctory) into a ZIP
+File by using relevant modules and suitable methods.
+
+8. Write a function named DivExp which takes TWO parameters a, b and returns a value c (c=a/b). Write
+suitable assertion for a>0 in function DivExp and raise an exception for when b=0. Develop a suitable
+program which reads two values from the console and calls a function DivExp.
+
+9. Define a function which takes TWO objects representing complex numbers and returns new complex
+number with a addition of two complex numbers. Define a suitable class ‘Complex’ to represent the
+complex number. Develop a program to read N (N >=2) complex numbers and to compute the addition
+of N complex numbers.
+
+10. Develop a program that uses class Student which prompts the user to enter marks in th ree subjects and
+calculates total marks, percentage and displays the score card details. [Hint : Use list to store the marks
+in three subjects and total marks. Use __init__() method to initialize name, USN and the lists to store
+marks and total, Use getMarks() method to read marks into the list, and display() method to display the
+score card details.]
+
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester End Exam (SEE) is 50%.
+The minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The
+minimum passing mark for the SEE is 35% of the maximum marks (18 marks out of 50). A student shall
+be deemed to have satisfied the academic requirements and earned the credits allotted to eac h subject/
+course if the student secures not less than 35% (18 Marks out of 50) in the semester-end
+examination(SEE), and a minimum of 40% (40 marks out of 100) in the sum total of the CIE (Continuous
+Internal Evaluation) and SEE (Semester End Examination) taken together.
+Continuous Internal Evaluation (CIE):
+The CIE marks for the theory component of the IC shall be 30 marks and for the laboratory
+component 20 Marks.
+CIE for the theory component of the IC
+ Three Tests each of 20 Marks; after the completion of the syllabus of 35-40%,  65-70%,
+and 90-100%  respectively.
+ Two Assignments/two quizzes/ seminars/one field survey and report presentation/one-
+course project totaling 20 marks.
+Total Marks scored (test + assignments) out of 80 shall be scaled down to 30 marks
+CIE for the practical component of the IC
+ On completion of every experiment/program in the laboratory, the students shall be
+
+16-2-2023
+4
+
+evaluated and marks shall be awarded on the same day. The 15 marks are for
+conducting the experiment and preparation of the laboratory record, the other 05
+marks shall be for the test conducted at the end of the semester.
+ The CIE marks awarded in the case of the Practical component shall be based on the
+continuous evaluation of the laboratory report. Each experiment report can be
+evaluated for 10 marks. Marks of all experiments’ write-ups are added and scaled
+down to 15 marks.
+ The laboratory test (duration 03 hours) at the end of the 15th week of the semester
+/after completion of all the experiments (whichever is early) shall be conducted for
+50 marks and scaled down to 05 marks.
+Scaled-down marks of write-up evaluations and tests added will be CIE marks for the
+laboratory component of IC/IPCC for 20 marks.
+ The minimum marks to be secured in CIE to appear for SEE shall be 12 (40% of
+maximum marks) in the theory component and 08 (40% of maximum marks) in the
+practical component. The laboratory component of the IC/IPCC shall be for CIE only.
+However, in SEE, the questions from the laboratory component shall be included. The
+maximum of 05 questions is to be set from the practical component of IC/IPCC, the
+total marks of all questions should not be more than 25 marks.
+The theory component of the IC shall be for both CIE and SEE.
+
+Semester End Examination (SEE):
+SEE for IC
+Theory SEE will be conducted by University as per the scheduled time table, with common question
+papers for the course (duration 03 hours)
+1. The question paper will have ten questions. Each question is set for 20 marks.
+2. There will be 2 questions from each module. Each of the two questions under a module (w ith a
+maximum of 3 sub-questions), should have a mix of topics under that module.
+3. The students have to answer 5 full questions, selecting one full question from each module.
+The theory portion of the Integrated Course shall be for both CIE and SEE, whereas the
+practical portion will have a CIE component only. Questions mentioned in the SEE paper shall
+include questions from the practical component).
+Passing standard:
+ The minimum marks to be secured in CIE to appear for SEE shall be 12 (40% of maxi mum
+marks-30) in the theory component and 08 (40% of maximum marks -20) in the practical
+component. The laboratory component of the IPCC shall be for CIE only. However, in SEE, the
+questions from the laboratory component shall be included . The maximum of 04/05
+questions to be set from the practical component of IPCC, the total marks of all questions
+should not be more than 30 marks.
+
+16-2-2023
+5
+
+ SEE will be conducted for 100 marks and students shall secure 35% of the maximum marks
+to qualify for the SEE. Marks secured will be scaled down to 50.
+
+Suggested Learning Resources:
+Text Books
+1. Al Sweigart, “Automate the Boring Stuff with Python ”,1stEdition, No Starch Press, 2015.
+(Available under CC-BY-NC-SA license at https://automatetheboringstuff.com/)
+(Chapters 1 to 18, except 12) for lambda functions use this    link:
+https://www.learnbyexample.org/python-lambda-function/
+2. Allen B. Downey, “Think Python: How to Think Like a Computer Scientist ”, 2nd Edition,
+Green Tea Press, 2015. (Available under CC- BY-NC license at
+http://greenteapress.com/thinkpython2/thinkpython2.pdf
+(Chapters 13, 15, 16, 17, 18) (Download pdf/html files from the above link)
+Web links and Video Lectures (e-Resources):
+
+● https://www.learnbyexample.org/python/
+● https://www.learnpython.org/
+● https://pythontutor.com/visualize.html#mode=edit
+
+Activity Based Learning (Suggested Activities in Class)/ Practical Based learning
+● Quizzes for list, tuple, string dictionary slicing operations using below link
+https://github.com/sushantkhara/Data-Structures-And-Algorithms-with-
+Python/raw/main/Python%203%20_%20400%20exercises%20and%20solutions%20for%20beginn
+ers.pdf
+
+
+
+COs and POs Mapping (Individual teacher has to fill up)
+COs POs
+1 2 3 4 5 6 7
+CO1
+CO2
+CO3
+CO4
+CO5
+Level 3- Highly Mapped,      Level 2-Moderately Mapped,       Level 1-Low Mapped,     Level 0- Not Mapped

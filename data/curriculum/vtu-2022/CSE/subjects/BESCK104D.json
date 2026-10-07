@@ -1,0 +1,140 @@
+{
+  "subject_code": "BESCK104D",
+  "subject_name": "INTRODUCTION TO MECHANICAL ENGINEERING",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "Visvesvaraya Technological University",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BESCK104D"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "Introduction: Role of Mechanical Engineering in Industries and Society",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction: Role of Mechanical Engineering in Industries and Society- Emerging Trends and"
+        },
+        {
+          "title": "Technologies in different sectors such as Energy, Manufacturing, Automotive, Aerospace, and Marine"
+        },
+        {
+          "title": "sectors."
+        },
+        {
+          "title": "Energy: Introduction and applications of Energy sources like Fossil fuels, Nuclear fuels, Hydel,"
+        },
+        {
+          "title": "Solar, wind, and bio-fuels, Environmental issues like Global warming and Ozone depletion"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Machine Tool Operations",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Machine Tool Operations:"
+        },
+        {
+          "title": "Working Principle of lathe, Lathe operations: Turning, facing, knurling. Working principles of"
+        },
+        {
+          "title": "Drilling Machine, drilling operations: drilling, boring, reaming. Working of Milling Machine, Milling"
+        },
+        {
+          "title": "operations: plane milling and slot milling."
+        },
+        {
+          "title": "(No sketches of machine tools, sketches to be used only for explaining the operations)."
+        },
+        {
+          "title": "Introduction to Advanced Manufacturing Systems: Introduction, components of CNC, advantages"
+        },
+        {
+          "title": "and applications of CNC, 3D printing."
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Introduction to IC Engines",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction to IC Engines : Components and Working Principles, 4-Strokes Petrol and Diesel Engines,"
+        },
+        {
+          "title": "Application of IC Engines."
+        },
+        {
+          "title": "Insight into Future Mobility; Electric and Hybrid Vehicles, Components of Electric and Hybrid"
+        },
+        {
+          "title": "Vehicles. Advantages and disadvantages of EVs and Hybrid vehicles."
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Engineering Materials",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Engineering Materials: Types and applications of Ferrous & Nonferrous Metals, silica,"
+        },
+        {
+          "title": "ceramics, glass, graphite, diamond and polymer. Shape Memory Alloys."
+        },
+        {
+          "title": "Joining Processes: Soldering, Brazing and Welding, Definitions, classification of welding"
+        },
+        {
+          "title": "process, Arc welding, Gas welding and types of flames."
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Introduction to Mechatronics and Robotics",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Introduction to Mechatronics and Robotics: open-loop and closed-loop mechatronic systems."
+        },
+        {
+          "title": "Classification based on robotics configuration: polar cylindrical, Cartesian coordinate and sp herical."
+        },
+        {
+          "title": "Application, Advantages and disadvantages."
+        },
+        {
+          "title": "Automation in industry: Definition, types – Fixed, programmable and flexible automation, basic elements"
+        },
+        {
+          "title": "with block diagrams, advantages."
+        },
+        {
+          "title": "Introduction to IOT : Definition and Characteristics, Physical design, protocols, Logical de sign of IoT,"
+        },
+        {
+          "title": "Functional blocks, and communication models."
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Explain the concepts of Role of Mechanical Engineering and Energy sources.",
+    "Describe the Machine Tool Operations and advanced Manufacturing process.",
+    "Explain the Working Principle of IC engines and EV vehicles.",
+    "Discuss the Properties of Common Engineering Materials and various Metal Joining Processes.",
+    "Explain the Concepts of Mechatronics, Robotics and Automation in IoT"
+  ]
+}

@@ -1,0 +1,149 @@
+{
+  "subject_code": "BIDTK158",
+  "subject_name": "INNOVATION and DESIGN THINKING",
+  "credits": 1,
+  "course_type": "Integrated",
+  "pedagogy_hours": 15,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_url": "https://vtu.ac.in/pdf/2022syll/csesch.pdf",
+    "source_version": "29052023/V10",
+    "effective_academic_year": "2022-23",
+    "extracted_course_code": "BIDTK158",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "PROCESS OF DESIGN",
+      "hours": null,
+      "topics": [
+        {
+          "title": "PROCESS OF DESIGN"
+        },
+        {
+          "title": "Understanding Design thinking"
+        },
+        {
+          "title": "Shared model in team-based design – Theory and practice in Design thinking – Explore presentation"
+        },
+        {
+          "title": "signers across globe – MVP or Prototyping"
+        },
+        {
+          "title": "Introduction about the design thinking: Chalk and Talk method"
+        },
+        {
+          "title": "Theory and practice through presentation"
+        },
+        {
+          "title": "MVP and Prototyping through live examples and videos"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Tools for Design Thinking",
+      "hours": null,
+      "topics": [
+        {
+          "title": "Tools for Design Thinking"
+        },
+        {
+          "title": "Real-Time design interaction capture and analysis – Enabling efficient collaboration in digital space"
+        },
+        {
+          "title": "– Empathy for design – Collaboration in distributed Design"
+        },
+        {
+          "title": "Case studies on design thinking for real-time interaction and analysis"
+        },
+        {
+          "title": "Process Simulation exercises for collaborated enabled design thinking"
+        },
+        {
+          "title": "Live examples on the success of collaborated design thinking"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Design Thinking in IT",
+      "hours": null,
+      "topics": [
+        {
+          "title": "Design Thinking in IT"
+        },
+        {
+          "title": "Design Thinking to Business Process modelling – Agile in Virtual collaboration environment – Scenario"
+        },
+        {
+          "title": "based Prototyping"
+        },
+        {
+          "title": "Case studies on design thinking and business acceptance of the design"
+        },
+        {
+          "title": "Simulation on the role of virtual eco-system for collaborated prototyping"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "DT For strategic innovations",
+      "hours": null,
+      "topics": [
+        {
+          "title": "DT For strategic innovations"
+        },
+        {
+          "title": "Growth – Story telling representation – Strategic Foresight - Change – Sense Making - Maintenance"
+        },
+        {
+          "title": "Relevance – Value redefinition - Extreme Competition – experience design - Standardization –"
+        },
+        {
+          "title": "Humanization - Creative Culture – Rapid prototyping, Strategy and Organization – Business Model"
+        },
+        {
+          "title": "design."
+        },
+        {
+          "title": "Business model examples of successful designs"
+        },
+        {
+          "title": "Presentation by the students on the success of design"
+        },
+        {
+          "title": "Live project on design thinking in a group of 4 students"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Design thinking workshop",
+      "hours": null,
+      "topics": [
+        {
+          "title": "Design thinking workshop"
+        },
+        {
+          "title": "Design Thinking Work shop Empathize, Design, Ideate, Prototype and Test"
+        },
+        {
+          "title": "8 hours design thinking workshop from the expect and then presentation by the students"
+        },
+        {
+          "title": "on the learning from the workshop"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "Appreciate various design process procedure K2",
+    "Generate and develop design ideas through different technique K2",
+    "Identify the significance of reverse Engineering to Understand products",
+    "Draw technical drawing for design ideas K3"
+  ]
+}

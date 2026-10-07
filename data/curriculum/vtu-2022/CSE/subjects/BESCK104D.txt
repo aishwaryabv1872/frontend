@@ -1,0 +1,155 @@
+16-2-2023
+1
+
+
+Course Title:  INTRODUCTION TO MECHANICAL ENGINEERING
+Course Code:  BESCK104D/204D CIE Marks 50
+Course Type
+(Theory/Practical/Integrated )
+Theory SEE Marks 50
+Total Marks 100
+Teaching Hours/Week (L:T:P: S) 2:2:0:0 Exam Hours 03
+Total Hours of Pedagogy 40 hours  Credits 03
+
+Course Learning Objectives
+ To develop basic Knowledge on Mechanical Engineering, Fundamentals and Energy Sources.
+ Understand the concept of different types of Machine tool operations and Modern
+Manufacturing Processes like CNC, 3D printing.
+ To know the concept of IC engines and Future Mobility vehicles.
+ To give exposure in the field of Engineering Materials and Manufacturing Processes
+Technology and its applications
+ To acquire a basic understanding role of Mechanical Engineering in the Robotics and
+Automation in industry.
+
+Teaching-Learning Process
+ Adopt different types of teaching methods to develop the outcomes through    PowerPoint
+presentations and Video demonstrations or Simulations.
+ Arrange visits to show the live working models other than laboratory topics.
+ Adopt collaborative (Group Learning) Learning in the class.
+ Adopt Problem Based Learning (PBL), which fosters students Analytical skills and develops
+thinking skills such as evaluating, generalizing, and analyzing information.
+Module-1  (8 hours)
+Introduction: Role of Mechanical Engineering in Industries and Society- Emerging Trends and
+Technologies in different sectors such as Energy, Manufacturing, Automotive, Aerospace, and Marine
+sectors.
+Energy: Introduction and applications of Energy sources like Fossil fuels, Nuclear fuels, Hydel,
+Solar, wind, and bio-fuels, Environmental issues like Global warming and Ozone depletion
+Module-2  (8 hours)
+Machine Tool Operations:
+Working Principle of lathe, Lathe operations: Turning, facing, knurling. Working principles of
+Drilling Machine, drilling operations: drilling, boring, reaming. Working of Milling Machine, Milling
+operations: plane milling and slot milling.
+ (No sketches of machine tools, sketches to be used only for explaining the operations).
+Introduction to Advanced Manufacturing Systems: Introduction, components of CNC, advantages
+and applications of CNC, 3D printing.
+
+
+Module-3 (8 hours)
+Introduction to IC Engines : Components and   Working Principles, 4-Strokes Petrol and Diesel Engines,
+Application of IC Engines.
+Insight into Future Mobility; Electric and Hybrid Vehicles, Components of Electric and Hybrid
+Vehicles. Advantages and disadvantages of EVs and Hybrid vehicles.
+
+Module-4 (8 hours)
+Engineering Materials: Types and applications of Ferrous & Nonferrous Metals, silica,
+ceramics, glass, graphite, diamond and polymer. Shape Memory Alloys.
+Joining Processes: Soldering, Brazing and Welding, Definitions, classification of welding
+process, Arc welding, Gas welding and types of flames.
+Module-5 (8 hours)
+
+16-2-2023
+2
+
+Introduction to Mechatronics and Robotics:  open-loop and closed-loop mechatronic systems.
+Classification based on robotics configuration: polar cylindrical, Cartesian coordinate and sp herical.
+Application, Advantages and disadvantages.
+Automation in industry: Definition, types – Fixed, programmable and flexible automation, basic elements
+with block diagrams, advantages.
+Introduction to IOT : Definition and Characteristics, Physical design, protocols, Logical de sign of IoT,
+Functional blocks, and communication models.
+
+Course Outcome (Course Skill Set)
+
+At the end of the course the student will be able to:
+CO1 Explain the concepts of Role of Mechanical Engineering and Energy sources.
+CO2 Describe the Machine Tool Operations and advanced Manufacturing process.
+CO3 Explain the Working Principle of IC engines and EV vehicles.
+CO4 Discuss the Properties of Common Engineering Materials and various Metal Joining
+Processes.
+CO5 Explain the Concepts of Mechatronics, Robotics and Automation in IoT
+
+
+16-2-2023
+3
+
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester En d Exam (SEE) is 50%. The
+minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The minimum passing
+mark for the SEE is 35% of the maximum marks (18 marks out of 50). A student shall be deemed to have satisfied
+the academic requirements and earned the credits allotted to each subject/ course if the student secures not less
+than 35% (18 Marks out of 50) in the semester-end examination (SEE), and a  minimum of 40% (40 marks out of
+100) in the sum total of the CIE (Continuous Internal Evaluation) and SEE (S emester End Examination) taken
+together.
+Continuous Internal Evaluation(CIE):
+Three Tests each of 20 Marks;
+ 1st, 2nd, and 3rd tests shall be conducted after completion of the syllabus of 30-35%,
+70-75%, and 90-100% of the course/s respectively.
+ Assignments/Seminar/quiz/group discussion /field survey & report presentation/ course
+project/Skill development activities, suitably planned to attain the COs and POs for a total of
+40 Marks.
+If the nature of the courses requires assignments/Seminars/Quizzes/group discussion two
+evaluation components shall be conducted. If course project/field survey/skill development
+activities etc then the evaluation method shall be one.
+
+Total CIE marks (out of 100 marks) shall be scaled down to 50 marks
+Semester End Examination(SEE):
+Theory SEE will be conducted by University as per the scheduled timetable, with common q uestion
+papers for the subject (duration 03 hours)
+ The question paper shall be set for 100 marks. The medium of the question paper shall be
+English/Kannada). The duration of SEE is 03 hours.
+ The question paper will have 10 questions. Two questions per module. Each question is set for
+20 marks. The students have to answer 5 full questions, selecting one full question from each
+module. The student has to answer for 100 marks and marks scored out of 100 shall be
+proportionally reduced to 50 marks.
+ There will be 2 questions from each module. Each of the two questions under a module (with a maximum
+of 3 sub-questions), should have a mix of topics under that module.
+
+16-2-2023
+4
+
+Suggested Learning Resources:
+Books (Title of the Book/Name of the author/Name of the publisher/Edition and  Year)
+Text Books:
+1. Elements of Mechanical Engineering, K R Gopala Krishna, Subhash Publications, 2008
+2. An Introduction to Mechanical Engineering, Jonathan Wickert and Kemper Lewis, Third  Edition,
+2012
+
+Reference Books:
+1. Elements of Workshop Technology (Vol. 1 and 2), Hazra Choudhry and Nirzar Roy, Media
+                                       Promoters and Publishers Pvt. Ltd., 2010.
+2. Manufacturing Technology- Foundry, Forming and Welding, P.N.Rao Tata McGraw Hill 3rd Ed., 2003.
+3. Internal Combustion Engines, V. Ganesan, Tata McGraw Hill Education; 4th edition, 2017
+4. Robotics, Appu Kuttan KK K. International Pvt Ltd, volume 1
+5. Dr SRN Reddy, Rachit Thukral and Manasi Mishra, “ Introduction to Internet of Things: A Practical
+Approach”, ETI Labs
+6. Raj kamal, “ Internet of Things: Architecture and Design”, McGraw hill.
+Web links and Video Lectures (e-Resources):
+  https://rakhoh.com/en/applications-and-advantages-of-steam-in-manufacturing- and-
+process-industry/)
+ Videos | Makino (For Machine Tool Operation)
+Activity Based Learning (Suggested Activities in Class)/ Practical Based learning
+ Demonstration of lathe/milling/drilling operations
+ Demonstration of working of IC Engine.
+ Study arc welding, oxy-acetylene gas flame structure.
+ Video demonstration of latest trends in mobility robotics and Automation
+ Demonstration of developing models on machine tools
+
+COs and POs Mapping (CO-PO mappings are only Indicative)
+COs POs
+1 2 3 4 5 6 7 8 9 10 11 12
+CO1 3     1 2   1  1
+CO2 3     1 1   1  1
+CO3 3     1 1   1  1
+CO4 3     1 1   1  1
+CO5 3     1 1   1  1
+Level 3- Highly Mapped,      Level 2-Moderately Mapped,       Level 1-Low Mapped,     Level 0- Not Mapped

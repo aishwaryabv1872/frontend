@@ -1,4 +1,3 @@
-
 "use client";
 
 import { useEffect, useState } from "react";
@@ -56,6 +55,7 @@ type Syllabus = {
   college_id: string | null;
   program_id: string | null;
   scheme_id: string | null;
+  branch_id: string | null;
   semester: number;
   title: string | null;
   source_type: string | null;
@@ -75,6 +75,15 @@ type SyllabusSubject = {
   source_verified: boolean | null;
 };
 
+type SubjectModule = {
+  id: string;
+  subject_id: string;
+  title: string;
+  description: string | null;
+  module_number: number;
+  estimated_hours: number | null;
+};
+
 // ======================================================
 // HELPERS
 // ======================================================
@@ -89,7 +98,7 @@ function getSemesterNumber(
       ? value
       : Number(String(value).match(/\d+/)?.[0]);
 
-  return Number.isInteger(number) && number >= 1 && number <= 12
+  return Number.isInteger(number) && number >= 1 && number <= 8
     ? number
     : null;
 }
@@ -122,10 +131,13 @@ function getRelevanceStyle(relevance: string | null) {
   switch ((relevance || "").toLowerCase()) {
     case "high":
       return "border-emerald-800 bg-emerald-950/40 text-emerald-300";
+
     case "medium":
       return "border-yellow-800 bg-yellow-950/40 text-yellow-300";
+
     case "low":
       return "border-slate-700 bg-slate-800 text-slate-300";
+
     default:
       return "border-blue-800 bg-blue-950/40 text-blue-300";
   }
@@ -135,10 +147,13 @@ function getRelevanceMessage(relevance: string | null) {
   switch ((relevance || "").toLowerCase()) {
     case "high":
       return "Highly important for technical interviews";
+
     case "medium":
       return "Useful supporting knowledge for interviews";
+
     case "low":
       return "Lower interview priority";
+
     default:
       return "Relevant for interview preparation";
   }
@@ -153,12 +168,20 @@ export default function CurriculumPage() {
   const [message, setMessage] = useState("");
 
   const [profile, setProfile] = useState<StudentProfile | null>(null);
-  const [university, setUniversity] = useState<University | null>(null);
+  const [university, setUniversity] =
+    useState<University | null>(null);
   const [college, setCollege] = useState<College | null>(null);
   const [program, setProgram] = useState<Program | null>(null);
   const [branch, setBranch] = useState<Branch | null>(null);
-  const [syllabus, setSyllabus] = useState<Syllabus | null>(null);
-  const [subjects, setSubjects] = useState<SyllabusSubject[]>([]);
+
+  const [syllabus, setSyllabus] =
+    useState<Syllabus | null>(null);
+
+  const [subjects, setSubjects] =
+    useState<SyllabusSubject[]>([]);
+
+  const [modules, setModules] =
+    useState<SubjectModule[]>([]);
 
   // ====================================================
   // LOAD CURRICULUM
@@ -170,6 +193,7 @@ export default function CurriculumPage() {
     async function loadCurriculum() {
       setLoading(true);
       setMessage("");
+
       setProfile(null);
       setUniversity(null);
       setCollege(null);
@@ -177,9 +201,13 @@ export default function CurriculumPage() {
       setBranch(null);
       setSyllabus(null);
       setSubjects([]);
+      setModules([]);
 
       try {
-        // Current authenticated user
+        // ==================================================
+        // CURRENT AUTHENTICATED USER
+        // ==================================================
+
         const {
           data: { user },
           error: userError,
@@ -189,12 +217,18 @@ export default function CurriculumPage() {
 
         if (!user) {
           if (!cancelled) {
-            setMessage("Please log in to view your curriculum.");
+            setMessage(
+              "Please log in to view your curriculum."
+            );
           }
+
           return;
         }
 
-        // Student profile
+        // ==================================================
+        // STUDENT PROFILE
+        // ==================================================
+
         const {
           data: studentProfile,
           error: profileError,
@@ -224,100 +258,179 @@ export default function CurriculumPage() {
 
         if (!studentProfile) {
           if (!cancelled) {
-            setMessage("Please complete your career profile first.");
+            setMessage(
+              "Please complete your career profile first."
+            );
           }
+
           return;
         }
 
         if (cancelled) return;
+
         setProfile(studentProfile);
 
-        console.log("CURRICULUM PROFILE:", {
-          userId: user.id,
-          universityId: studentProfile.university_id,
-          collegeId: studentProfile.college_id,
-          programId: studentProfile.program_id,
-          academicProgram: studentProfile.academic_program,
-          branch: studentProfile.branch,
-          branchId: studentProfile.branch_id,
-        });
+        console.log(
+          "CURRICULUM PROFILE:",
+          {
+            userId: user.id,
+            universityId:
+              studentProfile.university_id,
+            collegeId:
+              studentProfile.college_id,
+            programId:
+              studentProfile.program_id,
+            academicProgram:
+              studentProfile.academic_program,
+            branch:
+              studentProfile.branch,
+            branchId:
+              studentProfile.branch_id,
+            semester:
+              studentProfile.semester_number ??
+              studentProfile.semester,
+          }
+        );
 
-        // Semester
+        // ==================================================
+        // SEMESTER
+        // ==================================================
+
         const semesterNumber =
           studentProfile.semester_number ??
-          getSemesterNumber(studentProfile.semester);
+          getSemesterNumber(
+            studentProfile.semester
+          );
 
         if (!semesterNumber) {
           setMessage(
             "Unable to determine your semester. Please update your profile."
           );
+
           return;
         }
 
-        // University is required for academic program matching
+        // ==================================================
+        // UNIVERSITY REQUIRED
+        // ==================================================
+
         if (!studentProfile.university_id) {
           setMessage(
             "Your university is not connected to the academic database yet. Please update your academic profile."
           );
+
           return;
         }
 
-        // Load university
+        // ==================================================
+        // UNIVERSITY
+        // ==================================================
+
         const {
           data: universityData,
           error: universityError,
         } = await supabase
           .from("universities")
           .select("id, name")
-          .eq("id", studentProfile.university_id)
+          .eq(
+            "id",
+            studentProfile.university_id
+          )
           .maybeSingle();
 
-        if (universityError) throw universityError;
+        if (universityError)
+          throw universityError;
 
         if (!universityData) {
-          setMessage("The selected university could not be found.");
+          setMessage(
+            "The selected university could not be found."
+          );
+
           return;
         }
 
         if (cancelled) return;
+
         setUniversity(universityData);
 
-        // Load college when linked
+        // ==================================================
+        // COLLEGE
+        // ==================================================
+
+        let collegeData: College | null = null;
+
         if (studentProfile.college_id) {
           const {
-            data: collegeData,
+            data,
             error: collegeError,
           } = await supabase
             .from("colleges")
             .select("id, name")
-            .eq("id", studentProfile.college_id)
+            .eq(
+              "id",
+              studentProfile.college_id
+            )
             .maybeSingle();
 
-          if (collegeError) throw collegeError;
+          if (collegeError)
+            throw collegeError;
+
           if (cancelled) return;
-          if (collegeData) setCollege(collegeData);
+
+          collegeData = data;
+
+          if (collegeData) {
+            setCollege(collegeData);
+          }
         }
 
-        // Load branch by ID, with profile text as display fallback
+        // ==================================================
+        // BRANCH
+        // ==================================================
+
+        let branchData: Branch | null = null;
+
         if (studentProfile.branch_id) {
           const {
-            data: branchData,
+            data,
             error: branchError,
           } = await supabase
             .from("branches")
-            .select("id, name, short_name")
-            .eq("id", studentProfile.branch_id)
+            .select(
+              "id, name, short_name"
+            )
+            .eq(
+              "id",
+              studentProfile.branch_id
+            )
             .maybeSingle();
 
-          if (branchError) throw branchError;
+          if (branchError)
+            throw branchError;
+
           if (cancelled) return;
-          if (branchData) setBranch(branchData);
+
+          branchData = data;
+
+          if (branchData) {
+            setBranch(branchData);
+          }
+        }
+
+        // ==================================================
+        // BRANCH REQUIRED
+        // ==================================================
+
+        if (!studentProfile.branch_id) {
+          setMessage(
+            "Your branch is not connected to the academic database yet. Please update your academic profile."
+          );
+
+          return;
         }
 
         // ==================================================
         // LOAD DEGREE PROGRAM
-        // First use program_id; if unavailable, try a
-        // university + degree + branch-name match.
         // ==================================================
 
         let programData: Program | null = null;
@@ -328,58 +441,97 @@ export default function CurriculumPage() {
             error,
           } = await supabase
             .from("academic_programs")
-            .select("id, name, degree")
-            .eq("id", studentProfile.program_id)
+            .select(
+              "id, name, degree"
+            )
+            .eq(
+              "id",
+              studentProfile.program_id
+            )
             .maybeSingle();
 
           if (error) throw error;
+
           programData = data;
         }
 
-        // Fallback for older or incomplete profiles.
-        // academic_program may contain the degree (e.g. B.E.)
-        // rather than the program name.
+        // ==================================================
+        // FALLBACK PROGRAM MATCH
+        // ==================================================
+
         if (!programData) {
           const {
             data: candidatePrograms,
             error: candidateError,
           } = await supabase
             .from("academic_programs")
-            .select("id, name, degree")
-            .eq("university_id", studentProfile.university_id);
+            .select(
+              "id, name, degree"
+            )
+            .eq(
+              "university_id",
+              studentProfile.university_id
+            );
 
-          if (candidateError) throw candidateError;
+          if (candidateError)
+            throw candidateError;
 
-          const profileDegree = normalize(
-            studentProfile.academic_program
-          );
-          const profileBranch = normalize(studentProfile.branch);
+          const profileDegree =
+            normalize(
+              studentProfile.academic_program
+            );
 
-          const matchingPrograms = (candidatePrograms || []).filter(
-            (candidate) => {
-              const degreeMatches =
-                !profileDegree ||
-                normalize(candidate.degree) === profileDegree;
+          const profileBranch =
+            normalize(
+              studentProfile.branch
+            );
 
-              const programName = normalize(candidate.name);
-              const branchMatches =
-                !profileBranch ||
-                programName === profileBranch ||
-                programName.includes(profileBranch) ||
-                profileBranch.includes(programName);
+          const matchingPrograms =
+            (candidatePrograms || []).filter(
+              (candidate) => {
+                const degreeMatches =
+                  !profileDegree ||
+                  normalize(
+                    candidate.degree
+                  ) === profileDegree;
 
-              return degreeMatches && branchMatches;
-            }
-          );
+                const programName =
+                  normalize(
+                    candidate.name
+                  );
 
-          if (matchingPrograms.length === 1) {
-            programData = matchingPrograms[0];
-          } else if (matchingPrograms.length > 1) {
-            // Prefer an exact program-name/branch match.
+                const branchMatches =
+                  !profileBranch ||
+                  programName ===
+                    profileBranch ||
+                  programName.includes(
+                    profileBranch
+                  ) ||
+                  profileBranch.includes(
+                    programName
+                  );
+
+                return (
+                  degreeMatches &&
+                  branchMatches
+                );
+              }
+            );
+
+          if (
+            matchingPrograms.length === 1
+          ) {
+            programData =
+              matchingPrograms[0];
+          } else if (
+            matchingPrograms.length > 1
+          ) {
             programData =
               matchingPrograms.find(
                 (candidate) =>
-                  normalize(candidate.name) === profileBranch
+                  normalize(
+                    candidate.name
+                  ) === profileBranch
               ) || null;
           }
         }
@@ -388,43 +540,62 @@ export default function CurriculumPage() {
           setMessage(
             "We couldn't match your academic profile to a degree program. Please check your university, degree, and branch in your profile."
           );
+
           return;
         }
 
         if (cancelled) return;
+
         setProgram(programData);
 
-        const resolvedDegree = getDegree(
-          programData.degree,
-          studentProfile.academic_program
-        );
+        // ==================================================
+        // DEGREE
+        // ==================================================
 
-        if (resolvedDegree === "Not available") {
+        const resolvedDegree =
+          getDegree(
+            programData.degree,
+            studentProfile.academic_program
+          );
+
+        if (
+          resolvedDegree ===
+          "Not available"
+        ) {
           setMessage(
             "The connected academic program does not have a supported degree value. Please verify the degree in the academic database."
           );
-          return;
-        }
 
-        // Branch should be linked for curriculum matching.
-        if (!studentProfile.branch_id) {
-          setMessage(
-            "Your branch is not connected to the academic database yet. Please update your academic profile."
-          );
           return;
         }
 
         // ==================================================
         // FIND PUBLISHED SYLLABUS
-        // Prefer college-specific syllabus, then university.
+        //
+        // IMPORTANT:
+        // branch_id is mandatory here.
+        //
+        // This prevents:
+        // CSE Semester 3
+        // being returned for
+        // ECE Semester 3.
         // ==================================================
 
-        let selectedSyllabus: Syllabus | null = null;
+        let selectedSyllabus:
+          | Syllabus
+          | null = null;
 
-        if (studentProfile.college_id) {
+        // ==================================================
+        // COLLEGE-SPECIFIC SYLLABUS
+        // ==================================================
+
+        if (
+          studentProfile.college_id
+        ) {
           const {
             data: collegeSyllabus,
-            error: collegeSyllabusError,
+            error:
+              collegeSyllabusError,
           } = await supabase
             .from("syllabi")
             .select(`
@@ -433,26 +604,57 @@ export default function CurriculumPage() {
               college_id,
               program_id,
               scheme_id,
+              branch_id,
               semester,
               title,
               source_type,
               status
             `)
-            .eq("university_id", studentProfile.university_id)
-            .eq("college_id", studentProfile.college_id)
-            .eq("program_id", programData.id)
-            .eq("semester", semesterNumber)
-            .eq("status", "published")
+            .eq(
+              "university_id",
+              studentProfile.university_id
+            )
+            .eq(
+              "college_id",
+              studentProfile.college_id
+            )
+            .eq(
+              "program_id",
+              programData.id
+            )
+            .eq(
+              "branch_id",
+              studentProfile.branch_id
+            )
+            .eq(
+              "semester",
+              semesterNumber
+            )
+            .eq(
+              "status",
+              "published"
+            )
             .maybeSingle();
 
-          if (collegeSyllabusError) throw collegeSyllabusError;
-          selectedSyllabus = collegeSyllabus;
+          if (
+            collegeSyllabusError
+          ) {
+            throw collegeSyllabusError;
+          }
+
+          selectedSyllabus =
+            collegeSyllabus;
         }
+
+        // ==================================================
+        // UNIVERSITY-LEVEL FALLBACK
+        // ==================================================
 
         if (!selectedSyllabus) {
           const {
             data: universitySyllabus,
-            error: universitySyllabusError,
+            error:
+              universitySyllabusError,
           } = await supabase
             .from("syllabi")
             .select(`
@@ -461,37 +663,68 @@ export default function CurriculumPage() {
               college_id,
               program_id,
               scheme_id,
+              branch_id,
               semester,
               title,
               source_type,
               status
             `)
-            .eq("university_id", studentProfile.university_id)
-            .eq("program_id", programData.id)
-            .eq("semester", semesterNumber)
-            .eq("status", "published")
-            .is("college_id", null)
+            .eq(
+              "university_id",
+              studentProfile.university_id
+            )
+            .eq(
+              "program_id",
+              programData.id
+            )
+            .eq(
+              "branch_id",
+              studentProfile.branch_id
+            )
+            .eq(
+              "semester",
+              semesterNumber
+            )
+            .eq(
+              "status",
+              "published"
+            )
+            .is(
+              "college_id",
+              null
+            )
             .maybeSingle();
 
-          if (universitySyllabusError) {
+          if (
+            universitySyllabusError
+          ) {
             throw universitySyllabusError;
           }
 
-          selectedSyllabus = universitySyllabus;
+          selectedSyllabus =
+            universitySyllabus;
         }
+
+        // ==================================================
+        // NO SYLLABUS
+        // ==================================================
 
         if (!selectedSyllabus) {
           setMessage(
-            `No published syllabus was found for your academic profile and Semester ${semesterNumber}. Your degree is connected, but a matching syllabus may not have been published yet.`
+            `No published syllabus was found for ${branchData?.short_name || studentProfile.branch || "your branch"} — Semester ${semesterNumber}.`
           );
+
           return;
         }
 
         if (cancelled) return;
-        setSyllabus(selectedSyllabus);
+
+        setSyllabus(
+          selectedSyllabus
+        );
 
         // ==================================================
-        // LOAD SYLLABUS SUBJECTS
+        // LOAD SUBJECTS
         // ==================================================
 
         const {
@@ -511,27 +744,128 @@ export default function CurriculumPage() {
             interview_topics,
             source_verified
           `)
-          .eq("syllabus_id", selectedSyllabus.id)
-          .order("subject_name");
+          .eq(
+            "syllabus_id",
+            selectedSyllabus.id
+          )
+          .order(
+            "subject_name"
+          );
 
-        if (subjectError) throw subjectError;
+        if (subjectError)
+          throw subjectError;
+
         if (cancelled) return;
 
-        setSubjects(subjectData || []);
+        const loadedSubjects =
+          subjectData || [];
 
-        console.log("CURRICULUM LOADED:", {
-          userId: user.id,
-          university: universityData.name,
-          college: college?.name || studentProfile.college,
-          program: programData.name,
-          degree: resolvedDegree,
-          branch: branch?.name || studentProfile.branch,
-          semester: semesterNumber,
-          syllabus: selectedSyllabus.title,
-          subjectCount: subjectData?.length || 0,
-        });
+        setSubjects(
+          loadedSubjects
+        );
+
+        // ==================================================
+        // LOAD MODULES
+        // ==================================================
+
+        const subjectIds =
+          loadedSubjects.map(
+            (subject) =>
+              subject.id
+          );
+
+        let moduleData:
+          SubjectModule[] = [];
+
+        if (subjectIds.length > 0) {
+          const {
+            data,
+            error:
+              moduleError,
+          } = await supabase
+            .from("subject_modules")
+            .select(`
+              id,
+              subject_id,
+              title,
+              description,
+              module_number,
+              estimated_hours
+            `)
+            .in(
+              "subject_id",
+              subjectIds
+            )
+            .order(
+              "module_number",
+              {
+                ascending: true,
+              }
+            );
+
+          if (moduleError)
+            throw moduleError;
+
+          moduleData =
+            data || [];
+        }
+
+        if (cancelled) return;
+
+        setModules(
+          moduleData
+        );
+
+        // ==================================================
+        // FINAL LOG
+        // ==================================================
+
+        console.log(
+          "CURRICULUM LOADED:",
+          {
+            userId: user.id,
+
+            university:
+              universityData.name,
+
+            college:
+              collegeData?.name ||
+              studentProfile.college,
+
+            program:
+              programData.name,
+
+            degree:
+              resolvedDegree,
+
+            branch:
+              branchData?.name ||
+              studentProfile.branch,
+
+            branchId:
+              studentProfile.branch_id,
+
+            semester:
+              semesterNumber,
+
+            syllabus:
+              selectedSyllabus.title,
+
+            syllabusId:
+              selectedSyllabus.id,
+
+            subjectCount:
+              loadedSubjects.length,
+
+            moduleCount:
+              moduleData.length,
+          }
+        );
       } catch (error) {
-        console.error("CURRICULUM LOAD ERROR:", error);
+        console.error(
+          "CURRICULUM LOAD ERROR:",
+          error
+        );
 
         if (!cancelled) {
           setMessage(
@@ -541,7 +875,9 @@ export default function CurriculumPage() {
           );
         }
       } finally {
-        if (!cancelled) setLoading(false);
+        if (!cancelled) {
+          setLoading(false);
+        }
       }
     }
 
@@ -550,26 +886,38 @@ export default function CurriculumPage() {
     return () => {
       cancelled = true;
     };
-  });
+  }, []);
 
   // ====================================================
   // DISPLAY VALUES
   // ====================================================
 
-  const highRelevanceCount = subjects.filter(
-    (subject) =>
-      (subject.interview_relevance || "").toLowerCase() === "high"
-  ).length;
+  const highRelevanceCount =
+    subjects.filter(
+      (subject) =>
+        (
+          subject.interview_relevance ||
+          ""
+        ).toLowerCase() ===
+        "high"
+    ).length;
 
-  const totalTopics = subjects.reduce(
-    (total, subject) =>
-      total + (subject.interview_topics?.length || 0),
-    0
-  );
+  const totalTopics =
+    subjects.reduce(
+      (total, subject) =>
+        total +
+        (
+          subject.interview_topics
+            ?.length || 0
+        ),
+      0
+    );
 
   const semesterNumber =
     profile?.semester_number ??
-    getSemesterNumber(profile?.semester);
+    getSemesterNumber(
+      profile?.semester
+    );
 
   const degree = getDegree(
     program?.degree,
@@ -577,7 +925,29 @@ export default function CurriculumPage() {
   );
 
   const branchName =
-    branch?.name || profile?.branch || "Not available";
+    branch?.name ||
+    profile?.branch ||
+    "Not available";
+
+  // ====================================================
+  // MODULE HELPER
+  // ====================================================
+
+  function getSubjectModules(
+    subjectId: string
+  ) {
+    return modules
+      .filter(
+        (module) =>
+          module.subject_id ===
+          subjectId
+      )
+      .sort(
+        (a, b) =>
+          a.module_number -
+          b.module_number
+      );
+  }
 
   // ====================================================
   // LOADING VIEW
@@ -587,8 +957,12 @@ export default function CurriculumPage() {
     return (
       <main className="min-h-screen bg-slate-950 text-white">
         <Navbar />
+
         <div className="flex min-h-[80vh] flex-col items-center justify-center">
-          <div className="text-5xl">📚</div>
+          <div className="text-5xl">
+            📚
+          </div>
+
           <p className="mt-4 text-slate-400">
             Loading your personalized curriculum...
           </p>
@@ -606,6 +980,7 @@ export default function CurriculumPage() {
       <Navbar />
 
       <section className="mx-auto max-w-6xl px-6 py-12">
+
         {/* HEADER */}
 
         <div className="flex flex-col gap-6 md:flex-row md:items-start md:justify-between">
@@ -613,12 +988,14 @@ export default function CurriculumPage() {
             <p className="text-sm font-semibold text-blue-400">
               CURRICULUM → CAREER BRIDGE
             </p>
+
             <h1 className="mt-2 text-4xl font-bold">
               Your Curriculum Journey 📚
             </h1>
+
             <p className="mt-3 max-w-2xl text-slate-400">
               Your syllabus is automatically selected using your
-              university, college, degree program and semester.
+              university, college, degree program, branch and semester.
             </p>
           </div>
 
@@ -634,6 +1011,7 @@ export default function CurriculumPage() {
 
         {profile && (
           <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
+
             <AcademicCard
               label="University"
               value={
@@ -642,6 +1020,7 @@ export default function CurriculumPage() {
                 "Not available"
               }
             />
+
             <AcademicCard
               label="College"
               value={
@@ -650,16 +1029,22 @@ export default function CurriculumPage() {
                 "Not available"
               }
             />
+
             <AcademicCard
               label="Degree"
               value={degree}
               highlight
             />
+
             <AcademicCard
               label="Branch"
               value={branchName}
-              detail={branch?.short_name || undefined}
+              detail={
+                branch?.short_name ||
+                undefined
+              }
             />
+
             <AcademicCard
               label="Semester"
               value={
@@ -668,10 +1053,15 @@ export default function CurriculumPage() {
                   : "Not available"
               }
             />
+
             <AcademicCard
               label="Target Role"
-              value={profile.target_role || "Not selected"}
+              value={
+                profile.target_role ||
+                "Not selected"
+              }
             />
+
           </div>
         )}
 
@@ -679,16 +1069,21 @@ export default function CurriculumPage() {
 
         {syllabus && !message && (
           <div className="mt-8 rounded-2xl border border-blue-900/50 bg-blue-950/20 p-6">
+
             <p className="text-xs font-semibold uppercase tracking-wide text-blue-400">
               Active Syllabus
             </p>
+
             <h2 className="mt-2 text-xl font-bold">
-              {syllabus.title || "Published Syllabus"}
+              {syllabus.title ||
+                "Published Syllabus"}
             </h2>
+
             <p className="mt-2 text-sm text-slate-400">
               {university?.name}
               {" • "}
-              {college?.name || "University Syllabus"}
+              {college?.name ||
+                "University Syllabus"}
               {" • "}
               {degree}
               {" • "}
@@ -696,11 +1091,14 @@ export default function CurriculumPage() {
               {" • "}
               Semester {syllabus.semester}
             </p>
+
             {syllabus.source_type && (
               <p className="mt-2 text-xs text-slate-500">
-                Source: {syllabus.source_type}
+                Source:{" "}
+                {syllabus.source_type}
               </p>
             )}
+
           </div>
         )}
 
@@ -708,198 +1106,387 @@ export default function CurriculumPage() {
 
         {message && (
           <div className="mt-8 rounded-xl border border-yellow-900 bg-yellow-950/30 p-6">
+
             <p className="font-medium text-yellow-300">
               ⚠️ {message}
             </p>
+
             <Link
               href="/profile"
               className="mt-4 inline-block rounded-lg bg-blue-600 px-4 py-2 text-sm font-semibold text-white hover:bg-blue-500"
             >
               Update Profile →
             </Link>
+
           </div>
         )}
 
         {/* STATISTICS */}
 
-        {!message && subjects.length > 0 && (
-          <div className="mt-8 grid gap-5 md:grid-cols-3">
-            <StatCard
-              icon="📚"
-              label="Total Subjects"
-              value={subjects.length}
-            />
-            <StatCard
-              icon="🎯"
-              label="High Interview Value"
-              value={highRelevanceCount}
-              valueClass="text-emerald-400"
-            />
-            <StatCard
-              icon="💡"
-              label="Interview Topics"
-              value={totalTopics}
-              valueClass="text-blue-400"
-            />
-          </div>
-        )}
+        {!message &&
+          subjects.length > 0 && (
+            <div className="mt-8 grid gap-5 md:grid-cols-4">
+
+              <StatCard
+                icon="📚"
+                label="Total Subjects"
+                value={
+                  subjects.length
+                }
+              />
+
+              <StatCard
+                icon="📖"
+                label="Total Modules"
+                value={
+                  modules.length
+                }
+                valueClass="text-purple-400"
+              />
+
+              <StatCard
+                icon="🎯"
+                label="High Interview Value"
+                value={
+                  highRelevanceCount
+                }
+                valueClass="text-emerald-400"
+              />
+
+              <StatCard
+                icon="💡"
+                label="Interview Topics"
+                value={
+                  totalTopics
+                }
+                valueClass="text-blue-400"
+              />
+
+            </div>
+          )}
 
         {/* EMPTY SUBJECTS */}
 
-        {!message && syllabus && subjects.length === 0 && (
-          <div className="mt-10 rounded-2xl border border-slate-800 bg-slate-900 p-10 text-center">
-            <div className="text-5xl">📖</div>
-            <h2 className="mt-4 text-xl font-semibold">
-              No subjects found
-            </h2>
-            <p className="mx-auto mt-2 max-w-lg text-slate-400">
-              Your syllabus exists, but no subjects have been added
-              to it yet.
-            </p>
-          </div>
-        )}
+        {!message &&
+          syllabus &&
+          subjects.length === 0 && (
+            <div className="mt-10 rounded-2xl border border-slate-800 bg-slate-900 p-10 text-center">
+
+              <div className="text-5xl">
+                📖
+              </div>
+
+              <h2 className="mt-4 text-xl font-semibold">
+                No subjects found
+              </h2>
+
+              <p className="mx-auto mt-2 max-w-lg text-slate-400">
+                Your syllabus exists, but no subjects
+                have been added to it yet.
+              </p>
+
+            </div>
+          )}
 
         {/* SUBJECTS */}
 
-        {!message && subjects.length > 0 && (
-          <div className="mt-10">
-            <div className="mb-5">
-              <h2 className="text-2xl font-bold">
-                Your Semester Subjects
-              </h2>
-              <p className="mt-1 text-sm text-slate-400">
-                These subjects come from your selected university
-                syllabus.
-              </p>
-            </div>
+        {!message &&
+          subjects.length > 0 && (
+            <div className="mt-10">
 
-            <div className="grid gap-6 md:grid-cols-2">
-              {subjects.map((subject) => (
-                <div
-                  key={subject.id}
-                  className="rounded-2xl border border-slate-800 bg-slate-900 p-6 transition hover:border-slate-700"
-                >
-                  {/* SUBJECT HEADER */}
+              <div className="mb-5">
 
-                  <div className="flex items-start justify-between gap-4">
-                    <div>
-                      <div className="text-3xl">📘</div>
-                      <h3 className="mt-4 text-xl font-bold">
-                        {subject.subject_name}
-                      </h3>
+                <h2 className="text-2xl font-bold">
+                  Your Semester Subjects
+                </h2>
 
-                      <div className="mt-2 flex flex-wrap gap-2">
-                        {subject.subject_code && (
-                          <span className="rounded-lg bg-slate-950 px-2 py-1 text-xs text-slate-400">
-                            {subject.subject_code}
+                <p className="mt-1 text-sm text-slate-400">
+                  These subjects and modules come from
+                  your selected university syllabus.
+                </p>
+
+              </div>
+
+              <div className="grid gap-6 md:grid-cols-2">
+
+                {subjects.map(
+                  (subject) => {
+
+                    const subjectModules =
+                      getSubjectModules(
+                        subject.id
+                      );
+
+                    return (
+                      <div
+                        key={subject.id}
+                        className="rounded-2xl border border-slate-800 bg-slate-900 p-6 transition hover:border-slate-700"
+                      >
+
+                        {/* SUBJECT HEADER */}
+
+                        <div className="flex items-start justify-between gap-4">
+
+                          <div>
+
+                            <div className="text-3xl">
+                              📘
+                            </div>
+
+                            <h3 className="mt-4 text-xl font-bold">
+                              {
+                                subject.subject_name
+                              }
+                            </h3>
+
+                            <div className="mt-2 flex flex-wrap gap-2">
+
+                              {subject.subject_code && (
+                                <span className="rounded-lg bg-slate-950 px-2 py-1 text-xs text-slate-400">
+                                  {
+                                    subject.subject_code
+                                  }
+                                </span>
+                              )}
+
+                              {subject.credits !==
+                                null &&
+                                subject.credits !==
+                                  undefined && (
+                                  <span className="rounded-lg bg-slate-950 px-2 py-1 text-xs text-slate-400">
+                                    {
+                                      subject.credits
+                                    }{" "}
+                                    Credits
+                                  </span>
+                                )}
+
+                              {subject.subject_type && (
+                                <span className="rounded-lg bg-slate-950 px-2 py-1 text-xs text-slate-400">
+                                  {
+                                    subject.subject_type
+                                  }
+                                </span>
+                              )}
+
+                            </div>
+
+                          </div>
+
+                          <span
+                            className={`rounded-full border px-3 py-1 text-xs font-semibold ${getRelevanceStyle(
+                              subject.interview_relevance
+                            )}`}
+                          >
+                            {
+                              subject.interview_relevance ||
+                              "Relevant"
+                            }
                           </span>
-                        )}
-                        {subject.credits !== null &&
-                          subject.credits !== undefined && (
-                            <span className="rounded-lg bg-slate-950 px-2 py-1 text-xs text-slate-400">
-                              {subject.credits} Credits
-                            </span>
+
+                        </div>
+
+                        {/* DESCRIPTION */}
+
+                        <p className="mt-5 text-sm leading-6 text-slate-400">
+                          {
+                            subject.description ||
+                            "Important concepts from this subject can strengthen your academic and technical interview preparation."
+                          }
+                        </p>
+
+                        {/* MODULES */}
+
+                        <div className="mt-6">
+
+                          <div className="flex items-center justify-between">
+
+                            <p className="text-sm font-semibold text-slate-300">
+                              📚 Course Modules
+                            </p>
+
+                            {subjectModules.length >
+                              0 && (
+                              <span className="text-xs text-slate-500">
+                                {
+                                  subjectModules.length
+                                }{" "}
+                                modules
+                              </span>
+                            )}
+
+                          </div>
+
+                          {subjectModules.length >
+                          0 ? (
+                            <div className="mt-3 space-y-3">
+
+                              {subjectModules.map(
+                                (module) => (
+                                  <div
+                                    key={
+                                      module.id
+                                    }
+                                    className="rounded-xl border border-slate-800 bg-slate-950 p-4"
+                                  >
+
+                                    <div className="flex items-start gap-3">
+
+                                      <div className="flex h-8 w-8 shrink-0 items-center justify-center rounded-lg bg-blue-950 text-xs font-bold text-blue-300">
+                                        {
+                                          module.module_number
+                                        }
+                                      </div>
+
+                                      <div className="min-w-0">
+
+                                        <p className="font-semibold text-slate-200">
+                                          {
+                                            module.title
+                                          }
+                                        </p>
+
+                                        {module.description && (
+                                          <p className="mt-1 text-xs leading-5 text-slate-500">
+                                            {
+                                              module.description
+                                            }
+                                          </p>
+                                        )}
+
+                                        {module.estimated_hours !==
+                                          null &&
+                                          module.estimated_hours !==
+                                            undefined && (
+                                            <p className="mt-2 text-xs text-slate-600">
+                                              {
+                                                module.estimated_hours
+                                              }{" "}
+                                              hours
+                                            </p>
+                                          )}
+
+                                      </div>
+
+                                    </div>
+
+                                  </div>
+                                )
+                              )}
+
+                            </div>
+                          ) : (
+                            <div className="mt-3 rounded-xl border border-dashed border-slate-800 bg-slate-950/50 p-4">
+                              <p className="text-sm text-slate-500">
+                                Module-level syllabus content
+                                has not been imported yet.
+                              </p>
+                            </div>
                           )}
-                        {subject.subject_type && (
-                          <span className="rounded-lg bg-slate-950 px-2 py-1 text-xs text-slate-400">
-                            {subject.subject_type}
-                          </span>
+
+                        </div>
+
+                        {/* INTERVIEW RELEVANCE */}
+
+                        <div className="mt-5 rounded-xl bg-slate-950 p-4">
+
+                          <p className="text-sm font-medium text-blue-400">
+                            🎯 Interview Relevance
+                          </p>
+
+                          <p className="mt-1 text-sm text-slate-400">
+                            {
+                              getRelevanceMessage(
+                                subject.interview_relevance
+                              )
+                            }
+                          </p>
+
+                        </div>
+
+                        {/* INTERVIEW TOPICS */}
+
+                        <div className="mt-5">
+
+                          <p className="text-sm font-semibold text-slate-300">
+                            Important Interview Topics
+                          </p>
+
+                          <div className="mt-3 flex flex-wrap gap-2">
+
+                            {subject.interview_topics &&
+                            subject.interview_topics.length >
+                              0 ? (
+                              subject.interview_topics.map(
+                                (
+                                  topic,
+                                  index
+                                ) => (
+                                  <span
+                                    key={`${subject.id}-${index}`}
+                                    className="rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-xs text-slate-300"
+                                  >
+                                    {
+                                      topic
+                                    }
+                                  </span>
+                                )
+                              )
+                            ) : (
+                              <span className="text-sm text-slate-500">
+                                Topics will be added soon.
+                              </span>
+                            )}
+
+                          </div>
+
+                        </div>
+
+                        {/* SOURCE VERIFICATION */}
+
+                        {subject.source_verified && (
+                          <div className="mt-5 text-xs text-emerald-400">
+                            ✓ Source verified
+                          </div>
                         )}
+
+                        {/* ACTIONS */}
+
+                        <div className="mt-6 flex flex-wrap gap-3">
+
+                          <Link
+                            href={`/ai-tutor?subject=${encodeURIComponent(
+                              subject.subject_name
+                            )}&code=${encodeURIComponent(
+                              subject.subject_code ||
+                                ""
+                            )}`}
+                            className="rounded-lg border border-blue-800 bg-blue-950/40 px-4 py-2 text-sm font-semibold text-blue-300 transition hover:bg-blue-900/50"
+                          >
+                            Ask AI Tutor
+                          </Link>
+
+                          <Link
+                            href={`/ai-interview?subject=${encodeURIComponent(
+                              subject.subject_name
+                            )}`}
+                            className="rounded-lg border border-emerald-800 bg-emerald-950/40 px-4 py-2 text-sm font-semibold text-emerald-300 transition hover:bg-emerald-900/50"
+                          >
+                            Practice
+                          </Link>
+
+                        </div>
+
                       </div>
-                    </div>
+                    );
+                  }
+                )}
 
-                    <span
-                      className={`rounded-full border px-3 py-1 text-xs font-semibold ${getRelevanceStyle(
-                        subject.interview_relevance
-                      )}`}
-                    >
-                      {subject.interview_relevance || "Relevant"}
-                    </span>
-                  </div>
+              </div>
 
-                  {/* DESCRIPTION */}
-
-                  <p className="mt-5 text-sm leading-6 text-slate-400">
-                    {subject.description ||
-                      "Important concepts from this subject can strengthen your academic and technical interview preparation."}
-                  </p>
-
-                  {/* INTERVIEW RELEVANCE */}
-
-                  <div className="mt-5 rounded-xl bg-slate-950 p-4">
-                    <p className="text-sm font-medium text-blue-400">
-                      🎯 Interview Relevance
-                    </p>
-                    <p className="mt-1 text-sm text-slate-400">
-                      {getRelevanceMessage(
-                        subject.interview_relevance
-                      )}
-                    </p>
-                  </div>
-
-                  {/* INTERVIEW TOPICS */}
-
-                  <div className="mt-5">
-                    <p className="text-sm font-semibold text-slate-300">
-                      Important Interview Topics
-                    </p>
-                    <div className="mt-3 flex flex-wrap gap-2">
-                      {subject.interview_topics &&
-                      subject.interview_topics.length > 0 ? (
-                        subject.interview_topics.map(
-                          (topic, index) => (
-                            <span
-                              key={`${subject.id}-${index}`}
-                              className="rounded-lg border border-slate-700 bg-slate-950 px-3 py-2 text-xs text-slate-300"
-                            >
-                              {topic}
-                            </span>
-                          )
-                        )
-                      ) : (
-                        <span className="text-sm text-slate-500">
-                          Topics will be added soon.
-                        </span>
-                      )}
-                    </div>
-                  </div>
-
-                  {/* SOURCE VERIFICATION */}
-
-                  {subject.source_verified && (
-                    <div className="mt-5 text-xs text-emerald-400">
-                      ✓ Source verified
-                    </div>
-                  )}
-
-                  {/* ACTIONS */}
-
-                  <div className="mt-6 flex flex-wrap gap-3">
-                    <Link
-                      href={`/ai-tutor?subject=${encodeURIComponent(
-                        subject.subject_name
-                      )}&code=${encodeURIComponent(
-                        subject.subject_code || ""
-                      )}`}
-                      className="rounded-lg border border-blue-800 bg-blue-950/40 px-4 py-2 text-sm font-semibold text-blue-300 transition hover:bg-blue-900/50"
-                    >
-                      Ask AI Tutor
-                    </Link>
-
-                    <Link
-                      href={`/ai-interview?subject=${encodeURIComponent(
-                        subject.subject_name
-                      )}`}
-                      className="rounded-lg border border-emerald-800 bg-emerald-950/40 px-4 py-2 text-sm font-semibold text-emerald-300 transition hover:bg-emerald-900/50"
-                    >
-                      Practice
-                    </Link>
-                  </div>
-                </div>
-              ))}
             </div>
-          </div>
-        )}
+          )}
+
       </section>
     </main>
   );
@@ -931,15 +1518,21 @@ function AcademicCard({
       <p className="text-xs uppercase tracking-wide text-slate-500">
         {label}
       </p>
+
       <p
         className={`mt-2 font-semibold ${
-          highlight ? "text-emerald-300" : "text-white"
+          highlight
+            ? "text-emerald-300"
+            : "text-white"
         }`}
       >
         {value}
       </p>
+
       {detail && (
-        <p className="mt-1 text-xs text-slate-400">{detail}</p>
+        <p className="mt-1 text-xs text-slate-400">
+          {detail}
+        </p>
       )}
     </div>
   );
@@ -958,11 +1551,21 @@ function StatCard({
 }) {
   return (
     <div className="rounded-2xl border border-slate-800 bg-slate-900 p-6">
-      <div className="text-3xl">{icon}</div>
-      <p className="mt-3 text-sm text-slate-400">{label}</p>
-      <p className={`mt-1 text-3xl font-bold ${valueClass}`}>
+
+      <div className="text-3xl">
+        {icon}
+      </div>
+
+      <p className="mt-3 text-sm text-slate-400">
+        {label}
+      </p>
+
+      <p
+        className={`mt-1 text-3xl font-bold ${valueClass}`}
+      >
         {value}
       </p>
+
     </div>
   );
 }

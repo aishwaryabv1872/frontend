@@ -1,0 +1,277 @@
+{
+  "subject_code": "BPLCK105C",
+  "subject_name": "Basics of Java Programming",
+  "credits": 3,
+  "course_type": "Integrated",
+  "pedagogy_hours": 40,
+  "source": {
+    "source_name": "VTU",
+    "source_document": "cse-sem-1-2-scheme.pdf",
+    "source_date": "16-2-2023"
+  },
+  "modules": [
+    {
+      "module_number": 1,
+      "title": "An Overview of Java, Data Types, Variables, and Arrays",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Object-Oriented Programming"
+        },
+        {
+          "title": "A First Simple Program"
+        },
+        {
+          "title": "A Second Short Program"
+        },
+        {
+          "title": "Two Control Statements"
+        },
+        {
+          "title": "Using Blocks of Code"
+        },
+        {
+          "title": "Lexical Issues"
+        },
+        {
+          "title": "The Java Class Libraries"
+        },
+        {
+          "title": "Java Is a Strongly Typed Language"
+        },
+        {
+          "title": "The Primitive Types"
+        },
+        {
+          "title": "Integers"
+        },
+        {
+          "title": "Floating-Point Types"
+        },
+        {
+          "title": "Characters"
+        },
+        {
+          "title": "Booleans"
+        },
+        {
+          "title": "A Closer Look at Literals"
+        },
+        {
+          "title": "Variables"
+        },
+        {
+          "title": "Type Conversion and Casting"
+        },
+        {
+          "title": "Automatic Type Promotion in Expressions"
+        },
+        {
+          "title": "Arrays"
+        },
+        {
+          "title": "A Few Words About Strings"
+        }
+      ]
+    },
+    {
+      "module_number": 2,
+      "title": "Operators and Control Statements",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Arithmetic Operators"
+        },
+        {
+          "title": "The Bitwise Operators"
+        },
+        {
+          "title": "Relational Operators"
+        },
+        {
+          "title": "Boolean Logical Operators"
+        },
+        {
+          "title": "The Assignment Operator"
+        },
+        {
+          "title": "The ? Operator"
+        },
+        {
+          "title": "Operator Precedence"
+        },
+        {
+          "title": "Using Parentheses"
+        },
+        {
+          "title": "Java's Selection Statements"
+        },
+        {
+          "title": "Iteration Statements"
+        },
+        {
+          "title": "Jump Statements"
+        }
+      ]
+    },
+    {
+      "module_number": 3,
+      "title": "Introducing Classes and Methods",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Class Fundamentals"
+        },
+        {
+          "title": "Declaring Objects"
+        },
+        {
+          "title": "Assigning Object Reference Variables"
+        },
+        {
+          "title": "Introducing Methods"
+        },
+        {
+          "title": "Constructors"
+        },
+        {
+          "title": "The this Keyword"
+        },
+        {
+          "title": "Garbage Collection"
+        },
+        {
+          "title": "The finalize() Method"
+        },
+        {
+          "title": "A Stack Class"
+        },
+        {
+          "title": "Overloading Methods"
+        },
+        {
+          "title": "Using Objects as Parameters"
+        },
+        {
+          "title": "A Closer Look at Argument Passing"
+        },
+        {
+          "title": "Returning Objects"
+        },
+        {
+          "title": "Recursion"
+        },
+        {
+          "title": "Introducing Access Control"
+        },
+        {
+          "title": "Understanding static"
+        },
+        {
+          "title": "Introducing final"
+        },
+        {
+          "title": "Arrays Revisited"
+        }
+      ]
+    },
+    {
+      "module_number": 4,
+      "title": "Inheritance",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Inheritance"
+        },
+        {
+          "title": "Using super"
+        },
+        {
+          "title": "Creating a Multilevel Hierarchy"
+        },
+        {
+          "title": "When Constructors Are Called"
+        },
+        {
+          "title": "Method Overriding"
+        },
+        {
+          "title": "Dynamic Method Dispatch"
+        },
+        {
+          "title": "Using Abstract Classes"
+        },
+        {
+          "title": "Using final with Inheritance"
+        },
+        {
+          "title": "The Object Class"
+        }
+      ]
+    },
+    {
+      "module_number": 5,
+      "title": "Packages, Interfaces and Exception Handling",
+      "hours": 8,
+      "topics": [
+        {
+          "title": "Packages"
+        },
+        {
+          "title": "Access Protection"
+        },
+        {
+          "title": "Importing Packages"
+        },
+        {
+          "title": "Interfaces"
+        },
+        {
+          "title": "Exception-Handling Fundamentals"
+        },
+        {
+          "title": "Exception Types"
+        },
+        {
+          "title": "Uncaught Exceptions"
+        },
+        {
+          "title": "Using try and catch"
+        },
+        {
+          "title": "Multiple catch Clauses"
+        },
+        {
+          "title": "Nested try Statements"
+        },
+        {
+          "title": "throw"
+        },
+        {
+          "title": "throws"
+        },
+        {
+          "title": "finally"
+        },
+        {
+          "title": "Java's Built-in Exceptions"
+        },
+        {
+          "title": "Creating Your Own Exception Subclasses"
+        },
+        {
+          "title": "Chained Exceptions"
+        },
+        {
+          "title": "Using Exceptions"
+        }
+      ]
+    }
+  ],
+  "course_outcomes": [
+    "To explain the features and object oriented concepts in JAVA programming",
+    "To analyse working of bitwise operators in JAVA",
+    "To develop simple programs based on polymorphism and inheritance",
+    "To describe the concepts of importing packages and exception handling mechanism"
+  ]
+}

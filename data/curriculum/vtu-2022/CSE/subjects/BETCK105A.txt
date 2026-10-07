@@ -1,0 +1,147 @@
+16-2-2023
+1
+
+
+Course Title:  Smart Materials and systems
+Course Code: BETCK105A/205A CIE Marks 50
+Course Type (Theory/Practical
+/Integrated )
+Theory SEE Marks 50
+Total Marks 100
+Teaching Hours/Week (L:T:P: S) 3:0:0:0 Exam Hours 03
+Total Hours of Pedagogy 40 Hours Credits 03
+
+Course objectives
+ To develop the students ability to learn emerging materials.
+ To make students to learn prefabricated building components
+ To understand the sensors deployed in smart buildings
+ To learn building information modelling for building design
+ To learn the concepts of 3-D printing
+
+Teaching-Learning Process
+These are sample Strategies; which teachers can use to accelerate the attainment of the various
+course outcomes.
+1. Lecture method (L) does not mean only the traditional lecture method, but a different type of
+teaching method may be adopted to develop the outcomes.
+2. Arrange visits to nearby sites to give brief information about the Civil Engineering structures.
+3. Show Video/animation films to explain the infrastructures and the mechanism involved in the
+principle.
+4. Encourage collaborative (Group) Learning in the class.
+5. Ask at least three HOT (Higher-order Thinking) questions in the class, which promotes critical
+thinking.
+6. Adopt Problem Based Learning (PBL), which fosters students’ Analytical skills, develop
+thinking skills such as the ability to evaluate, generalize, and analyze information rather than
+simply recall it.
+7. Topics will be introduced in multiple representations.
+8. Show the different ways to solve the same problem and encourage the students to come up with
+their own creative ways to solve them.
+9. Discuss how every concept can be applied to the real world - and when that's possible, it helps
+improve the students' understanding.
+     10. Individual teachers can device innovative pedagogy to improve teaching-learning.
+
+Module-1  (08)
+Emerging Materials
+Honey comb structure (Carbon composites), Nano-materials, engineered polymers, emerging
+sustainable by products (Fly ash and GGBS) and construction chemicals
+Module-2   (08)
+Prefabricated/ Manufactured building components
+Definition, types of prefabricated/ manufactured building components and infrastructure, modular
+coordination, standardization, materials, systems, production, transportation and installation.
+Module-3(08)
+Smart Materials
+Definition, Principles of Piezo-electricity, materials (Polymers and Ceramics), sensors (Piezo-electric
+sensor, strain gauge, shear sensor, in-plane and out of plane sensor, accelerometer), smart composites
+
+
+16-2-2023
+2
+
+Module-4(08)
+BIM and IBMS
+BIM: Definition, Necessity, advantages, BIM in building design, infrastructure design and construction
+IBMS – Definition, Necessity, advantages, Types of IBMS
+
+Module-5 (08)
+3-D Printing
+Importance, Historic development, advantages, common terminologies, classification, Process chain, 3
+– D modelling, Data conversion and transmission, checking and preparation, Building, Post processing,
+Applications
+
+Course outcome (Course Skill Set)
+
+At the end of the course the student will be able to:
+CO1 Make use emerging materials for construction
+CO2 Decide the proper prefabricated building component
+CO3 Use smart materials and methods in building construction
+CO4 Implement BIM in building  design
+CO5 Prepare 3-D modelling and manufacture building component
+
+
+16-2-2023
+3
+
+Assessment Details (both CIE and SEE)
+The weightage of Continuous Internal Evaluation (CIE) is 50% and for Semester End Exam (SEE) is 50%. The
+minimum passing mark for the CIE is 40% of the maximum marks (20 marks out of 50). The minimu m passing mark
+for the SEE is 35% of the maximum marks (18 marks out of 50). A student shall be deemed to ha ve satisfied the
+academic requirements and earned the credits allotted to each subject/ cour se if the student secures not less than
+35% (18 Marks out of 50) in the semester-end examination(SEE), and a minimum of 40% (40 marks out of 100) in
+the sum total of the CIE (Continuous Internal Evaluation) and SEE (Semester End Examination) taken together.
+Continuous Internal Evaluation(CIE):
+Three Tests each of 20 Marks;
+ 1st, 2nd, and 3rd tests shall be conducted after completion of the syllabus of 30-35%,
+70-75%, and 90-100% of the course/s respectively.
+ Assignments/Seminar/quiz/group discussion /field survey & report presentation/ course
+project/Skill development activities, suitably planned to attain the COs and POs for a total of
+40 Marks.
+If the nature of the courses requires assignments/Seminars/Quizzes/group discussion two
+evaluation components shall be conducted. If course project/field survey/skill development
+activities etc then the evaluation method shall be one.
+
+Total CIE marks (out of 100 marks) shall be scaled down to 50 marks
+
+Semester End Examination (SEE):
+Theory SEE will be conducted by University as per the scheduled timetable, with c ommon question papers for the
+subject (duration 03 hours)
+ The question paper shall be set for 100 marks. The medium of the question paper shall be English). The
+duration of SEE is 03 hours.
+ The question paper will have 10 questions. Two questions per module. Each question is set for 20
+marks.The students have to answer 5 full questions, selecting one full question from each module. The
+student has to answer for 100 marks and marks scored out of 100 shall be proportionally reduced to 50
+marks.
+ There will be 2 questions from each module. Each of the two questions under a module (with a maximum of
+3 sub-questions), should have a mix of topics under that module.
+
+Suggested Learning Resources:
+Books (Title of the Book/Name of the author/Name of the publisher/Edition an d Year)
+1. Donald R. Askeland and Pradeep P. Fulay, Essentials of Materials Science and Engineering, 2009,
+Cengage Laerning.
+2.
+3.
+4.
+5.
+
+
+
+16-2-2023
+4
+
+Web links and Video Lectures (e-Resources):
+  YouTube Videos.
+
+Activity Based Learning (Suggested Activities in Class)/ Practical Based learning
+ Site visits to understand the prefabricated building components.
+ Visit to Smart material manufacturing facilities
+ Visit to 3-D printing facility
+
+COs and POs Mapping (Individual teacher has to fill up)
+COs POs
+1 2 3 4 5 6 7 8 9 10 11 12
+CO1 2 3
+CO2 2 3
+CO3 2 3
+CO4 2 3
+CO5 2 3
+Level 3- Highly Mapped, Level 2-Moderately Mapped, Level 1-Low Mapped, Level 0- Not Mapped
+Note: Depending on the assessment tool used, higher order POs can be identified by the
+concerned course instructor.

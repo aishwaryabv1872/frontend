@@ -135,18 +135,6 @@ export default function ProfilePage() {
   const [branches, setBranches] =
     useState<Branch[]>([]);
 
-  const [customUniversity, setCustomUniversity] =
-    useState(false);
-
-  const [customCollege, setCustomCollege] =
-    useState(false);
-
-  const [customProgram, setCustomProgram] =
-    useState(false);
-
-  const [customBranch, setCustomBranch] =
-    useState(false);
-
   const [loading, setLoading] =
     useState(true);
 
@@ -173,7 +161,7 @@ export default function ProfilePage() {
   }
 
   // ====================================================
-  // LOAD USER + DIRECTORY + PROFILE
+  // LOAD USER + UNIVERSITY + PROFILE
   // ====================================================
 
   useEffect(() => {
@@ -296,7 +284,8 @@ export default function ProfilePage() {
               data.syllabus_scheme ?? "",
 
             semester:
-              semester >= 1 && semester <= 8
+              semester >= 1 &&
+              semester <= 8
                 ? semester
                 : 1,
 
@@ -312,22 +301,6 @@ export default function ProfilePage() {
               data.skill_level ||
               "Beginner",
           });
-
-          setCustomUniversity(
-            !universityId
-          );
-
-          setCustomCollege(
-            !collegeId
-          );
-
-          setCustomProgram(
-            !programId
-          );
-
-          setCustomBranch(
-            !branchId
-          );
         }
       } catch (error) {
         console.error(
@@ -398,7 +371,12 @@ export default function ProfilePage() {
           )
           .in(
             "degree",
-            ["B.E.", "B.Tech", "BE", "BTech"]
+            [
+              "B.E.",
+              "B.Tech",
+              "BE",
+              "BTech",
+            ]
           )
           .order("degree")
           .order("name"),
@@ -417,7 +395,7 @@ export default function ProfilePage() {
         setColleges([]);
 
         setMessage(
-          "Unable to load colleges. You can enter yours manually."
+          "Unable to load colleges."
         );
 
         setMessageType("error");
@@ -436,7 +414,7 @@ export default function ProfilePage() {
         setPrograms([]);
 
         setMessage(
-          "Unable to load degree records. You can choose B.E. or B.Tech manually."
+          "Unable to load B.E. / B.Tech records."
         );
 
         setMessageType("error");
@@ -534,7 +512,7 @@ export default function ProfilePage() {
   }, [profile.college_id]);
 
   // ====================================================
-  // SELECTED DIRECTORY RECORDS
+  // SELECTED RECORDS
   // ====================================================
 
   const selectedUniversity =
@@ -566,47 +544,8 @@ export default function ProfilePage() {
     ) ?? null;
 
   // ====================================================
-  // UNIVERSITY MODE
+  // UNIVERSITY CHANGE
   // ====================================================
-
-  function changeUniversityMode(
-    useCustom: boolean
-  ) {
-    setCustomUniversity(
-      useCustom
-    );
-
-    setCustomCollege(false);
-    setCustomProgram(false);
-    setCustomBranch(false);
-
-    setProfile((previous) => ({
-      ...previous,
-
-      university_id: useCustom
-        ? ""
-        : previous.university_id,
-
-      college_id: "",
-      program_id: "",
-      branch_id: "",
-
-      university_name:
-        useCustom
-          ? previous.university_name
-          : "",
-
-      college_name: "",
-      program_name: "",
-      branch_name: "",
-    }));
-
-    setColleges([]);
-    setPrograms([]);
-    setBranches([]);
-
-    setMessage("");
-  }
 
   function handleUniversityChange(
     id: string
@@ -635,10 +574,6 @@ export default function ProfilePage() {
       branch_name: "",
     }));
 
-    setCustomCollege(false);
-    setCustomProgram(false);
-    setCustomBranch(false);
-
     setColleges([]);
     setPrograms([]);
     setBranches([]);
@@ -647,34 +582,8 @@ export default function ProfilePage() {
   }
 
   // ====================================================
-  // COLLEGE MODE
+  // COLLEGE CHANGE
   // ====================================================
-
-  function changeCollegeMode(
-    useCustom: boolean
-  ) {
-    setCustomCollege(
-      useCustom
-    );
-
-    setCustomBranch(false);
-
-    setProfile((previous) => ({
-      ...previous,
-
-      college_id: "",
-
-      college_name:
-        useCustom
-          ? previous.college_name
-          : "",
-
-      branch_id: "",
-      branch_name: "",
-    }));
-
-    setBranches([]);
-  }
 
   function handleCollegeChange(
     id: string
@@ -687,6 +596,7 @@ export default function ProfilePage() {
 
     updateProfile({
       college_id: id,
+
       college_name:
         college?.name ?? "",
 
@@ -694,34 +604,13 @@ export default function ProfilePage() {
       branch_name: "",
     });
 
-    setCustomBranch(false);
     setBranches([]);
-
     setMessage("");
   }
 
   // ====================================================
-  // PROGRAM MODE
+  // PROGRAM CHANGE
   // ====================================================
-
-  function changeProgramMode(
-    useCustom: boolean
-  ) {
-    setCustomProgram(
-      useCustom
-    );
-
-    setProfile((previous) => ({
-      ...previous,
-
-      program_id: "",
-
-      program_name:
-        useCustom
-          ? previous.program_name
-          : "",
-    }));
-  }
 
   function handleProgramChange(
     id: string
@@ -732,52 +621,34 @@ export default function ProfilePage() {
           item.id === id
       );
 
+    let degree =
+      program?.degree ?? "";
+
+    if (
+      degree === "BE" ||
+      degree === "B.E."
+    ) {
+      degree = "B.E.";
+    }
+
+    if (
+      degree === "BTech" ||
+      degree === "B.Tech"
+    ) {
+      degree = "B.Tech";
+    }
+
     updateProfile({
       program_id: id,
-
-      // IMPORTANT:
-      // UI/profile stores the degree,
-      // not "Computer Science (B.E.)".
-      program_name:
-        program?.degree === "BE"
-          ? "B.E."
-          : program?.degree === "BTech"
-            ? "B.Tech"
-            : program?.degree ?? "",
-    });
-  }
-
-  function handleManualDegreeChange(
-    degree: string
-  ) {
-    updateProfile({
-      program_id: "",
       program_name: degree,
     });
+
+    setMessage("");
   }
 
   // ====================================================
-  // BRANCH MODE
+  // BRANCH CHANGE
   // ====================================================
-
-  function changeBranchMode(
-    useCustom: boolean
-  ) {
-    setCustomBranch(
-      useCustom
-    );
-
-    setProfile((previous) => ({
-      ...previous,
-
-      branch_id: "",
-
-      branch_name:
-        useCustom
-          ? previous.branch_name
-          : "",
-    }));
-  }
 
   function handleBranchChange(
     id: string
@@ -794,10 +665,12 @@ export default function ProfilePage() {
       branch_name:
         branch?.name ?? "",
     });
+
+    setMessage("");
   }
 
   // ====================================================
-  // SAVE / CREATE DIRECTORY RECORDS
+  // SAVE PROFILE
   // ====================================================
 
   async function handleSubmit(
@@ -824,40 +697,93 @@ export default function ProfilePage() {
         );
       }
 
-      const universityName =
-        profile.university_name.trim();
+      // ==================================================
+      // REQUIRED MASTER DATA
+      // ==================================================
 
-      const collegeName =
-        profile.college_name.trim();
+      const universityId =
+        profile.university_id;
 
-      const programName =
-        profile.program_name.trim();
+      const collegeId =
+        profile.college_id;
 
-      const branchName =
-        profile.branch_name.trim();
+      const programId =
+        profile.program_id;
 
-      const syllabusName =
-        profile.syllabus_scheme_name.trim();
+      const branchId =
+        profile.branch_id;
 
       // ==================================================
       // VALIDATION
       // ==================================================
 
-      if (!universityName) {
+      if (!universityId) {
         throw new Error(
-          "Enter or select your university."
+          "Please select your university."
         );
       }
 
-      if (!collegeName) {
+      if (!collegeId) {
         throw new Error(
-          "Enter or select your college."
+          "Please select your college."
         );
       }
+
+      if (!programId) {
+        throw new Error(
+          "Please select B.E. or B.Tech."
+        );
+      }
+
+      if (!branchId) {
+        throw new Error(
+          "Please select your branch."
+        );
+      }
+
+      if (!selectedUniversity) {
+        throw new Error(
+          "Selected university could not be found."
+        );
+      }
+
+      if (!selectedCollege) {
+        throw new Error(
+          "Selected college could not be found."
+        );
+      }
+
+      if (!selectedProgram) {
+        throw new Error(
+          "Selected academic program could not be found."
+        );
+      }
+
+      if (!selectedBranch) {
+        throw new Error(
+          "Selected branch could not be found."
+        );
+      }
+
+      // ==================================================
+      // NORMALIZE DEGREE
+      // ==================================================
+
+      const rawDegree =
+        selectedProgram.degree ?? "";
+
+      const normalizedDegree =
+        rawDegree === "BE" ||
+        rawDegree === "B.E."
+          ? "B.E."
+          : rawDegree === "BTech" ||
+              rawDegree === "B.Tech"
+            ? "B.Tech"
+            : "";
 
       if (
         !DEGREE_OPTIONS.includes(
-          programName
+          normalizedDegree
         )
       ) {
         throw new Error(
@@ -865,11 +791,9 @@ export default function ProfilePage() {
         );
       }
 
-      if (!branchName) {
-        throw new Error(
-          "Select or enter your branch."
-        );
-      }
+      // ==================================================
+      // VALIDATE SEMESTER
+      // ==================================================
 
       if (
         !Number.isInteger(
@@ -884,359 +808,63 @@ export default function ProfilePage() {
       }
 
       // ==================================================
-      // UNIVERSITY
+      // VALIDATE COLLEGE / UNIVERSITY RELATION
       // ==================================================
 
-      let universityId =
-        !customUniversity &&
-        selectedUniversity
-          ? selectedUniversity.id
-          : null;
-
       if (
-        customUniversity ||
-        !universityId
+        selectedCollege.university_id !==
+        universityId
       ) {
-        const {
-          data: existingUniversity,
-          error: existingUniversityError,
-        } = await supabase
-          .from("universities")
-          .select(
-            "id,name,short_name"
-          )
-          .ilike(
-            "name",
-            universityName
-          )
-          .maybeSingle();
-
-        if (
-          existingUniversityError
-        ) {
-          throw existingUniversityError;
-        }
-
-        if (existingUniversity) {
-          universityId =
-            existingUniversity.id;
-        } else {
-          const {
-            data: newUniversity,
-            error: newUniversityError,
-          } = await supabase
-            .from("universities")
-            .insert({
-              name: universityName,
-              short_name: null,
-              country: "India",
-            })
-            .select(
-              "id,name,short_name"
-            )
-            .single();
-
-          if (newUniversityError) {
-            throw newUniversityError;
-          }
-
-          universityId =
-            newUniversity.id;
-
-          setUniversities(
-            (previous) => [
-              ...previous,
-              newUniversity,
-            ].sort((a, b) =>
-              a.name.localeCompare(
-                b.name
-              )
-            )
-          );
-        }
+        throw new Error(
+          "The selected college does not belong to the selected university."
+        );
       }
 
       // ==================================================
-      // COLLEGE
+      // VALIDATE BRANCH / COLLEGE RELATION
       // ==================================================
 
-      let collegeId =
-        !customCollege &&
-        selectedCollege
-          ? selectedCollege.id
-          : null;
+      const {
+        data: collegeBranch,
+        error: collegeBranchError,
+      } = await supabase
+        .from("college_branches")
+        .select("id")
+        .eq(
+          "college_id",
+          collegeId
+        )
+        .eq(
+          "branch_id",
+          branchId
+        )
+        .maybeSingle();
 
-      if (
-        customCollege ||
-        !collegeId
-      ) {
-        const {
-          data: existingCollege,
-          error: existingCollegeError,
-        } = await supabase
-          .from("colleges")
-          .select(
-            "id,name,university_id,city,state"
-          )
-          .eq(
-            "university_id",
-            universityId
-          )
-          .ilike(
-            "name",
-            collegeName
-          )
-          .maybeSingle();
+      if (collegeBranchError) {
+        throw collegeBranchError;
+      }
 
-        if (existingCollegeError) {
-          throw existingCollegeError;
-        }
-
-        if (existingCollege) {
-          collegeId =
-            existingCollege.id;
-        } else {
-          const {
-            data: newCollege,
-            error: newCollegeError,
-          } = await supabase
-            .from("colleges")
-            .insert({
-              university_id:
-                universityId,
-              name: collegeName,
-              city: null,
-              state: null,
-              country: "India",
-            })
-            .select(
-              "id,name,university_id,city,state"
-            )
-            .single();
-
-          if (newCollegeError) {
-            throw newCollegeError;
-          }
-
-          collegeId =
-            newCollege.id;
-
-          setColleges(
-            (previous) => [
-              ...previous,
-              newCollege,
-            ].sort((a, b) =>
-              a.name.localeCompare(
-                b.name
-              )
-            )
-          );
-        }
+      if (!collegeBranch) {
+        throw new Error(
+          "The selected branch is not available for this college."
+        );
       }
 
       // ==================================================
-      // ACADEMIC PROGRAM / DEGREE
+      // TEXT VALUES
       // ==================================================
 
-      let programId =
-        !customProgram &&
-        selectedProgram
-          ? selectedProgram.id
-          : null;
+      const universityName =
+        selectedUniversity.name;
 
-      /*
-       * The UI is intentionally limited to:
-       *
-       * B.E.
-       * B.Tech
-       *
-       * Existing academic_programs rows may have names such
-       * as "Computer Science" with degree "B.E.".
-       *
-       * We therefore look for a program record belonging
-       * to this university and degree.
-       *
-       * If no matching record exists, create a canonical
-       * B.E. / B.Tech record.
-       */
+      const collegeName =
+        selectedCollege.name;
 
-      const normalizedDegree =
-        programName === "B.E."
-          ? "B.E."
-          : "B.Tech";
+      const branchName =
+        selectedBranch.name;
 
-      if (
-        !programId ||
-        customProgram
-      ) {
-        const {
-          data: existingDegree,
-          error: existingDegreeError,
-        } = await supabase
-          .from("academic_programs")
-          .select(
-            "id,name,degree,university_id"
-          )
-          .eq(
-            "university_id",
-            universityId
-          )
-          .in(
-            "degree",
-            normalizedDegree ===
-              "B.E."
-              ? ["B.E.", "BE"]
-              : ["B.Tech", "BTech"]
-          )
-          .order("name")
-          .limit(1)
-          .maybeSingle();
-
-        if (existingDegreeError) {
-          throw existingDegreeError;
-        }
-
-        if (existingDegree) {
-          programId =
-            existingDegree.id;
-        } else {
-          const {
-            data: newProgram,
-            error: newProgramError,
-          } = await supabase
-            .from("academic_programs")
-            .insert({
-              name: normalizedDegree,
-              degree: normalizedDegree,
-              university_id:
-                universityId,
-            })
-            .select(
-              "id,name,degree,university_id"
-            )
-            .single();
-
-          if (newProgramError) {
-            throw newProgramError;
-          }
-
-          programId =
-            newProgram.id;
-
-          setPrograms(
-            (previous) => [
-              ...previous,
-              newProgram,
-            ]
-          );
-        }
-      }
-
-      // ==================================================
-      // BRANCH
-      // ==================================================
-
-      let branchId =
-        !customBranch &&
-        selectedBranch
-          ? selectedBranch.id
-          : null;
-
-      if (
-        customBranch ||
-        !branchId
-      ) {
-        const {
-          data: existingBranch,
-          error: existingBranchError,
-        } = await supabase
-          .from("branches")
-          .select(
-            "id,name,short_name"
-          )
-          .ilike(
-            "name",
-            branchName
-          )
-          .maybeSingle();
-
-        if (existingBranchError) {
-          throw existingBranchError;
-        }
-
-        if (existingBranch) {
-          branchId =
-            existingBranch.id;
-        } else {
-          const {
-            data: newBranch,
-            error: newBranchError,
-          } = await supabase
-            .from("branches")
-            .insert({
-              name: branchName,
-              short_name: null,
-            })
-            .select(
-              "id,name,short_name"
-            )
-            .single();
-
-          if (newBranchError) {
-            throw newBranchError;
-          }
-
-          branchId =
-            newBranch.id;
-        }
-
-        // ================================================
-        // CONNECT BRANCH TO COLLEGE
-        // ================================================
-
-        const {
-          data: existingCollegeBranch,
-          error: existingCollegeBranchError,
-        } = await supabase
-          .from("college_branches")
-          .select("id")
-          .eq(
-            "college_id",
-            collegeId
-          )
-          .eq(
-            "branch_id",
-            branchId
-          )
-          .maybeSingle();
-
-        if (
-          existingCollegeBranchError
-        ) {
-          throw existingCollegeBranchError;
-        }
-
-        if (
-          !existingCollegeBranch
-        ) {
-          const {
-            error: collegeBranchInsertError,
-          } = await supabase
-            .from("college_branches")
-            .insert({
-              college_id:
-                collegeId,
-              branch_id:
-                branchId,
-            });
-
-          if (
-            collegeBranchInsertError
-          ) {
-            throw collegeBranchInsertError;
-          }
-        }
-      }
+      const syllabusName =
+        profile.syllabus_scheme_name.trim();
 
       // ==================================================
       // SAVE STUDENT PROFILE
@@ -1279,9 +907,10 @@ export default function ProfilePage() {
             syllabus_scheme:
               syllabusName || null,
 
-            // These remain unset until
-            // scheme selection is implemented.
+            // Scheme selection is not
+            // implemented in this page yet.
             scheme_id: null,
+
             syllabus_scheme_id:
               null,
 
@@ -1328,16 +957,16 @@ export default function ProfilePage() {
           ...previous,
 
           university_id:
-            universityId ?? "",
+            universityId,
 
           college_id:
-            collegeId ?? "",
+            collegeId,
 
           program_id:
-            programId ?? "",
+            programId,
 
           branch_id:
-            branchId ?? "",
+            branchId,
 
           university_name:
             universityName,
@@ -1352,11 +981,6 @@ export default function ProfilePage() {
             branchName,
         })
       );
-
-      setCustomUniversity(false);
-      setCustomCollege(false);
-      setCustomProgram(false);
-      setCustomBranch(false);
 
       setMessage(
         "Profile saved successfully! 🎉 Your university, college, degree, branch, and semester are connected to your Vertex academic profile."
@@ -1412,6 +1036,7 @@ export default function ProfilePage() {
       <Navbar />
 
       <section className="mx-auto max-w-3xl px-6 py-12">
+
         {/* HEADER */}
 
         <div className="mb-8">
@@ -1424,11 +1049,10 @@ export default function ProfilePage() {
           </h1>
 
           <p className="mt-3 max-w-2xl text-slate-400">
-            Students from any university,
-            college, or branch can create a
-            Vertex profile. Select existing
-            academic records or enter new
-            academic details.
+            Select your university, college,
+            degree, branch, and academic details
+            to personalize your Vertex placement
+            journey.
           </p>
         </div>
 
@@ -1449,97 +1073,39 @@ export default function ProfilePage() {
                 University
               </label>
 
-              <div className="mb-3 flex flex-wrap gap-2">
-                <button
-                  type="button"
-                  onClick={() =>
-                    changeUniversityMode(
-                      false
-                    )
-                  }
-                  className={`rounded-lg border px-3 py-2 text-sm ${
-                    !customUniversity
-                      ? "border-blue-500 bg-blue-500/10 text-blue-300"
-                      : "border-slate-700 text-slate-300"
-                  }`}
-                >
-                  Select listed university
-                </button>
+              <select
+                className={inputClass}
+                value={
+                  profile.university_id
+                }
+                onChange={(event) =>
+                  handleUniversityChange(
+                    event.target.value
+                  )
+                }
+                required
+              >
+                <option value="">
+                  Select your university
+                </option>
 
-                <button
-                  type="button"
-                  onClick={() =>
-                    changeUniversityMode(
-                      true
-                    )
-                  }
-                  className={`rounded-lg border px-3 py-2 text-sm ${
-                    customUniversity
-                      ? "border-blue-500 bg-blue-500/10 text-blue-300"
-                      : "border-slate-700 text-slate-300"
-                  }`}
-                >
-                  My university isn&apos;t listed
-                </button>
-              </div>
+                {universities.map(
+                  (university) => (
+                    <option
+                      key={university.id}
+                      value={
+                        university.id
+                      }
+                    >
+                      {university.name}
 
-              {customUniversity ? (
-                <input
-                  className={inputClass}
-                  value={
-                    profile.university_name
-                  }
-                  onChange={(event) =>
-                    updateProfile({
-                      university_name:
-                        event.target.value,
-                    })
-                  }
-                  placeholder="Enter your university's full name"
-                  required
-                  maxLength={200}
-                />
-              ) : (
-                <select
-                  className={inputClass}
-                  value={
-                    profile.university_id
-                  }
-                  onChange={(event) =>
-                    handleUniversityChange(
-                      event.target.value
-                    )
-                  }
-                  required
-                >
-                  <option value="">
-                    Select your university
-                  </option>
-
-                  {universities.map(
-                    (university) => (
-                      <option
-                        key={university.id}
-                        value={
-                          university.id
-                        }
-                      >
-                        {university.name}
-
-                        {university.short_name
-                          ? ` (${university.short_name})`
-                          : ""}
-                      </option>
-                    )
-                  )}
-                </select>
-              )}
-
-              <p className="mt-2 text-xs text-slate-500">
-                Not listed? Enter it manually.
-                Vertex will create the university
-                directory record when you save.
-              </p>
+                      {university.short_name
+                        ? ` (${university.short_name})`
+                        : ""}
+                    </option>
+                  )
+                )}
+              </select>
             </div>
 
             {/* ==========================================
@@ -1551,98 +1117,44 @@ export default function ProfilePage() {
                 College / Institution
               </label>
 
-              <div className="mb-3 flex flex-wrap gap-2">
-                <button
-                  type="button"
-                  onClick={() =>
-                    changeCollegeMode(
-                      false
-                    )
-                  }
-                  className={`rounded-lg border px-3 py-2 text-sm ${
-                    !customCollege
-                      ? "border-blue-500 bg-blue-500/10 text-blue-300"
-                      : "border-slate-700 text-slate-300"
-                  }`}
-                >
-                  Select listed college
-                </button>
+              <select
+                className={inputClass}
+                value={
+                  profile.college_id
+                }
+                onChange={(event) =>
+                  handleCollegeChange(
+                    event.target.value
+                  )
+                }
+                disabled={
+                  !profile.university_id
+                }
+                required
+              >
+                <option value="">
+                  {profile.university_id
+                    ? "Select your college"
+                    : "Select your university first"}
+                </option>
 
-                <button
-                  type="button"
-                  onClick={() =>
-                    changeCollegeMode(
-                      true
-                    )
-                  }
-                  className={`rounded-lg border px-3 py-2 text-sm ${
-                    customCollege
-                      ? "border-blue-500 bg-blue-500/10 text-blue-300"
-                      : "border-slate-700 text-slate-300"
-                  }`}
-                >
-                  Enter college manually
-                </button>
-              </div>
+                {colleges.map(
+                  (college) => (
+                    <option
+                      key={college.id}
+                      value={
+                        college.id
+                      }
+                    >
+                      {college.name}
 
-              {customCollege ? (
-                <input
-                  className={inputClass}
-                  value={
-                    profile.college_name
-                  }
-                  onChange={(event) =>
-                    updateProfile({
-                      college_name:
-                        event.target.value,
-                    })
-                  }
-                  placeholder="Enter your college name"
-                  required
-                  maxLength={200}
-                />
-              ) : (
-                <select
-                  className={inputClass}
-                  value={
-                    profile.college_id
-                  }
-                  onChange={(event) =>
-                    handleCollegeChange(
-                      event.target.value
-                    )
-                  }
-                  disabled={
-                    !profile.university_id
-                  }
-                  required
-                >
-                  <option value="">
-                    {profile.university_id
-                      ? colleges.length
-                        ? "Select your college"
-                        : "No listed colleges — enter manually"
-                      : "Select a listed university first"}
-                  </option>
-
-                  {colleges.map(
-                    (college) => (
-                      <option
-                        key={college.id}
-                        value={
-                          college.id
-                        }
-                      >
-                        {college.name}
-
-                        {college.city
-                          ? ` — ${college.city}`
-                          : ""}
-                      </option>
-                    )
-                  )}
-                </select>
-              )}
+                      {college.city
+                        ? ` — ${college.city}`
+                        : ""}
+                    </option>
+                  )
+                )}
+              </select>
             </div>
 
             {/* ==========================================
@@ -1654,117 +1166,54 @@ export default function ProfilePage() {
                 Academic Program / Degree
               </label>
 
-              <div className="mb-3 flex flex-wrap gap-2">
-                <button
-                  type="button"
-                  onClick={() =>
-                    changeProgramMode(
-                      false
-                    )
-                  }
-                  className={`rounded-lg border px-3 py-2 text-xs ${
-                    !customProgram
-                      ? "border-blue-500 bg-blue-500/10 text-blue-300"
-                      : "border-slate-700 text-slate-300"
-                  }`}
-                >
-                  Select listed
-                </button>
+              <select
+                className={inputClass}
+                value={
+                  profile.program_id
+                }
+                onChange={(event) =>
+                  handleProgramChange(
+                    event.target.value
+                  )
+                }
+                disabled={
+                  !profile.university_id
+                }
+                required
+              >
+                <option value="">
+                  {profile.university_id
+                    ? "Select B.E. / B.Tech"
+                    : "Select your university first"}
+                </option>
 
-                <button
-                  type="button"
-                  onClick={() =>
-                    changeProgramMode(
-                      true
-                    )
-                  }
-                  className={`rounded-lg border px-3 py-2 text-xs ${
-                    customProgram
-                      ? "border-blue-500 bg-blue-500/10 text-blue-300"
-                      : "border-slate-700 text-slate-300"
-                  }`}
-                >
-                  Select degree manually
-                </button>
-              </div>
-
-              {customProgram ? (
-                <select
-                  className={inputClass}
-                  value={
-                    profile.program_name
-                  }
-                  onChange={(event) =>
-                    handleManualDegreeChange(
-                      event.target.value
-                    )
-                  }
-                  required
-                >
-                  <option value="">
-                    Select degree
-                  </option>
-
-                  {DEGREE_OPTIONS.map(
-                    (degree) => (
-                      <option
-                        key={degree}
-                        value={degree}
-                      >
-                        {degree}
-                      </option>
-                    )
-                  )}
-                </select>
-              ) : (
-                <select
-                  className={inputClass}
-                  value={
-                    profile.program_id
-                  }
-                  onChange={(event) =>
-                    handleProgramChange(
-                      event.target.value
-                    )
-                  }
-                  disabled={
-                    !profile.university_id
-                  }
-                  required
-                >
-                  <option value="">
-                    {profile.university_id
-                      ? programs.length
-                        ? "Select B.E. / B.Tech"
-                        : "No listed degree — choose manually"
-                      : "Select a listed university first"}
-                  </option>
-
-                  {programs.map(
-                    (program) => (
-                      <option
-                        key={program.id}
-                        value={
-                          program.id
-                        }
-                      >
-                        {program.degree ===
-                        "BE"
-                          ? "B.E."
-                          : program.degree ===
-                            "BTech"
-                            ? "B.Tech"
-                            : program.degree}
-                      </option>
-                    )
-                  )}
-                </select>
-              )}
+                {programs.map(
+                  (program) => (
+                    <option
+                      key={program.id}
+                      value={
+                        program.id
+                      }
+                    >
+                      {program.degree ===
+                        "BE" ||
+                      program.degree ===
+                        "B.E."
+                        ? "B.E."
+                        : program.degree ===
+                              "BTech" ||
+                            program.degree ===
+                              "B.Tech"
+                          ? "B.Tech"
+                          : program.degree}
+                    </option>
+                  )
+                )}
+              </select>
 
               <p className="mt-2 text-xs text-slate-500">
-                Academic Program means your degree:
-                B.E. or B.Tech. Your specialization
-                is selected separately under Branch.
+                Select your degree: B.E. or
+                B.Tech.
               </p>
             </div>
 
@@ -1777,105 +1226,48 @@ export default function ProfilePage() {
                 Branch / Specialization
               </label>
 
-              <div className="mb-3 flex flex-wrap gap-2">
-                <button
-                  type="button"
-                  onClick={() =>
-                    changeBranchMode(
-                      false
-                    )
-                  }
-                  className={`rounded-lg border px-3 py-2 text-xs ${
-                    !customBranch
-                      ? "border-blue-500 bg-blue-500/10 text-blue-300"
-                      : "border-slate-700 text-slate-300"
-                  }`}
-                >
-                  Select listed branch
-                </button>
+              <select
+                className={inputClass}
+                value={
+                  profile.branch_id
+                }
+                onChange={(event) =>
+                  handleBranchChange(
+                    event.target.value
+                  )
+                }
+                disabled={
+                  !profile.college_id
+                }
+                required
+              >
+                <option value="">
+                  {!profile.college_id
+                    ? "Select your college first"
+                    : "Select your branch"}
+                </option>
 
-                <button
-                  type="button"
-                  onClick={() =>
-                    changeBranchMode(
-                      true
-                    )
-                  }
-                  className={`rounded-lg border px-3 py-2 text-xs ${
-                    customBranch
-                      ? "border-blue-500 bg-blue-500/10 text-blue-300"
-                      : "border-slate-700 text-slate-300"
-                  }`}
-                >
-                  Enter new branch
-                </button>
-              </div>
+                {branches.map(
+                  (branch) => (
+                    <option
+                      key={branch.id}
+                      value={
+                        branch.id
+                      }
+                    >
+                      {branch.name}
 
-              {customBranch ? (
-                <input
-                  className={inputClass}
-                  value={
-                    profile.branch_name
-                  }
-                  onChange={(event) =>
-                    updateProfile({
-                      branch_name:
-                        event.target.value,
-
-                      branch_id: "",
-                    })
-                  }
-                  placeholder="e.g. Artificial Intelligence and Machine Learning"
-                  required
-                  maxLength={200}
-                />
-              ) : (
-                <select
-                  className={inputClass}
-                  value={
-                    profile.branch_id
-                  }
-                  onChange={(event) =>
-                    handleBranchChange(
-                      event.target.value
-                    )
-                  }
-                  disabled={
-                    !profile.college_id
-                  }
-                  required
-                >
-                  <option value="">
-                    {!profile.college_id
-                      ? "Select your college first"
-                      : branches.length
-                        ? "Select your branch"
-                        : "No listed branches — enter new branch"}
-                  </option>
-
-                  {branches.map(
-                    (branch) => (
-                      <option
-                        key={branch.id}
-                        value={
-                          branch.id
-                        }
-                      >
-                        {branch.name}
-
-                        {branch.short_name
-                          ? ` (${branch.short_name})`
-                          : ""}
-                      </option>
-                    )
-                  )}
-                </select>
-              )}
+                      {branch.short_name
+                        ? ` (${branch.short_name})`
+                        : ""}
+                    </option>
+                  )
+                )}
+              </select>
 
               <p className="mt-2 text-xs text-slate-500">
-                Branch is your specialization, such
-                as CSE, AI &amp; ML, ISE, ECE,
-                Mechanical, or Civil.
+                Select your branch or
+                specialization.
               </p>
             </div>
 
@@ -1904,8 +1296,9 @@ export default function ProfilePage() {
               />
 
               <p className="mt-2 text-xs text-slate-500">
-                If you don&apos;t know your syllabus
-                scheme, leave this blank.
+                If you don&apos;t know your
+                syllabus scheme, leave this
+                blank.
               </p>
             </div>
 
@@ -1925,9 +1318,10 @@ export default function ProfilePage() {
                 }
                 onChange={(event) =>
                   updateProfile({
-                    semester: Number(
-                      event.target.value
-                    ),
+                    semester:
+                      Number(
+                        event.target.value
+                      ),
                   })
                 }
                 required
@@ -1945,7 +1339,7 @@ export default function ProfilePage() {
               </select>
 
               <p className="mt-2 text-xs text-slate-500">
-                BE / B.Tech profile supports
+                B.E. / B.Tech profile supports
                 Semester 1 through Semester 8.
               </p>
             </div>
