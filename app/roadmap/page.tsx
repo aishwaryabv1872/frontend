@@ -622,9 +622,7 @@ export default function RoadmapPage() {
           profile.colleges
         );
 
-        const academicProgram = getSingleRelation(
-          profile.academic_programs
-        );
+
 
         setStudentProfile({
           university:
@@ -637,7 +635,6 @@ export default function RoadmapPage() {
             "College not selected",
 
           branch:
-            academicProgram?.name ??
             profile.branch ??
             "Branch not selected",
 
