@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { GoogleGenAI } from "@google/genai";
+import { GoogleGenAI, ThinkingLevel } from "@google/genai";
 import { createClient } from "@supabase/supabase-js";
 import {
   checkAiRateLimit,
@@ -51,8 +51,8 @@ const MAX_PROFILE_FIELD_LENGTH = 200;
 const MAX_PROGRESS_VALUE = 10000;
 export const maxDuration = 60;
 
-const GEMINI_TIMEOUT_MS = 45000;
-const MAX_GEMINI_RETRIES = 2;
+const GEMINI_TIMEOUT_MS = 35000;
+const MAX_GEMINI_RETRIES = 0;
 
 // ======================================================
 // TYPES
@@ -812,13 +812,16 @@ The weeks array MUST contain exactly 6 objects.
                response =
           await withTimeout(
             ai.models.generateContent({
-              model: "gemini-3.6-flash",
+              model: "gemini-3.5-flash-lite",
               contents: prompt,
-              config: {
-                responseMimeType: "application/json",
-                maxOutputTokens: 4096,
-                temperature: 0.4,
-              },
+             config: {
+  responseMimeType: "application/json",
+  maxOutputTokens: 4096,
+  temperature: 0.4,
+  thinkingConfig: {
+  thinkingLevel: ThinkingLevel.MINIMAL,
+},
+},
             }),
             GEMINI_TIMEOUT_MS
           );
