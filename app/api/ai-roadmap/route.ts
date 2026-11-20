@@ -808,49 +808,83 @@ The weeks array MUST contain exactly 6 objects.
       attempt <= MAX_GEMINI_RETRIES;
       attempt++
     ) {
-      try {
-               response =
-          await withTimeout(
-            ai.models.generateContent({
-              model: "gemini-3.5-flash-lite",
-              contents: prompt,
-             config: {
-  responseMimeType: "application/json",
-  maxOutputTokens: 4096,
-  temperature: 0.4,
-  thinkingConfig: {
-  thinkingLevel: ThinkingLevel.MINIMAL,
-},
-},
-            }),
-            GEMINI_TIMEOUT_MS
-          );
+      
+try {
+  const geminiStartedAt = Date.now();
 
-        break;
-      } catch (error) {
-        if (isQuotaError(error)) {
-          throw error;
-        }
+  console.info("[AI ROADMAP] Gemini request started", {
+    model: "gemini-3.5-flash-lite",
+    promptChars: prompt.length,
+    timeoutMs: GEMINI_TIMEOUT_MS,
+  });
 
-        if (
-          !isTemporaryGeminiError(
-            error
-          ) ||
-          attempt ===
-            MAX_GEMINI_RETRIES
-        ) {
-          throw error;
-        }
+  const generationPromise =
+    ai.models.generateContent({
+      model: "gemini-3.5-flash-lite",
+      contents: prompt,
+      config: {
+        responseMimeType: "application/json",
+        maxOutputTokens: 4096,
+        temperature: 0.4,
+        thinkingConfig: {
+          thinkingLevel: ThinkingLevel.MINIMAL,
+        },
+      },
+    });
 
-        await new Promise(
-          (resolve) =>
-            setTimeout(
-              resolve,
-              500 *
-                (attempt + 1)
-            )
-        );
-      }
+  // Capture the actual provider result,
+  // even if our timeout fires first.
+  void generationPromise.then(
+    (result) => {
+      console.info("[AI ROADMAP] Gemini completed", {
+        durationMs: Date.now() - geminiStartedAt,
+        responseChars:
+          typeof result.text === "string"
+            ? result.text.length
+            : 0,
+      });
+    },
+    (error: unknown) => {
+      console.error("[AI ROADMAP] Gemini provider failed", {
+        durationMs: Date.now() - geminiStartedAt,
+        error:
+          error instanceof Error
+            ? {
+                name: error.name,
+                message: error.message,
+              }
+            : String(error),
+      });
+    }
+  );
+
+  response = await withTimeout(
+    generationPromise,
+    GEMINI_TIMEOUT_MS
+  );
+
+  console.info("[AI ROADMAP] Gemini response received", {
+    durationMs: Date.now() - geminiStartedAt,
+  });
+
+  break;
+} catch (error) {
+  if (isQuotaError(error)) {
+    throw error;
+  }
+
+  if (
+    !isTemporaryGeminiError(error) ||
+    attempt === MAX_GEMINI_RETRIES
+  ) {
+    throw error;
+  }
+
+  await new Promise((resolve) =>
+    setTimeout(resolve, 500 * (attempt + 1))
+  );
+}
+
     }
 
     if (!response) {
