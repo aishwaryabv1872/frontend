@@ -49,7 +49,9 @@ const supabaseAdmin =
 
 const MAX_PROFILE_FIELD_LENGTH = 200;
 const MAX_PROGRESS_VALUE = 10000;
-const GEMINI_TIMEOUT_MS = 30000;
+export const maxDuration = 60;
+
+const GEMINI_TIMEOUT_MS = 45000;
 const MAX_GEMINI_RETRIES = 2;
 
 // ======================================================
@@ -807,12 +809,16 @@ The weeks array MUST contain exactly 6 objects.
       attempt++
     ) {
       try {
-        response =
+               response =
           await withTimeout(
             ai.models.generateContent({
-              model:
-                "gemini-3.6-flash",
+              model: "gemini-3.6-flash",
               contents: prompt,
+              config: {
+                responseMimeType: "application/json",
+                maxOutputTokens: 4096,
+                temperature: 0.4,
+              },
             }),
             GEMINI_TIMEOUT_MS
           );
