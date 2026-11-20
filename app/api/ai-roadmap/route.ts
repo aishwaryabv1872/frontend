@@ -1160,9 +1160,12 @@ The weeks array MUST contain exactly 6 objects.
     // Log only safe diagnostic information.
     // Never return the raw internal error to the client.
     console.error(
-      "AI ROADMAP ERROR:",
-      errorName
-    );
+  "AI ROADMAP ERROR:",
+  {
+    name: errorName,
+    message: message.slice(0, 500),
+  }
+);
 
     // ==================================================
     // QUOTA
