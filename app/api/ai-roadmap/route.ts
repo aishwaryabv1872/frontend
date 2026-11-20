@@ -52,7 +52,7 @@ const MAX_PROGRESS_VALUE = 10000;
 export const maxDuration = 60;
 
 const GEMINI_TIMEOUT_MS = 35000;
-const MAX_GEMINI_RETRIES = 0;
+const MAX_GEMINI_RETRIES = 1;
 
 // ======================================================
 // TYPES
